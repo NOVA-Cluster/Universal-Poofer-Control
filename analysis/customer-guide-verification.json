@@ -1,0 +1,21 @@
+{
+  "source": "docs/hardware-user-guide.md",
+  "pdf": "output/pdf/Universal_Poofer_Control_Hardware_User_Guide.pdf",
+  "source_sha256": "23ff7b0b3c1a5d6666eedefc0c356c7109a259ec1d8a23432efe7e1a222fb6ce",
+  "pdf_sha256": "2f5e61a0671ca8bd4fa98d9c35fcaf1daedeb3a6761a43da055c372f9d2b7f48",
+  "pages": 18,
+  "missing_required_text": [],
+  "missing_local_links": [],
+  "pdf_links": [
+    "../../docs/connector-pinouts.md",
+    "../../firmware/README.md",
+    "https://docs.platformio.org/en/latest/core/userguide/device/cmd_monitor.html",
+    "../../docs/i2c-interface-review.md",
+    "https://docs.kicad.org/10.0/en/getting_started_in_kicad/getting_started_in_kicad.html"
+  ],
+  "margin_check_issues": [],
+  "hardware_and_firmware_basis": "Native connector audit:37headers/166pins plus40module-pad matches; actual firmware parser/state code and official monitor CLI docs; no hardware energization",
+  "physical_operating_status": "A.3 engineering preview; qualification pending",
+  "all_pages_visually_inspected": true,
+  "layout_result": "No clipping or overlap; final prose updates rechecked on pages9 and17"
+}

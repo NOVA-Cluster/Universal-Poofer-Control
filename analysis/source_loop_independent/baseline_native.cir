@@ -1,0 +1,96 @@
+A3 field test independent_baseline_native; native exported netlist topology
+* SHA256 b90e80cdd2f7ed641f507a0a3712b8f8555d7761b5ebe20b295cc2c7e850b111
+.temp 27
+V5 n__5V_LOGIC 0 5.0
+V33 n__3V3 0 3.3
+V12 n__12V_IN 0 12
+RCONTACT n_IN1_FIELD 0 0.1
+R1000 n__5V_LOGIC n_IN1_WET_EMIT 33
+R1001 n__11___Wetting_sources_1_2_IN1_DRV_BASE n__11___Wetting_sources_1_2_IN1_AMP_OUT 2.2k
+R1002 n_IN1_WET_BASE n__11___Wetting_sources_1_2_IN1_DRV_COL 1k
+R1003 n__5V_LOGIC n_IN1_WET_BASE 1k
+R1004 n_IN1_UV_EMITTER n_Net__R1004_Pad2_ 100k
+R1005 n_Net__R1004_Pad2_ n_Net__R1005_Pad2_ 100k
+R1006 n_Net__R1005_Pad2_ n_Net__D121_A_ 100k
+R1007 n_IN1_UV_EMITTER 0 100k
+R1008 n__5V_LOGIC n__11___Wetting_sources_1_2_IN1_UV_GATE 68k
+R1009 n_IN1_UV_EMITTER n__07___Contact_receivers_1_2_IN1_UV_SENSE 100k
+R1010 n__3V3 n__07___Contact_receivers_1_2_IN1_UV_SENSE 100k
+R1011 n__07___Contact_receivers_1_2_IN1_UV_SENSE 0 100k
+R1012 n__07___Contact_receivers_1_2_IN1_UV_SENSE 0 100k
+R1013 n__3V3 n_IN1_FAULT 10k
+R1014 n_Net__D111_K_ n_Net__R1014_Pad2_ 100k
+R1015 n_Net__R1014_Pad2_ n_Net__R1015_Pad2_ 100k
+R1016 n_Net__R1015_Pad2_ n_IN1_SENSE 100k
+R1017 n_IN1_SENSE 0 6.8k
+R1018 n_IN1_SENSE n__07___Contact_receivers_1_2_IN1_HYST_MID 1Meg
+R1019 n__07___Contact_receivers_1_2_IN1_HYST_MID n_IN1_N 1Meg
+R1020 n__3V3 n_IN1_N 10k
+R50 n__3V3 n_Net__R50_Pad2_ 200k
+R51 n_Net__R50_Pad2_ n_CONTACT_REF 200k
+R52 n_CONTACT_REF 0 3.3k
+R55 n__5V_LOGIC n_CURRENT_REF_RAW 1k
+R56 n_CURRENT_REF_RAW 0 6.8k
+R57 n_CURRENT_REF_RAW n_CURRENT_REF_PAR 75k
+R58 n_CURRENT_REF_PAR 0 75k
+R60 n__3V3 n_UV_REF 30k
+R61 n_UV_REF 0 10k
+C101 n_IN1_SENSE 0 10n
+C50 n_CONTACT_REF 0 10n
+C55 n_CURRENT_REF_RAW 0 10n
+C60 n_UV_REF 0 10n
+D101 n__11___Wetting_sources_1_2_IN1_WET_COLLECTOR n_IN1_FIELD BAS21APPROX
+D111 n_IN1_FIELD n_Net__D111_K_ BAS21APPROX
+D121 n_Net__D121_A_ n_IN1_FIELD BAS21APPROX
+Q101 PNPCOL_DEVICE n_IN1_WET_BASE n_IN1_WET_EMIT MJD350APPROX
+VWET PNPCOL_DEVICE n__11___Wetting_sources_1_2_IN1_WET_COLLECTOR 0
+Q111 n__11___Wetting_sources_1_2_IN1_DRV_COL n__11___Wetting_sources_1_2_IN1_DRV_BASE 0 NPNDRIVER
+Q121 n__11___Wetting_sources_1_2_IN1_UV_GATE 0 n_IN1_UV_EMITTER NPNDETECT
+MQ131 n_IN1_WET_BASE n__11___Wetting_sources_1_2_IN1_UV_GATE n__5V_LOGIC n__5V_LOGIC PMOSAPPROX
+CGS n__11___Wetting_sources_1_2_IN1_UV_GATE n__5V_LOGIC 590p
+CGD n__11___Wetting_sources_1_2_IN1_UV_GATE n_IN1_WET_BASE 55p
+CDS n__5V_LOGIC n_IN1_WET_BASE 25p
+DPMOSBODY n_IN1_WET_BASE n__5V_LOGIC BODYAPPROX
+R1021 n_CURRENT_REF n_IN1_AMP_REF 10k
+C131 n__11___Wetting_sources_1_2_IN1_AMP_OUT n_IN1_AMP_REF 100n
+R1022 n__5V_LOGIC n_IN1_LIMIT_BASE 1k
+R1023 n_IN1_LIMIT_BASE n_IN1_WET_EMIT 1k
+Q151 n_IN1_WET_BASE n_IN1_LIMIT_BASE n__5V_LOGIC PNPLIMITER
+.model PNPLIMITER PNP(Is=1e-14 Bf=150 Br=3 Vaf=100 Cje=8p Cjc=4p Tf=.5n Tr=200n)
+D141 n_CURRENT_REF n_IN1_AMP_REF SCHOTTKYAPPROX
+R66 n_CURRENT_REF_DRIVE n_Net__R66_Pad2_ 100
+R67 n_Net__R66_Pad2_ n_CURRENT_REF 100
+C66 n_CURRENT_REF 0 10u
+BREFOUT REFSOURCE 0 V={V(n__12V_IN) < 3 ? 0 : max(.02,min(V(n__12V_IN)-1.5,V(n_CURRENT_REF_RAW)))}
+BREFSTAGE REFSOURCE n_CURRENT_REF_DRIVE I={V(n__12V_IN)<3 ? (V(REFSOURCE)-V(n_CURRENT_REF_DRIVE))/50 : max(-0.005,min(0.005,(V(REFSOURCE)-V(n_CURRENT_REF_DRIVE))/50))}
+IREFBUFFER n_CURRENT_REF_RAW 0 0
+BAMP AMPSOURCE 0 V={V(n__12V_IN) < 3 ? 0 : max(.02,min(V(n__12V_IN)-1.5,.7+100*(V(n_IN1_WET_EMIT)-V(n_IN1_AMP_REF)+(0))))}
+BAMPSTAGE AMPSOURCE n__11___Wetting_sources_1_2_IN1_AMP_OUT I={V(n__12V_IN)<3 ? (V(AMPSOURCE)-V(n__11___Wetting_sources_1_2_IN1_AMP_OUT))/50 : max(-0.005,min(0.005,(V(AMPSOURCE)-V(n__11___Wetting_sources_1_2_IN1_AMP_OUT))/50))}
+IAMPIN n_IN1_WET_EMIT 0 0
+IREFINPUTS n_CURRENT_REF 0 0
+BCONTACT n_IN1_N 0 I={V(n__12V_IN) < 3 ? 0 : max(0,V(n_IN1_N)-.12)*.1*(1+tanh((V(n_CONTACT_REF)-V(n_IN1_SENSE))/0.0002))/2}
+BUV n_IN1_FAULT 0 I={V(n__12V_IN) < 3 ? 0 : max(0,V(n_IN1_FAULT)-.12)*.1*(1+tanh((V(n__07___Contact_receivers_1_2_IN1_UV_SENSE)-V(n_UV_REF))/0.0002))/2}
+BWET wet_i 0 V={I(VWET)}
+BPOWER pnp_p 0 V={max(0,(V(n_IN1_WET_EMIT)-V(n__11___Wetting_sources_1_2_IN1_WET_COLLECTOR))*(I(VWET)))}
+BSHUNT shunt_p 0 V={(V(n__5V_LOGIC)-V(n_IN1_WET_EMIT))^2/33}
+BDRIVER driver_i 0 V={(V(n_IN1_WET_BASE)-V(n__11___Wetting_sources_1_2_IN1_DRV_COL))/1000}
+BMINUS amp_minus 0 V={V(n_IN1_AMP_REF)}
+.model MJD350APPROX PNP(Is=1e-14 Bf=100 Br=2 Vaf=150 Ikf=.5 Cje=60p Cjc=20p Tf=30n Tr=1u)
+.model NPNDRIVER NPN(Is=1e-14 Bf=150 Br=3 Vaf=100 Cje=8p Cjc=4p Tf=.5n Tr=200n)
+.model NPNDETECT NPN(Is=1e-14 Bf=150 Br=3 Vaf=100 Cje=8p Cjc=4p Tf=.5n Tr=200n)
+.model PMOSAPPROX PMOS(Level=1 Vto=-0.9 Kp=5 Lambda=.01)
+.model BAS21APPROX D(Is=1e-10 N=1.6 Rs=2 Bv=250 Ibv=1u Cjo=5p Tt=20n)
+.model BODYAPPROX D(Is=1e-10 N=1.3 Rs=.1)
+.model SCHOTTKYAPPROX D(Is=1e-8 N=1.1 Rs=2 Cjo=10p Bv=30 Ibv=1u Eg=.69 Xti=2)
+.model AMPLIMIT D(Is=1e-5 N=.05 Rs=.01 Eg=0 Xti=0)
+.options reltol=1e-4 abstol=1p vntol=1n itl1=1000 itl2=1000 method=gear
+.nodeset V(n_CURRENT_REF_DRIVE)=4.334
+.nodeset V(n_IN1_WET_EMIT)=4.334 V(n_IN1_WET_BASE)=3.6339999999999995 V(n__11___Wetting_sources_1_2_IN1_UV_GATE)=5.0 V(n__11___Wetting_sources_1_2_IN1_AMP_OUT)=.7 V(n_CURRENT_REF)=4.334 V(n_IN1_AMP_REF)=4.334
+.control
+set wr_vecnames
+set wr_singlescale
+op
+wrdata independent_baseline_native.dat v(n_IN1_FIELD) v(n_IN1_SENSE) v(n_IN1_N) v(n_IN1_FAULT) v(n__11___Wetting_sources_1_2_IN1_UV_GATE) v(n_IN1_WET_EMIT) v(n_IN1_WET_BASE) v(n__11___Wetting_sources_1_2_IN1_WET_COLLECTOR) v(n_IN1_UV_EMITTER) v(n__07___Contact_receivers_1_2_IN1_UV_SENSE) v(n_CURRENT_REF) v(n__11___Wetting_sources_1_2_IN1_AMP_OUT) v(n__5V_LOGIC) v(n__3V3) v(n__12V_IN) v(wet_i) v(pnp_p) v(shunt_p) v(driver_i) v(amp_minus)
+quit
+.endc
+.end

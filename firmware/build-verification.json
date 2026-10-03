@@ -1,0 +1,30 @@
+{
+  "verification_date": "2026-10-03",
+  "platform": "platformio/espressif32@6.12.0",
+  "arduino_framework": "2.0.17",
+  "board_definition": "esp32-s3-devkitc-1",
+  "module": "ESP32-S3-WROOM-1-N8",
+  "platformio_core": "6.1.19",
+  "build_command": ".venv/bin/pio run -e poofer_uart -e poofer_usb -e poofer_chain32_compile",
+  "builds": {
+    "poofer_uart": {"result": "success", "modules": 1, "flash_bytes": 298133, "ram_bytes": 20528},
+    "poofer_usb": {"result": "success", "modules": 1, "flash_bytes": 283189, "ram_bytes": 20312},
+    "poofer_chain32_compile": {"result": "success", "modules": 32, "flash_bytes": 298533, "ram_bytes": 23624}
+  },
+  "test_command": ".venv/bin/pio test -e native",
+  "native_test_modules": 3,
+  "native_test_cases_passed": 24,
+  "native_test_cases_failed": 0,
+  "mapping_patterns_per_module": {"cascaded_inputs": 65536, "outputs": 256, "contact_fault_cross_products": 65536},
+  "hardware_arming_tests": ["zero storage before arm edge", "missing feedback timeout", "stop event during arm", "runtime latch falling clears all modules and requires explicit rearm"],
+  "role_test": "Absent host role refuses arming; removing role stops all modules; restoring role does not revive pulses",
+  "i2c": {"sda_gpio": 8, "scl_gpio": 9, "header_pins": "UP/DOWN 15 SDA, 16 SCL", "master_role_only": true, "frequency_hz": 100000, "driver_timeout_ms": 5, "scan_addresses": "0x08..0x77", "scan_gap_ms": 2, "scan_overall_deadline_ms": 1500, "scanning_while_armed": false, "data_writes": false},
+  "i2c_tests": ["disarmed host eligibility", "one address per step", "reserved-address exclusion and completion", "arm/role/bus cancellation", "bus-error abort and deadline across rollover"],
+  "isr_linkage": {
+    "onEstopFault": "IRAM 0x4037525c",
+    "onHardwareRunDrop": "IRAM 0x40375230",
+    "esp_task_wdt_isr_user_handler": "IRAM 0x40375288, strong override"
+  },
+  "flashed_to_hardware": false,
+  "board_contract": "GPIO2 JP_LOCAL_MASTER_N LOW=host/HIGH=expander; GPIO18 RAW_SAFE_PERMIT HIGH=healthy/LOW=fault; GPIO21 HW_RUN HIGH=latch armed. GPIO15 MCU_OE_N HIGH=disable, only explicit arm creates falling edge after all output bytes zeroed, then HW_RUN must acknowledge within 1 ms polling allowance. Two 165s per module capture UVFAULT high byte then CONTACTS_N low byte, each bit0=input1; closed=(~CONTACTS_N)&(~UVFAULT). Inputs host first; 595 bytes downstream first/host last."
+}

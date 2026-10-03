@@ -1,0 +1,1085 @@
+{
+  "native_netlist_sha256": "b90e80cdd2f7ed641f507a0a3712b8f8555d7761b5ebe20b295cc2c7e850b111",
+  "baseline_native_netlist_sha256": "b90e80cdd2f7ed641f507a0a3712b8f8555d7761b5ebe20b295cc2c7e850b111",
+  "final_native_netlist_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+  "final_native_components": 577,
+  "implemented_native_filter_checks": [
+    {
+      "channel": 1,
+      "resistor": "R1024",
+      "resistance_ohm": 10000,
+      "capacitor": "C141",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN1_WET_EMIT",
+      "filtered_net": "IN1_EMIT_F",
+      "amplifier": "U20",
+      "noninverting_pin": 3,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 2,
+      "resistor": "R1054",
+      "resistance_ohm": 10000,
+      "capacitor": "C142",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN2_WET_EMIT",
+      "filtered_net": "IN2_EMIT_F",
+      "amplifier": "U20",
+      "noninverting_pin": 5,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 3,
+      "resistor": "R1084",
+      "resistance_ohm": 10000,
+      "capacitor": "C143",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN3_WET_EMIT",
+      "filtered_net": "IN3_EMIT_F",
+      "amplifier": "U20",
+      "noninverting_pin": 10,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 4,
+      "resistor": "R1114",
+      "resistance_ohm": 10000,
+      "capacitor": "C144",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN4_WET_EMIT",
+      "filtered_net": "IN4_EMIT_F",
+      "amplifier": "U20",
+      "noninverting_pin": 12,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 5,
+      "resistor": "R1144",
+      "resistance_ohm": 10000,
+      "capacitor": "C145",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN5_WET_EMIT",
+      "filtered_net": "IN5_EMIT_F",
+      "amplifier": "U21",
+      "noninverting_pin": 3,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 6,
+      "resistor": "R1174",
+      "resistance_ohm": 10000,
+      "capacitor": "C146",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN6_WET_EMIT",
+      "filtered_net": "IN6_EMIT_F",
+      "amplifier": "U21",
+      "noninverting_pin": 5,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 7,
+      "resistor": "R1204",
+      "resistance_ohm": 10000,
+      "capacitor": "C147",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN7_WET_EMIT",
+      "filtered_net": "IN7_EMIT_F",
+      "amplifier": "U21",
+      "noninverting_pin": 10,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 8,
+      "resistor": "R1234",
+      "resistance_ohm": 10000,
+      "capacitor": "C148",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN8_WET_EMIT",
+      "filtered_net": "IN8_EMIT_F",
+      "amplifier": "U21",
+      "noninverting_pin": 12,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    },
+    {
+      "channel": 9,
+      "resistor": "R1264",
+      "resistance_ohm": 10000,
+      "capacitor": "C149",
+      "capacitance_f": 1e-07,
+      "emitter_net": "IN9_WET_EMIT",
+      "filtered_net": "IN9_EMIT_F",
+      "amplifier": "U22",
+      "noninverting_pin": 3,
+      "return_net": "GND",
+      "passive_package": "0805",
+      "status": "pass"
+    }
+  ],
+  "implemented_final_results": [
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "native_filter_resistor": "R1024",
+      "native_filter_capacitor": "C141",
+      "native_plus_net": "IN1_EMIT_F",
+      "dc_wetting_ma": 19.8405982,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/final_b30_n100_tf3em08_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 13.309599400396182,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.63393597668924,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 13.309599400396182,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.1346674286325,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "native_filter_resistor": "R1024",
+      "native_filter_capacitor": "C141",
+      "native_plus_net": "IN1_EMIT_F",
+      "dc_wetting_ma": 20.316765800000002,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/final_b100_n150_tf3em08_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 23.055220300219602,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.56431526586852,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 23.055220300219602,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.0636098052481,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "native_filter_resistor": "R1024",
+      "native_filter_capacitor": "C141",
+      "native_plus_net": "IN1_EMIT_F",
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/final_b240_n300_tf3em08_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540067435,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.51985774997755,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540067435,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.01681458720648,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "native_filter_resistor": "R1024",
+      "native_filter_capacitor": "C141",
+      "native_plus_net": "IN1_EMIT_F",
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/final_b240_n300_tf1em07_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540107354,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.49565807428966,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540107354,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 68.99007898334776,
+            "direction": "falling"
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_to_implemented_comparison": [
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "candidate_to_actual_phase_delta_deg": 0.0,
+      "implemented_min_two_pole_margin_deg": 69.1346674286325,
+      "criterion": "Actual corrected illustrative margin >45 degrees; later protection changes need not be numerically identical to the earlier candidate",
+      "status": "pass"
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "candidate_to_actual_phase_delta_deg": 0.0,
+      "implemented_min_two_pole_margin_deg": 69.0636098052481,
+      "criterion": "Actual corrected illustrative margin >45 degrees; later protection changes need not be numerically identical to the earlier candidate",
+      "status": "pass"
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "candidate_to_actual_phase_delta_deg": 0.0,
+      "implemented_min_two_pole_margin_deg": 69.01681458720648,
+      "criterion": "Actual corrected illustrative margin >45 degrees; later protection changes need not be numerically identical to the earlier candidate",
+      "status": "pass"
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "candidate_to_actual_phase_delta_deg": 0.0,
+      "implemented_min_two_pole_margin_deg": 68.99007898334776,
+      "criterion": "Actual corrected illustrative margin >45 degrees; later protection changes need not be numerically identical to the earlier candidate",
+      "status": "pass"
+    }
+  ],
+  "current_native_netlist_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+  "method": "Open-loop nonlinear transistor plant biased using native closed DC fixture, AC injected before50R amplifier output model. beta=Vlocalminus\u2212Vfilteredemitter. Returnratio=A*beta; A=100k singlepole GBW1.2MHz; additional3MHz pole illustrative phase sensitivity. Reference buffer AC treated low impedance with native200R/10u; clamp diode and backup limiter retained.",
+  "limitations": [
+    "Generic BJT transistor models not manufacturer corners. BF variation at20mA illustrative, not guaranteed ranges.",
+    "Opamp Aol/phase/output impedance approximated; calculated phase margins are topology evidence, not physical qualification.",
+    "No PCB parasitics, temperature corners, output-current limiting or overload recovery in AC. Manufacturer model transient handled separately."
+  ],
+  "results": [
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": null,
+      "dc_wetting_ma": 19.8405982,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r2200_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 13.309599400312651,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1348962.88,
+            "phase_margin_deg": 10.778252239168694,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 13.309599400312651,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1318256.74,
+            "phase_margin_deg": -14.281409071235657,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 19.7929671,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r10000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 4.128192920034143,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1000000.0,
+            "phase_margin_deg": 58.58477267425519,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 4.128192920034143,
+        "unity_crossings": [
+          {
+            "frequency_hz": 977237.221,
+            "phase_margin_deg": 39.21191878733228,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 47000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 19.569342900000002,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r47000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 0.9669524510093701,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1148153.62,
+            "phase_margin_deg": 85.57280515967051,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 0.9669524510093701,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1071519.31,
+            "phase_margin_deg": 65.28044124331149,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 100000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 19.255040599999997,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r100000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 0.46153300000372965,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 87.94977508087997,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 0.46153300000372965,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 67.60577261726088,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 19.8405982,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r2200_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 13.309599400396182,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.63393597668924,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 13.309599400396182,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.1346674286325,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 30,
+      "npn_bf": 100,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 19.7929671,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b30_n100_tf3em08_r10000_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 4.128192910081316,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1202264.43,
+            "phase_margin_deg": 89.7859832839604,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 4.128192910081316,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.29462512270155,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.316765800000002,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r2200_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 23.055220300193817,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1348962.88,
+            "phase_margin_deg": 2.1477631326265225,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 23.055220300193817,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1318256.74,
+            "phase_margin_deg": -23.08483296277859,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.2916414,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r10000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 8.66340433009675,
+        "unity_crossings": [
+          {
+            "frequency_hz": 912010.839,
+            "phase_margin_deg": 47.01053043593231,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 8.66340433009675,
+        "unity_crossings": [
+          {
+            "frequency_hz": 891250.938,
+            "phase_margin_deg": 28.447054382848535,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 47000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.173025,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r47000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 2.1872299700352014,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 85.58975625938793,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 2.1872299700352014,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1047128.55,
+            "phase_margin_deg": 65.65266963011565,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 100000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.004491700000003,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r100000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 1.0564130400493852,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 88.08378379251259,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 1.0564130400493852,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 67.7425078674484,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.316765800000002,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r2200_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 23.055220300219602,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.56431526586852,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 23.055220300219602,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.0636098052481,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.2916414,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b100_n150_tf3em08_r10000_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 8.66340433010831,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1202264.43,
+            "phase_margin_deg": 89.7821060802497,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 8.66340433010831,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.29061188969891,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r2200_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540063912,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1318256.74,
+            "phase_margin_deg": -6.882915999903389,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540063912,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1288249.55,
+            "phase_margin_deg": -31.658031754866897,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.430114,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r10000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 16.396561100552734,
+        "unity_crossings": [
+          {
+            "frequency_hz": 831763.771,
+            "phase_margin_deg": 32.109080251267045,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 16.396561100552734,
+        "unity_crossings": [
+          {
+            "frequency_hz": 812830.516,
+            "phase_margin_deg": 14.149882794746219,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 47000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.374799999999997,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r47000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 4.805999100096236,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 85.86718803794439,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 4.805999100096236,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1023292.99,
+            "phase_margin_deg": 66.35279491329754,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 100000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.2958497,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r100000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 2.388037500081341,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1148153.62,
+            "phase_margin_deg": 88.22682553137336,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 2.388037500081341,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 67.99019024520204,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r2200_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540067435,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.51985774997755,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540067435,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.01681458720648,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 3e-08,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.430114,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf3em08_r10000_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 16.396561100575557,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1202264.43,
+            "phase_margin_deg": 89.78004932085764,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 16.396561100575557,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.28840165791885,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r2200_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540104963,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 38.7474100831019,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540104963,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 17.069613852312273,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.430114,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r10000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 16.396561100870805,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1047128.55,
+            "phase_margin_deg": 78.6416044028128,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 16.396561100870805,
+        "unity_crossings": [
+          {
+            "frequency_hz": 977237.221,
+            "phase_margin_deg": 59.12755639337469,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 47000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.374799999999997,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r47000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 4.805999100147934,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 88.07293252175077,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 4.805999100147934,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1096478.2,
+            "phase_margin_deg": 67.82631402389842,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 100000,
+      "emitter_filter": null,
+      "dc_wetting_ma": 20.2958497,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r100000_fFalse_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 2.3880375001244416,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1202264.43,
+            "phase_margin_deg": 89.02284282105201,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 2.3880375001244416,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 68.4524042174554,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 2200,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.4417949,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r2200_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 33.35589540107354,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1174897.55,
+            "phase_margin_deg": 89.49565807428966,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 33.35589540107354,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 68.99007898334776,
+            "direction": "falling"
+          }
+        ]
+      }
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "pnp_tf_seconds": 1e-07,
+      "drive_resistance_ohm": 10000,
+      "emitter_filter": [
+        10000,
+        1e-07
+      ],
+      "dc_wetting_ma": 20.430114,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/b240_n300_tf1em07_r10000_fTrue_ac.cir",
+      "single_pole_1p2MHz": {
+        "plant_dc_gain_abs": 16.39656110088327,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1202264.43,
+            "phase_margin_deg": 89.77756014144204,
+            "direction": "falling"
+          }
+        ]
+      },
+      "two_pole_second_at_3MHz": {
+        "plant_dc_gain_abs": 16.39656110088327,
+        "unity_crossings": [
+          {
+            "frequency_hz": 1122018.45,
+            "phase_margin_deg": 69.28541393738223,
+            "direction": "falling"
+          }
+        ]
+      }
+    }
+  ],
+  "small_perturbation_transients": [
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "emitter_filter": false,
+      "late_min_ma": 20.3137616,
+      "late_max_ma": 20.3137632,
+      "peak_ma": 20.3149583,
+      "min_ma": 20.3121621,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/small_step_b100_n150_filterFalse.cir"
+    },
+    {
+      "pnp_bf": 100,
+      "npn_bf": 150,
+      "emitter_filter": true,
+      "late_min_ma": 20.3137641,
+      "late_max_ma": 20.3137641,
+      "peak_ma": 20.314958599999997,
+      "min_ma": 20.3127746,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/small_step_b100_n150_filterTrue.cir"
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "emitter_filter": false,
+      "late_min_ma": 15.798248000000001,
+      "late_max_ma": 25.2014196,
+      "peak_ma": 25.551763,
+      "min_ma": 15.798248000000001,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/small_step_b240_n300_filterFalse.cir"
+    },
+    {
+      "pnp_bf": 240,
+      "npn_bf": 300,
+      "emitter_filter": true,
+      "late_min_ma": 20.4342291,
+      "late_max_ma": 20.4342292,
+      "peak_ma": 20.4364652,
+      "min_ma": 20.4332335,
+      "fixture": "/Users/jmcasler/Documents/ChatGPT/Universal Poofer Control/analysis/source_loop_independent/small_step_b240_n300_filterTrue.cir"
+    }
+  ]
+}

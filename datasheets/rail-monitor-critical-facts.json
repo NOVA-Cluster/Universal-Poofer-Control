@@ -1,0 +1,63 @@
+{
+  "selected": "TI TLV9022DR C2871718",
+  "primary_pdf": "datasheets/TI-TLV9022.pdf",
+  "pin_map": {
+    "1": "OUT1",
+    "2": "IN1-",
+    "3": "IN1+",
+    "4": "GND",
+    "5": "IN2+",
+    "6": "IN2-",
+    "7": "OUT2",
+    "8": "VCC"
+  },
+  "datasheet_evidence": {
+    "pages": [
+      4,
+      7,
+      11,
+      16
+    ],
+    "supply_range_V": [
+      1.65,
+      5.5
+    ],
+    "offset_fulltemp_at_1p8V_and5V_mV": 2,
+    "PSRR_open_drain_dB_min": 80,
+    "common_mode_at_fulltemp_V": "V-\u22120.2 toV++0.2, at1.8V/5V",
+    "VOL_4mA_fulltemp_V": 0.175,
+    "VOL_table_supply_note": "Electricaltabledefault5V;3.3Voutputfull-temperaturecurves aretypical,notaseparateguaranteedmaximum. Actual0.73mA clearload ismuchlower.",
+    "input_bias_typ_pA": 5,
+    "input_bias_max_note": "Notabulatedfull-temperaturemax; calculationsuse1nAengineeringenvelope,requiresprototypeverification."
+  },
+  "calculation": {
+    "resistor_envelope": "+/-1% +65C*100ppm/C => +/-1.65%",
+    "logic_supply_V": [
+      3.02,
+      3.399
+    ],
+    "offset_envelope_V": 0.005,
+    "offset_note": "Conservativeengineeringenvelopeincludes2mVendpointVOS andPSRR/CMRRunbudgetedintermediatepoints;notmanufacturer3.3Vfixedmaxrow.",
+    "input_bias_envelope_A": 1e-09,
+    "5V_trip_nom_V": 4.269230769230769,
+    "12V_trip_nom_V": 8.884615384615385,
+    "5V_trip_corner_V": [
+      3.6356963516253074,
+      4.714437500766266
+    ],
+    "12V_trip_corner_V": [
+      7.553141869540416,
+      9.827587280631466
+    ],
+    "min_healthy5V_overdrive_V": 0.027468650315067348,
+    "min_healthy12V_overdrive_V": 0.10024481711117139,
+    "R150_ohm": 4700,
+    "max_clear_sink_A": 0.0007304964539007092,
+    "HC74_VIL_at3p02V_V": 0.9059999999999999
+  },
+  "qualification": [
+    "VerifyCLR_NLOWat3.02..3.40V across\u221240..85C underactualpushpullcontention.",
+    "Supplyrampandshutdown/supervisorcooperation/bothmonitorfaults.",
+    "Noformalpowerofforcompleteemergencystopcertificationfromthesespecs."
+  ]
+}

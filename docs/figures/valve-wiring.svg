@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="300" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="300"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-300)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="15" y="55" width="180" height="220" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="27" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">External 12 V supply</text>
+			<text x="28" y="212" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,424) scale(1,-1)">Valve branch</text>
+			<text x="28" y="180" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,360) scale(1,-1)">Positive</text>
+			<text x="28" y="82" style="font-family: Helvetica; font-size: 14px;fill: rgb(19%,41%,47%); stroke:none;" transform="translate(0,164) scale(1,-1)">Negative</text>
+			<rect x="300" y="160" width="200" height="115" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="312" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">Relay 1 contacts</text>
+			<text x="317" y="222" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,444) scale(1,-1)">J31.1 COM</text>
+			<text x="407" y="222" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,444) scale(1,-1)">J31.2 NO</text>
+			<path d="M 195,195 L 245,195 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 245,195 L 300,195 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 300,195 L 350,195 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<rect x="231" y="187" width="29" height="16" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="214" y="222" style="font-family: Helvetica; font-size: 13px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,444) scale(1,-1)">Fuse</text>
+			<circle cx="350" cy="195" r="3.5" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,24%,20%); fill-rule: evenodd;"/>
+			<circle cx="430" cy="195" r="3.5" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,24%,20%); fill-rule: evenodd;"/>
+			<path d="M 350,195 L 410,213 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 430,195 L 665,195 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<text x="320" y="173" style="font-family: Helvetica; font-size: 12px;fill: rgb(32%,40%,38%); stroke:none;" transform="translate(0,346) scale(1,-1)">NC auxiliary is unused</text>
+			<rect x="665" y="125" width="200" height="150" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="677" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">Your 12 VDC valve</text>
+			<text x="678" y="174" style="font-family: Helvetica; font-size: 13px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,348) scale(1,-1)">Positive / NO</text>
+			<text x="678" y="143" style="font-family: Helvetica; font-size: 13px;fill: rgb(19%,41%,47%); stroke:none;" transform="translate(0,286) scale(1,-1)">Negative</text>
+			<path d="M 195,90 L 765,90 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 765,90 L 765,125 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<circle cx="550" cy="195" r="3.5" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,24%,20%); fill-rule: evenodd;"/>
+			<circle cx="550" cy="90" r="3.5" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,41%,47%); fill-rule: evenodd;"/>
+			<text x="522" y="231" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,462) scale(1,-1)">J41.1 NO</text>
+			<text x="519" y="57" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(19%,41%,47%); stroke:none;" transform="translate(0,114) scale(1,-1)">J41.2 RETURN</text>
+			<path d="M 550,195 L 550,155 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 550,122 L 550,90 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<rect x="520" y="122" width="60" height="33" rx="3" ry="3" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="526" y="142" style="font-family: Helvetica; font-size: 10px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,284) scale(1,-1)">Onboard</text>
+			<text x="531" y="129" style="font-family: Helvetica; font-size: 10px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,258) scale(1,-1)">clamp</text>
+			<text x="15" y="28" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(19%,41%,47%); stroke:none;" transform="translate(0,56) scale(1,-1)">RETURN joins valve negative AND the external supply negative.</text>
+			<text x="15" y="11" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,40%,38%); stroke:none;" transform="translate(0,22) scale(1,-1)">J2 separately powers coils/analog; it does not feed all valve loads.</text>
+		</g>
+	</g>
+</svg>

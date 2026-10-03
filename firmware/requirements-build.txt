@@ -1,0 +1,3 @@
+# Optional isolated CLI environment, used to verify this project on this host.
+platformio==6.1.19
+intelhex==2.3.0

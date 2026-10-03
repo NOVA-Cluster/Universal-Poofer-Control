@@ -1,0 +1,33 @@
+{
+  "revision": "A.3",
+  "module_outputs": 8,
+  "module_input_bits": 16,
+  "contacts_active_low": true,
+  "fault_bits_active_high": true,
+  "pins": {
+    "clock": 6,
+    "mosi": 4,
+    "miso": 5,
+    "latch": 7,
+    "mcu_inhibit_n": 15,
+    "clear_n": 16,
+    "load_n": 17,
+    "safe_permit": 18,
+    "hardware_run": 21,
+    "physical_role_monitor": 2,
+    "i2c_sda": 8,
+    "i2c_scl": 9
+  },
+  "expansion": {
+    "contacts": 16,
+    "sda_pin": 15,
+    "scl_pin": 16,
+    "power_pins": [],
+    "i2c_rate_hz": 100000,
+    "i2c_common_pullup_ohm": 2200,
+    "i2c_private_pullup_ohm": 4700
+  },
+  "source_target_mA": 20,
+  "minimum_passive": "0805",
+  "scope": "unroutedplacement"
+}

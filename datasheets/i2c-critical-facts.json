@@ -1,0 +1,61 @@
+{
+  "revision": "A.3",
+  "selected_part": "PCA9517AD,118",
+  "lcsc_code": "C2802638",
+  "manufacturer": "NXP",
+  "package": "SO8 SOT96-1",
+  "body_mm": [
+    3.9,
+    4.9
+  ],
+  "pitch_mm": 1.27,
+  "source": {
+    "url": "https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf",
+    "revision": "4.1",
+    "date": "2016-05-24",
+    "access": "Read as primary22-pagePDF via web; direct downloadfailed.",
+    "evidence_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      10,
+      17
+    ]
+  },
+  "pin_map": {
+    "1": "VCCA",
+    "2": "SCLA",
+    "3": "SDAA",
+    "4": "GND",
+    "5": "EN",
+    "6": "SDAB",
+    "7": "SCLB",
+    "8": "VCCB"
+  },
+  "design": {
+    "external_chain": "UP and DOWN SDA/SCL tied directly to COMMON_A bus. Private SIDE_B to ESP32 GPIO8SDA/GPIO9SCL.",
+    "supply": "VCCA=VCCB=local3.3V,100nFdecoupling at bothpins.",
+    "enable": "PG_RESET_N; rail transitions may truncate transactions; firmware must recover bus.",
+    "pullups": "PrivateB eachboard4.7k tolocal3.3V. CommonA oneenabled2.2k pair usingJP2(master); avoidparallel32pairs.",
+    "powered_off": "A/B pins high impedance when unpowered; sharedA copper maintains chain continuity.",
+    "forbidden": "Do not join B pins of multiple buffers.",
+    "operating": "-40..85C;0..400kHzpartlimit; globalA capacitance<=400pF, speed qualified withactualchain.",
+    "logic_margin": "BufferedB LOW max0.6V <ESP32VIL0.825V at3.3V; external sender onB must pullLOW<=0.4V duringcontention. ValidateGPIO8/9 sinkunder~0.7mA overtemperature.",
+    "default_clock_hz": 100000,
+    "global_bus_budget": {
+      "maximum_pF": 400,
+      "port_A_max_pF_each": 7,
+      "32_port_A_pF": 224,
+      "connector_cable_pcb_remaining_pF": 176,
+      "high_leakage_uA_each_max": 10,
+      "32_board_drop_at_2200R_V": 0.704,
+      "rise_30_to_70_at400pF_ns": 745.6240000000001,
+      "max_capacitance_for300ns_pF": 160.9390255678465,
+      "standard_timing_source": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "source_page": 44
+    }
+  }
+}

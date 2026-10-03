@@ -1,0 +1,7634 @@
+{
+  "revision": "A.3",
+  "scope": "Raw native netlist connectivity and package/inventory snapshot only",
+  "checks": 1906,
+  "failed": [],
+  "pass": true,
+  "physical_components": 577,
+  "results": [
+    {
+      "check": "Unique physical references",
+      "pass": true
+    },
+    {
+      "check": "Native physical references match metadata",
+      "pass": true
+    },
+    {
+      "check": "U1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J6 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J6 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J7 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J7 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C4 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C5 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R2 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C6 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C6 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C6 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R3 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R4 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R5 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C10 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C10 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C10 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C11 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C11 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C11 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C1 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C2 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C3 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U40 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U40 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R40 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R40 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R40 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C40 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C40 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C40 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R65 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R65 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R65 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R50 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R50 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R50 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R51 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R51 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R51 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R52 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R52 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R52 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C50 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C50 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C50 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R55 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R55 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R55 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R56 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R56 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R56 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C55 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C55 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C55 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R60 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R60 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R60 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R61 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R61 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R61 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C60 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C60 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C60 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R57 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R57 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R57 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R58 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R58 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R58 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C7 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C7 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C7 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C8 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C8 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C8 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C9 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C9 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C9 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "JP1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "JP1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R70 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R70 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R70 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R71 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R71 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R71 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J20 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J20 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J21 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J21 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U50 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U50 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U51 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U51 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U52 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U52 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R80 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R80 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R80 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R81 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R81 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R81 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R82 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R82 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R82 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R83 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R83 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R83 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R84 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R84 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R84 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R85 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R85 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R85 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R86 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R86 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R86 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R87 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R87 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R87 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U31 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U31 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U32 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U32 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U34 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U34 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R150 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R150 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R150 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q40 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q40 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R110 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R110 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R110 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D91 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D91 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R111 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R111 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R111 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q41 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q41 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q42 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q42 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R112 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R112 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R112 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R114 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R114 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R114 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R113 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R113 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R113 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R115 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R115 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R115 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R116 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R116 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R116 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D111 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D111 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1014 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1014 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1014 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1015 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1015 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1015 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1016 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1016 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1016 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U10 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U10 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1017 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1017 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1017 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C101 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C101 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C101 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1018 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1018 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1018 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1019 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1019 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1019 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1020 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1020 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1020 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1009 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1009 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1009 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1010 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1010 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1010 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1011 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1011 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1011 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1012 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1012 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1012 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U13 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U13 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1013 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1013 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1013 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J11 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J11 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D112 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D112 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1044 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1044 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1044 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1045 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1045 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1045 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1046 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1046 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1046 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1047 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1047 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1047 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C102 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C102 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C102 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1048 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1048 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1048 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1049 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1049 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1049 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1050 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1050 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1050 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1039 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1039 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1039 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1040 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1040 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1040 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1041 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1041 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1041 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1042 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1042 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1042 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1043 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1043 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1043 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J12 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J12 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D113 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D113 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1074 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1074 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1074 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1075 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1075 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1075 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1076 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1076 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1076 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1077 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1077 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1077 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C103 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C103 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C103 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1078 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1078 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1078 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1079 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1079 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1079 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1080 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1080 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1080 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1069 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1069 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1069 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1070 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1070 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1070 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1071 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1071 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1071 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1072 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1072 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1072 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1073 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1073 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1073 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J13 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J13 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D114 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D114 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1104 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1104 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1104 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1105 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1105 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1105 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1106 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1106 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1106 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1107 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1107 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1107 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C104 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C104 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C104 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1108 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1108 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1108 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1109 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1109 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1109 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1110 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1110 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1110 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1099 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1099 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1099 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1100 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1100 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1100 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1101 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1101 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1101 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1102 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1102 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1102 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1103 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1103 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1103 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J14 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J14 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D115 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D115 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1134 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1134 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1134 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1135 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1135 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1135 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1136 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1136 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1136 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U11 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U11 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1137 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1137 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1137 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C105 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C105 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C105 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1138 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1138 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1138 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1139 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1139 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1139 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1140 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1140 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1140 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1129 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1129 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1129 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1130 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1130 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1130 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1131 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1131 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1131 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1132 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1132 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1132 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U14 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U14 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1133 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1133 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1133 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J15 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J15 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D116 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D116 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1164 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1164 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1164 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1165 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1165 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1165 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1166 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1166 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1166 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1167 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1167 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1167 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C106 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C106 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C106 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1168 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1168 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1168 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1169 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1169 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1169 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1170 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1170 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1170 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1159 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1159 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1159 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1160 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1160 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1160 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1161 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1161 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1161 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1162 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1162 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1162 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1163 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1163 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1163 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J16 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J16 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D117 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D117 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1194 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1194 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1194 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1195 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1195 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1195 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1196 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1196 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1196 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1197 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1197 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1197 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C107 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C107 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C107 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1198 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1198 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1198 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1199 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1199 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1199 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1200 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1200 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1200 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1189 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1189 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1189 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1190 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1190 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1190 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1191 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1191 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1191 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1192 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1192 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1192 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1193 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1193 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1193 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J17 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J17 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D118 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D118 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1224 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1224 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1224 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1225 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1225 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1225 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1226 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1226 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1226 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1227 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1227 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1227 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C108 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C108 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C108 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1228 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1228 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1228 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1229 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1229 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1229 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1230 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1230 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1230 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1219 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1219 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1219 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1220 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1220 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1220 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1221 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1221 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1221 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1222 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1222 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1222 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1223 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1223 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1223 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J18 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J18 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1000 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1000 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1000 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q101 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q101 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D101 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D101 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1003 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1003 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1003 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q111 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q111 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1002 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1002 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1002 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U20 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U20 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1001 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1001 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1001 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1021 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1021 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1021 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C131 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C131 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C131 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D141 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D141 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q151 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q151 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1022 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1022 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1022 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1023 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1023 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1023 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q121 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q121 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1004 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1004 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1004 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1005 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1005 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1005 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1006 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1006 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1006 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D121 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D121 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1007 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1007 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1007 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C161 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C161 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C161 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1008 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1008 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1008 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q131 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q131 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1030 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1030 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1030 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q102 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q102 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D102 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D102 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1033 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1033 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1033 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q112 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q112 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1032 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1032 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1032 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1031 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1031 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1031 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1051 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1051 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1051 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C132 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C132 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C132 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D142 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D142 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q152 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q152 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1052 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1052 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1052 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1053 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1053 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1053 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q122 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q122 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1034 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1034 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1034 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1035 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1035 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1035 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1036 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1036 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1036 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D122 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D122 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1037 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1037 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1037 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C162 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C162 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C162 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1038 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1038 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1038 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q132 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q132 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1060 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1060 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1060 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q103 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q103 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D103 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D103 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1063 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1063 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1063 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q113 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q113 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1062 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1062 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1062 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1061 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1061 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1061 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1081 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1081 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1081 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C133 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C133 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C133 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D143 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D143 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q153 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q153 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1082 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1082 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1082 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1083 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1083 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1083 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q123 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q123 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1064 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1064 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1064 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1065 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1065 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1065 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1066 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1066 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1066 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D123 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D123 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1067 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1067 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1067 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C163 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C163 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C163 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1068 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1068 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1068 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q133 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q133 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1090 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1090 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1090 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q104 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q104 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D104 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D104 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1093 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1093 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1093 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q114 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q114 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1092 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1092 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1092 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1091 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1091 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1091 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1111 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1111 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1111 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C134 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C134 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C134 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D144 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D144 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q154 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q154 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1112 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1112 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1112 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1113 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1113 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1113 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q124 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q124 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1094 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1094 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1094 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1095 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1095 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1095 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1096 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1096 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1096 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D124 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D124 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1097 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1097 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1097 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C164 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C164 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C164 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1098 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1098 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1098 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q134 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q134 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1120 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1120 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1120 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q105 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q105 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D105 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D105 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1123 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1123 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1123 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q115 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q115 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1122 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1122 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1122 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U21 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U21 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1121 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1121 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1121 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1141 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1141 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1141 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C135 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C135 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C135 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D145 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D145 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q155 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q155 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1142 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1142 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1142 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1143 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1143 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1143 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q125 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q125 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1124 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1124 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1124 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1125 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1125 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1125 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1126 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1126 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1126 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D125 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D125 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1127 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1127 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1127 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C165 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C165 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C165 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1128 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1128 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1128 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q135 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q135 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1150 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1150 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1150 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q106 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q106 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D106 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D106 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1153 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1153 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1153 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q116 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q116 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1152 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1152 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1152 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1151 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1151 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1151 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1171 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1171 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1171 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C136 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C136 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C136 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D146 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D146 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q156 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q156 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1172 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1172 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1172 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1173 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1173 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1173 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q126 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q126 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1154 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1154 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1154 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1155 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1155 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1155 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1156 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1156 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1156 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D126 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D126 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1157 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1157 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1157 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C166 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C166 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C166 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1158 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1158 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1158 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q136 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q136 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1180 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1180 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1180 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q107 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q107 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D107 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D107 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1183 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1183 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1183 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q117 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q117 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1182 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1182 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1182 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1181 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1181 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1181 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1201 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1201 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1201 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C137 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C137 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C137 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D147 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D147 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q157 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q157 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1202 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1202 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1202 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1203 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1203 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1203 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q127 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q127 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1184 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1184 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1184 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1185 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1185 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1185 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1186 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1186 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1186 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D127 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D127 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1187 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1187 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1187 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C167 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C167 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C167 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1188 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1188 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1188 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q137 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q137 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1210 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1210 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1210 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q108 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q108 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D108 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D108 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1213 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1213 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1213 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q118 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q118 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1212 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1212 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1212 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1211 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1211 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1211 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1231 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1231 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1231 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C138 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C138 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C138 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D148 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D148 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q158 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q158 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1232 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1232 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1232 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1233 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1233 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1233 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q128 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q128 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1214 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1214 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1214 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1215 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1215 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1215 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1216 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1216 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1216 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D128 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D128 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1217 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1217 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1217 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C168 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C168 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C168 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1218 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1218 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1218 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q138 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q138 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1240 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1240 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1240 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q109 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q109 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D109 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D109 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1243 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1243 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1243 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q119 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q119 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1242 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1242 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1242 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U22 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U22 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1241 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1241 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1241 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1261 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1261 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1261 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C139 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C139 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C139 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D149 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D149 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q159 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q159 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1262 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1262 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1262 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1263 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1263 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1263 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q129 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q129 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1244 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1244 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1244 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1245 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1245 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1245 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1246 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1246 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1246 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D129 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D129 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1247 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1247 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1247 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C169 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C169 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C169 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1248 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1248 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1248 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q139 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q139 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D119 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D119 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1254 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1254 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1254 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1255 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1255 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1255 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1256 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1256 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1256 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U12 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U12 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1257 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1257 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1257 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C109 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C109 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C109 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1258 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1258 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1258 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1259 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1259 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1259 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1260 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1260 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1260 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1249 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1249 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1249 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1250 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1250 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1250 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1251 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1251 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1251 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1252 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1252 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1252 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1253 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1253 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1253 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J9 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J9 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J10 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J10 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q149 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q149 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q1 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q1 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R201 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R201 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R201 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R211 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R211 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R211 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D11 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D11 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D21 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D21 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J31 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J31 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D31 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D31 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D41 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D41 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J41 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J41 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R202 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R202 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R202 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R212 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R212 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R212 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D12 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D12 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D22 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D22 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J32 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J32 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D32 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D32 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D42 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D42 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J42 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J42 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q3 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q3 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R203 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R203 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R203 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R213 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R213 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R213 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D13 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D13 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D23 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D23 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J33 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J33 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D33 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D33 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D43 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D43 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J43 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J43 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q4 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q4 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R204 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R204 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R204 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R214 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R214 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R214 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D14 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D14 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D24 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D24 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J34 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J34 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D34 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D34 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D44 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D44 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J44 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J44 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R205 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R205 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R205 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R215 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R215 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R215 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D15 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D15 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D25 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D25 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J35 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J35 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D35 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D35 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D45 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D45 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J45 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J45 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K6 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K6 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q6 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q6 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R206 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R206 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R206 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R216 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R216 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R216 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D16 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D16 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D26 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D26 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J36 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J36 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D36 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D36 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D46 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D46 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J46 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J46 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K7 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K7 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q7 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q7 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R207 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R207 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R207 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R217 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R217 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R217 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D17 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D17 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D27 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D27 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J37 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J37 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D37 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D37 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D47 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D47 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J47 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J47 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "K8 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "K8 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "Q8 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "Q8 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R208 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R208 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R208 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R218 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R218 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R218 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D18 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D18 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D28 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D28 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J38 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J38 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D38 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D38 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "D48 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "D48 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J48 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J48 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C80 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C80 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C80 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C81 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C81 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C81 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C82 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C82 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C82 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C83 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C83 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C83 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C84 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C84 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C84 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C90 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C90 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C90 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C91 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C91 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C91 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C92 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C92 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C92 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "J5 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "J5 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U30 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U30 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R136 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R136 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R136 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C110 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C110 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C110 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C111 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C111 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C111 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C112 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C112 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C112 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C113 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C113 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C113 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R66 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R66 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R66 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R67 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R67 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R67 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C66 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C66 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C66 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U54 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U54 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "JP2 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "JP2 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R120 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R120 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R120 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R121 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R121 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R121 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R122 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R122 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R122 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R123 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R123 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R123 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C74 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C74 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C74 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C75 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C75 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C75 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R90 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R90 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R90 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R91 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R91 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R91 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R92 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R92 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R92 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R93 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R93 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R93 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R94 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R94 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R94 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R95 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R95 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R95 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R124 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R124 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R124 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R125 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R125 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R125 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R126 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R126 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R126 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R127 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R127 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R127 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R128 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R128 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R128 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R129 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R129 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R129 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R130 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R130 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R130 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R131 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R131 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R131 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R132 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R132 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R132 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R133 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R133 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R133 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R134 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R134 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R134 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R135 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R135 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R135 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R88 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R88 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R88 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C70 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C70 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C70 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C71 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C71 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C71 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C72 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C72 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C72 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R151 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R151 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R151 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R152 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R152 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R152 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R153 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R153 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R153 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "U35 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "U35 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R154 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R154 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R154 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R155 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R155 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R155 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R158 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R158 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R158 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R156 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R156 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R156 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R157 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R157 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R157 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C156 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C156 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C156 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C154 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C154 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C154 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R137 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R137 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R137 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R138 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R138 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R138 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R139 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R139 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R139 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R140 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R140 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R140 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1024 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1024 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1024 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C141 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C141 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C141 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1054 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1054 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1054 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C142 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C142 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C142 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1084 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1084 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1084 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C143 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C143 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C143 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1114 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1114 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1114 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C144 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C144 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C144 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1144 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1144 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1144 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C145 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C145 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C145 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1174 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1174 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1174 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C146 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C146 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C146 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1204 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1204 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1204 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C147 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C147 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C147 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1234 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1234 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1234 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C148 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C148 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C148 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "R1264 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "R1264 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "R1264 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "C149 minimum 0805",
+      "pass": true
+    },
+    {
+      "check": "C149 assembly inventory",
+      "pass": true
+    },
+    {
+      "check": "C149 exact MPN",
+      "pass": true
+    },
+    {
+      "check": "No small-pitch active footprints",
+      "pass": true
+    },
+    {
+      "check": "Input 1 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 1 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C141.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 1 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 1 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D101.3 = IN1_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 1 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 1 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1003.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 1 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 1 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 1 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1021.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D141.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q111.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 1 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 1 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C161.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q131.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 1 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 1 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1011.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J11.1 = IN1_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J11.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 2 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 2 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C142.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 2 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 2 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D102.3 = IN2_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 2 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 2 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1033.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 2 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 2 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 2 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1051.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D142.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q112.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 2 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 2 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C162.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q132.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 2 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 2 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1041.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J12.1 = IN2_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J12.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 3 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 3 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C143.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 3 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 3 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D103.3 = IN3_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 3 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 3 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1063.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 3 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 3 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 3 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1081.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D143.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q113.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 3 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 3 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C163.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q133.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 3 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 3 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1071.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J13.1 = IN3_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J13.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 4 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 4 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C144.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 4 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 4 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D104.3 = IN4_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 4 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 4 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1093.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 4 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 4 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 4 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1111.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D144.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q114.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 4 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 4 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C164.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q134.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 4 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 4 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1101.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J14.1 = IN4_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J14.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 5 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 5 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C145.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 5 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 5 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D105.3 = IN5_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 5 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 5 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1123.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 5 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 5 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 5 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1141.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D145.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q115.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 5 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 5 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C165.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q135.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 5 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 5 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1131.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J15.1 = IN5_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J15.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 6 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 6 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C146.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 6 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 6 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D106.3 = IN6_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 6 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 6 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1153.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 6 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 6 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 6 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1171.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D146.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q116.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 6 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 6 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C166.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q136.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 6 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 6 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1161.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J16.1 = IN6_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J16.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 7 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 7 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C147.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 7 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 7 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D107.3 = IN7_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 7 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 7 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1183.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 7 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 7 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 7 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1201.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D147.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q117.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 7 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 7 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C167.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q137.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 7 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 7 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1191.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J17.1 = IN7_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J17.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 8 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 8 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C148.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 8 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 8 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D108.3 = IN8_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 8 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 8 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1213.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 8 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 8 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 8 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1231.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D148.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q118.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 8 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 8 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C168.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q138.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 8 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 8 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1221.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "J18.1 = IN8_FIELD",
+      "pass": true
+    },
+    {
+      "check": "J18.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 9 emitter and shunt",
+      "pass": true
+    },
+    {
+      "check": "Input 9 filtered emitter feedback",
+      "pass": true
+    },
+    {
+      "check": "C149.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 9 PNP terminals distinct",
+      "pass": true
+    },
+    {
+      "check": "Input 9 blocker anode",
+      "pass": true
+    },
+    {
+      "check": "D109.3 = ESTOP_FIELD",
+      "pass": true
+    },
+    {
+      "check": "Input 9 driver collector resistor",
+      "pass": true
+    },
+    {
+      "check": "Input 9 driver collector",
+      "pass": true
+    },
+    {
+      "check": "R1243.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 9 base pullup",
+      "pass": true
+    },
+    {
+      "check": "Input 9 compensated output",
+      "pass": true
+    },
+    {
+      "check": "Input 9 private compensation node",
+      "pass": true
+    },
+    {
+      "check": "R1261.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "D149.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Q119.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Input 9 independent UV clamp",
+      "pass": true
+    },
+    {
+      "check": "Input 9 UV charge-absorption capacitor",
+      "pass": true
+    },
+    {
+      "check": "C169.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Q139.2 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "Input 9 early negative flag",
+      "pass": true
+    },
+    {
+      "check": "Input 9 UV attenuator grounds",
+      "pass": true
+    },
+    {
+      "check": "R1251.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "Reference buffer negative feedback",
+      "pass": true
+    },
+    {
+      "check": "U22.5 = CURRENT_REF_RAW",
+      "pass": true
+    },
+    {
+      "check": "Reference buffer resistor chain",
+      "pass": true
+    },
+    {
+      "check": "Reference hold capacitor",
+      "pass": true
+    },
+    {
+      "check": "C66.1 = CURRENT_REF",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K1.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D21.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D31.2 = VALVE1_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D41.2 = VALVE1_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 1 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K2.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D22.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D32.2 = VALVE2_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D42.2 = VALVE2_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 2 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K3.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D23.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D33.2 = VALVE3_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D43.2 = VALVE3_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 3 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K4.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D24.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D34.2 = VALVE4_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D44.2 = VALVE4_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 4 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K5.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D25.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D35.2 = VALVE5_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D45.2 = VALVE5_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 5 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K6.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D26.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D36.2 = VALVE6_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D46.2 = VALVE6_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 6 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K7.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D27.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D37.2 = VALVE7_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D47.2 = VALVE7_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 7 NO connector",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 coil drain",
+      "pass": true
+    },
+    {
+      "check": "K8.5 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 coil opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D28.2 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 load opposing cathodes",
+      "pass": true
+    },
+    {
+      "check": "D38.2 = VALVE8_RETURN",
+      "pass": true
+    },
+    {
+      "check": "D48.2 = VALVE8_NO",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 contact mapping 1",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 contact mapping 4",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 contact mapping 3",
+      "pass": true
+    },
+    {
+      "check": "Valve 8 NO connector",
+      "pass": true
+    },
+    {
+      "check": "U40.1 = GND",
+      "pass": true
+    },
+    {
+      "check": "U40.2 = PG_RESET_N",
+      "pass": true
+    },
+    {
+      "check": "U40.3 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "Q40.2 = +12V_IN",
+      "pass": true
+    },
+    {
+      "check": "Q40.3 = +12V_COIL_SAFE",
+      "pass": true
+    },
+    {
+      "check": "Coil gate arm and power-good transistors in series",
+      "pass": true
+    },
+    {
+      "check": "Q42.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "U34.1 = RUN_CLEAR_N",
+      "pass": true
+    },
+    {
+      "check": "U34.2 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "U34.3 = ARM_LEVEL",
+      "pass": true
+    },
+    {
+      "check": "U34.4 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "U34.5 = HW_RUN_LATCH",
+      "pass": true
+    },
+    {
+      "check": "U35.8 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "U35.4 = GND",
+      "pass": true
+    },
+    {
+      "check": "U35.1 = RUN_CLEAR_N",
+      "pass": true
+    },
+    {
+      "check": "U35.7 = RUN_CLEAR_N",
+      "pass": true
+    },
+    {
+      "check": "U35.2 = RAIL_UV_REF",
+      "pass": true
+    },
+    {
+      "check": "U35.6 = RAIL_UV_REF",
+      "pass": true
+    },
+    {
+      "check": "Raw12 rail monitor divider",
+      "pass": true
+    },
+    {
+      "check": "Logic5 rail monitor parallel divider",
+      "pass": true
+    },
+    {
+      "check": "U3.13 = RLY_OE_ACTUAL_N",
+      "pass": true
+    },
+    {
+      "check": "U52.15 = RLY_OE_ACTUAL_N",
+      "pass": true
+    },
+    {
+      "check": "J5.9 = OE_MONITOR_N",
+      "pass": true
+    },
+    {
+      "check": "Debug OE monitor isolation",
+      "pass": true
+    },
+    {
+      "check": "U1.10 = ESTOP_SAFE_MON_GPIO18",
+      "pass": true
+    },
+    {
+      "check": "ESTOP_SAFE_MON_GPIO18 protected series path",
+      "pass": true
+    },
+    {
+      "check": "U1.23 = HW_RUN_MON_GPIO21",
+      "pass": true
+    },
+    {
+      "check": "HW_RUN_MON_GPIO21 protected series path",
+      "pass": true
+    },
+    {
+      "check": "U1.38 = ROLE_GPIO2_MON",
+      "pass": true
+    },
+    {
+      "check": "ROLE_GPIO2_MON protected series path",
+      "pass": true
+    },
+    {
+      "check": "J20.15 = I2C_SDA_BUS",
+      "pass": true
+    },
+    {
+      "check": "J20.16 = I2C_SCL_BUS",
+      "pass": true
+    },
+    {
+      "check": "J20 independent module power",
+      "pass": true
+    },
+    {
+      "check": "J21.15 = I2C_SDA_BUS",
+      "pass": true
+    },
+    {
+      "check": "J21.16 = I2C_SCL_BUS",
+      "pass": true
+    },
+    {
+      "check": "J21 independent module power",
+      "pass": true
+    },
+    {
+      "check": "U54.1 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "U54.8 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "U54.4 = GND",
+      "pass": true
+    },
+    {
+      "check": "U54.5 = PG_RESET_N",
+      "pass": true
+    },
+    {
+      "check": "U54.2 = I2C_SCL_BUS",
+      "pass": true
+    },
+    {
+      "check": "U54.3 = I2C_SDA_BUS",
+      "pass": true
+    },
+    {
+      "check": "U54.7 = I2C_SCL_GPIO9",
+      "pass": true
+    },
+    {
+      "check": "U54.6 = I2C_SDA_GPIO8",
+      "pass": true
+    },
+    {
+      "check": "I2C A shared / B private",
+      "pass": true
+    },
+    {
+      "check": "R127.1 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "R127.2 = UP_ARM_N",
+      "pass": true
+    },
+    {
+      "check": "R133.1 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "R133.2 = MCU_INHIBIT_N_GPIO15",
+      "pass": true
+    },
+    {
+      "check": "R65.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "R65.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "R137.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "R137.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "R138.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "R138.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "R139.1 = +5V_LOGIC",
+      "pass": true
+    },
+    {
+      "check": "R139.2 = GND",
+      "pass": true
+    },
+    {
+      "check": "R140.1 = +3V3",
+      "pass": true
+    },
+    {
+      "check": "R140.2 = GND",
+      "pass": true
+    }
+  ]
+}

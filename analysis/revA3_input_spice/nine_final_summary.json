@@ -1,0 +1,101 @@
+{
+  "case": "nine_final",
+  "topology": "Verified repeated native cells, shared reference instantiated once, all nine emitter filters and UV capacitors included from current export.",
+  "native_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+  "native_components": 577,
+  "native_emitter_filter": true,
+  "native_uv_caps": true,
+  "native_node_maps": [
+    {
+      "channel": 1,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 2,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 3,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 4,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 5,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 6,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 7,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 8,
+      "native_node_map_entries": 23
+    },
+    {
+      "channel": 9,
+      "native_node_map_entries": 23
+    }
+  ],
+  "window_s": [
+    0.025,
+    0.029
+  ],
+  "channels": {
+    "1": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "2": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "3": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "4": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "5": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "6": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "7": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "8": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    },
+    "9": {
+      "late_min_ma": 20.3156263,
+      "late_max_ma": 20.318101000000002,
+      "max_after_first1us_ma": 39.0813322
+    }
+  },
+  "minimum_global_reference_v": 4.006291,
+  "minimum_local_reference_v": 3.73068624,
+  "numeric_run_netlist_sha256": "823b9b6ed288bac1c514f60eeb091e8db9304aa2299d878968ed289e02727007",
+  "same_analog_fixture_verified": true
+}

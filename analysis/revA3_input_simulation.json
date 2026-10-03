@@ -1,0 +1,1395 @@
+{
+  "revision": "A.3",
+  "netlist_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+  "native_components": 577,
+  "native_features": {
+    "emitter_sense_filter": true,
+    "UV_emitter_1nF_guard": true,
+    "UV_emitter_monitoring": true,
+    "local_compensation": true,
+    "reference_buffer": true,
+    "backup_limiter": true
+  },
+  "netlist_connectivity_checks": [
+    {
+      "channel": 1,
+      "components_checked": [
+        "R1000",
+        "R1001",
+        "R1002",
+        "R1003",
+        "R1004",
+        "R1005",
+        "R1006",
+        "R1007",
+        "R1008",
+        "R1009",
+        "R1010",
+        "R1011",
+        "R1012",
+        "R1013",
+        "R1014",
+        "R1015",
+        "R1016",
+        "R1017",
+        "R1018",
+        "R1019",
+        "R1020",
+        "Q101",
+        "Q111",
+        "Q121",
+        "Q131",
+        "D101",
+        "D111",
+        "D121"
+      ]
+    },
+    {
+      "channel": 2,
+      "components_checked": [
+        "R1030",
+        "R1031",
+        "R1032",
+        "R1033",
+        "R1034",
+        "R1035",
+        "R1036",
+        "R1037",
+        "R1038",
+        "R1039",
+        "R1040",
+        "R1041",
+        "R1042",
+        "R1043",
+        "R1044",
+        "R1045",
+        "R1046",
+        "R1047",
+        "R1048",
+        "R1049",
+        "R1050",
+        "Q102",
+        "Q112",
+        "Q122",
+        "Q132",
+        "D102",
+        "D112",
+        "D122"
+      ]
+    },
+    {
+      "channel": 3,
+      "components_checked": [
+        "R1060",
+        "R1061",
+        "R1062",
+        "R1063",
+        "R1064",
+        "R1065",
+        "R1066",
+        "R1067",
+        "R1068",
+        "R1069",
+        "R1070",
+        "R1071",
+        "R1072",
+        "R1073",
+        "R1074",
+        "R1075",
+        "R1076",
+        "R1077",
+        "R1078",
+        "R1079",
+        "R1080",
+        "Q103",
+        "Q113",
+        "Q123",
+        "Q133",
+        "D103",
+        "D113",
+        "D123"
+      ]
+    },
+    {
+      "channel": 4,
+      "components_checked": [
+        "R1090",
+        "R1091",
+        "R1092",
+        "R1093",
+        "R1094",
+        "R1095",
+        "R1096",
+        "R1097",
+        "R1098",
+        "R1099",
+        "R1100",
+        "R1101",
+        "R1102",
+        "R1103",
+        "R1104",
+        "R1105",
+        "R1106",
+        "R1107",
+        "R1108",
+        "R1109",
+        "R1110",
+        "Q104",
+        "Q114",
+        "Q124",
+        "Q134",
+        "D104",
+        "D114",
+        "D124"
+      ]
+    },
+    {
+      "channel": 5,
+      "components_checked": [
+        "R1120",
+        "R1121",
+        "R1122",
+        "R1123",
+        "R1124",
+        "R1125",
+        "R1126",
+        "R1127",
+        "R1128",
+        "R1129",
+        "R1130",
+        "R1131",
+        "R1132",
+        "R1133",
+        "R1134",
+        "R1135",
+        "R1136",
+        "R1137",
+        "R1138",
+        "R1139",
+        "R1140",
+        "Q105",
+        "Q115",
+        "Q125",
+        "Q135",
+        "D105",
+        "D115",
+        "D125"
+      ]
+    },
+    {
+      "channel": 6,
+      "components_checked": [
+        "R1150",
+        "R1151",
+        "R1152",
+        "R1153",
+        "R1154",
+        "R1155",
+        "R1156",
+        "R1157",
+        "R1158",
+        "R1159",
+        "R1160",
+        "R1161",
+        "R1162",
+        "R1163",
+        "R1164",
+        "R1165",
+        "R1166",
+        "R1167",
+        "R1168",
+        "R1169",
+        "R1170",
+        "Q106",
+        "Q116",
+        "Q126",
+        "Q136",
+        "D106",
+        "D116",
+        "D126"
+      ]
+    },
+    {
+      "channel": 7,
+      "components_checked": [
+        "R1180",
+        "R1181",
+        "R1182",
+        "R1183",
+        "R1184",
+        "R1185",
+        "R1186",
+        "R1187",
+        "R1188",
+        "R1189",
+        "R1190",
+        "R1191",
+        "R1192",
+        "R1193",
+        "R1194",
+        "R1195",
+        "R1196",
+        "R1197",
+        "R1198",
+        "R1199",
+        "R1200",
+        "Q107",
+        "Q117",
+        "Q127",
+        "Q137",
+        "D107",
+        "D117",
+        "D127"
+      ]
+    },
+    {
+      "channel": 8,
+      "components_checked": [
+        "R1210",
+        "R1211",
+        "R1212",
+        "R1213",
+        "R1214",
+        "R1215",
+        "R1216",
+        "R1217",
+        "R1218",
+        "R1219",
+        "R1220",
+        "R1221",
+        "R1222",
+        "R1223",
+        "R1224",
+        "R1225",
+        "R1226",
+        "R1227",
+        "R1228",
+        "R1229",
+        "R1230",
+        "Q108",
+        "Q118",
+        "Q128",
+        "Q138",
+        "D108",
+        "D118",
+        "D128"
+      ]
+    },
+    {
+      "channel": 9,
+      "components_checked": [
+        "R1240",
+        "R1241",
+        "R1242",
+        "R1243",
+        "R1244",
+        "R1245",
+        "R1246",
+        "R1247",
+        "R1248",
+        "R1249",
+        "R1250",
+        "R1251",
+        "R1252",
+        "R1253",
+        "R1254",
+        "R1255",
+        "R1256",
+        "R1257",
+        "R1258",
+        "R1259",
+        "R1260",
+        "Q109",
+        "Q119",
+        "Q129",
+        "Q139",
+        "D109",
+        "D119",
+        "D129"
+      ]
+    }
+  ],
+  "model_basis": {
+    "passives": "Native netlist, actual values; exact ideal resistor/capacitor analysis.",
+    "opamp": "DC: centered gain100 plus idealreferencefollower is deliberately used to improve convergence; not a precision device corner model. Dynamic: approximateAol100k,GBW1.2MHz,slew0.5V/us,output50\u03a9/currentlimit5mA; actualnative10k/100nIN+ filter and10k/100nlocalIN\u2212feedback. BJTs/FETs/diodes remaingeneric.",
+    "semiconductors": "Generic Gummel-Poon MJD350/MMBT3904; generic level-1 AO3401. Datasheet-typical645pF gate capacitance, parameter variations illustrative only. BAS21 generic diode; separate leakage injection tests.",
+    "comparator": "Behavioral open collector,120mVnominalLOW,200uV transition band. No propagation-time guarantee.",
+    "limits": "Simulation is nominal/illustrative evidence; temperature changes generic models and does not establish manufacturer corner behavior."
+  },
+  "dc": {
+    "open": {
+      "field_v": 4.39403612,
+      "sense_v": 0.0972057248,
+      "contact_n_v": 3.2840657,
+      "fault_v": 0.123176823,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 4.8911363,
+      "base_v": 4.17693629,
+      "uv_emitter_v": 0.471434483,
+      "uv_sense_v": 0.942858621,
+      "ref_v": 4.33378654,
+      "amp_out_v": 10.2829755,
+      "wetting_ma": 0.0127016379,
+      "pnp_power_w": 1.36266854e-07,
+      "r33_power_w": 0.000359130493,
+      "driver_current_ma": 4.16369417,
+      "local_reference_v": 4.33378654
+    },
+    "closed_0p1ohm": {
+      "field_v": 0.00203171299,
+      "sense_v": 0.000417406971,
+      "contact_n_v": 0.12317621,
+      "fault_v": 0.123176823,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 4.333695,
+      "base_v": 3.6001452,
+      "uv_emitter_v": 0.450622736,
+      "uv_sense_v": 0.937655684,
+      "ref_v": 4.33378654,
+      "amp_out_v": 0.690317059,
+      "wetting_ma": 20.316765800000002,
+      "pnp_power_w": 0.0710959481,
+      "r33_power_w": 0.0134534047,
+      "driver_current_ma": 1.60730626,
+      "local_reference_v": 4.33378654
+    },
+    "closed_10ohm": {
+      "field_v": 0.20316514,
+      "sense_v": 0.000499798879,
+      "contact_n_v": 0.12317621,
+      "fault_v": 0.123176823,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 4.3336951,
+      "base_v": 3.60011018,
+      "uv_emitter_v": 0.468893628,
+      "uv_sense_v": 0.942223407,
+      "ref_v": 4.33378654,
+      "amp_out_v": 0.690326889,
+      "wetting_ma": 20.316481800000002,
+      "pnp_power_w": 0.0670086537,
+      "r33_power_w": 0.0134534007,
+      "driver_current_ma": 1.60762224,
+      "local_reference_v": 4.33378654
+    },
+    "plus100": {
+      "field_v": 100.0,
+      "sense_v": 2.2062812,
+      "contact_n_v": 3.29455861,
+      "fault_v": 0.123176823,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 4.89152188,
+      "base_v": 4.17734893,
+      "uv_emitter_v": 0.471439946,
+      "uv_sense_v": 0.942859987,
+      "ref_v": 4.33378654,
+      "amp_out_v": 10.2829755,
+      "wetting_ma": -1.9511928e-07,
+      "pnp_power_w": 0.0,
+      "r33_power_w": 0.000356591011,
+      "driver_current_ma": 4.1641063,
+      "local_reference_v": 4.33378654
+    },
+    "minus100": {
+      "field_v": -100.0,
+      "sense_v": 0.000416024628,
+      "contact_n_v": 0.12317621,
+      "fault_v": 3.3,
+      "uv_gate_v": -0.644364162,
+      "emitter_v": 5.0,
+      "base_v": 4.99978984,
+      "uv_emitter_v": -0.654189709,
+      "uv_sense_v": 0.661452573,
+      "ref_v": 4.33378654,
+      "amp_out_v": 10.282997,
+      "wetting_ma": 1.04981824e-07,
+      "pnp_power_w": 1.10211658e-08,
+      "r33_power_w": -4.7878024e-21,
+      "driver_current_ma": 4.9855407199999995,
+      "local_reference_v": 4.33378654
+    }
+  },
+  "negative_sweep": {
+    "nominal": {
+      "peak_power_point": {
+        "field_v": -10.5,
+        "sense_v": 0.000416631165,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": 4.07484027,
+        "emitter_v": 4.33411984,
+        "base_v": 3.60235477,
+        "uv_emitter_v": -0.542935614,
+        "uv_sense_v": 0.689266096,
+        "ref_v": 4.33378654,
+        "amp_out_v": 0.732261365,
+        "wetting_ma": 20.3174968,
+        "pnp_power_w": 0.284482115,
+        "r33_power_w": 0.0134362543,
+        "driver_current_ma": 3.1959276599999997,
+        "local_reference_v": 4.33378654
+      },
+      "first_under_1ma_field_v": -10.6,
+      "minus100": {
+        "field_v": -100.0,
+        "sense_v": 0.000416024628,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.644364162,
+        "emitter_v": 5.0,
+        "base_v": 4.99978984,
+        "uv_emitter_v": -0.654189709,
+        "uv_sense_v": 0.661452573,
+        "ref_v": 4.33378654,
+        "amp_out_v": 10.282997,
+        "wetting_ma": 1.04992228e-07,
+        "pnp_power_w": 1.10210557e-08,
+        "r33_power_w": 2.02396093e-22,
+        "driver_current_ma": 4.9855407199999995,
+        "local_reference_v": 4.33378654
+      }
+    },
+    "low_gain": {
+      "peak_power_point": {
+        "field_v": -12.8,
+        "sense_v": 0.000416615578,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": 3.68896523,
+        "emitter_v": 4.33378242,
+        "base_v": 3.60237489,
+        "uv_emitter_v": -0.552048351,
+        "uv_sense_v": 0.686987912,
+        "ref_v": 4.33378654,
+        "amp_out_v": 0.698961754,
+        "wetting_ma": 20.3305486,
+        "pnp_power_w": 0.331417195,
+        "r33_power_w": 0.0134498748,
+        "driver_current_ma": 1.89727069,
+        "local_reference_v": 4.33378654
+      },
+      "first_under_1ma_field_v": -13.0,
+      "minus100": {
+        "field_v": -100.0,
+        "sense_v": 0.000416024628,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.635459372,
+        "emitter_v": 5.0,
+        "base_v": 4.99977002,
+        "uv_emitter_v": -0.646183818,
+        "uv_sense_v": 0.663454046,
+        "ref_v": 4.33378654,
+        "amp_out_v": 10.282997,
+        "wetting_ma": 1.0499222000000001e-07,
+        "pnp_power_w": 1.10210548e-08,
+        "r33_power_w": 2.02416474e-22,
+        "driver_current_ma": 4.98552092,
+        "local_reference_v": 4.33378654
+      }
+    },
+    "cold_low_gain": {
+      "peak_power_point": {
+        "field_v": -14.2,
+        "sense_v": 0.000417283597,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": 3.61211284,
+        "emitter_v": 4.33489803,
+        "base_v": 3.50394077,
+        "uv_emitter_v": -0.692979906,
+        "uv_sense_v": 0.651755023,
+        "ref_v": 4.33378654,
+        "amp_out_v": 0.810542978,
+        "wetting_ma": 20.2979398,
+        "pnp_power_w": 0.357576438,
+        "r33_power_w": 0.0134048677,
+        "driver_current_ma": 1.8336000600000002,
+        "local_reference_v": 4.33378654
+      },
+      "first_under_1ma_field_v": -14.4,
+      "minus100": {
+        "field_v": -100.0,
+        "sense_v": 0.000416702134,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.756159704,
+        "emitter_v": 5.0,
+        "base_v": 4.99984386,
+        "uv_emitter_v": -0.764604107,
+        "uv_sense_v": 0.633848973,
+        "ref_v": 4.33378654,
+        "amp_out_v": 10.285193,
+        "wetting_ma": 1.04735426e-07,
+        "pnp_power_w": 1.09695158e-08,
+        "r33_power_w": 1.99641775e-22,
+        "driver_current_ma": 4.98871605,
+        "local_reference_v": 4.33378654
+      }
+    },
+    "hot": {
+      "peak_power_point": {
+        "field_v": -9.2,
+        "sense_v": 0.00034465343,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": 4.15585403,
+        "emitter_v": 4.33285618,
+        "base_v": 3.69025625,
+        "uv_emitter_v": -0.414147971,
+        "uv_sense_v": 0.721463007,
+        "ref_v": 4.33378654,
+        "amp_out_v": 0.606245144,
+        "wetting_ma": 20.3546506,
+        "pnp_power_w": 0.260097305,
+        "r33_power_w": 0.0134872991,
+        "driver_current_ma": 2.17805215,
+        "local_reference_v": 4.33378654
+      },
+      "first_under_1ma_field_v": -9.4,
+      "minus100": {
+        "field_v": -100.0,
+        "sense_v": 0.000344038067,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.53858441,
+        "emitter_v": 5.0,
+        "base_v": 4.9997244,
+        "uv_emitter_v": -0.550201261,
+        "uv_sense_v": 0.687449685,
+        "ref_v": 4.33378654,
+        "amp_out_v": 10.2810271,
+        "wetting_ma": 1.44252626e-07,
+        "pnp_power_w": 1.51464194e-08,
+        "r33_power_w": 3.46153981e-20,
+        "driver_current_ma": 4.98280223,
+        "local_reference_v": 4.33378654
+      }
+    }
+  },
+  "transients": {
+    "open_to_minus100_nominal": {
+      "time_to_under_1ma_us": 5.650749999999878,
+      "peak_pnp_power_w": 4.08936873,
+      "peak_wetting_ma": 39.7777691,
+      "peak_r33_power_w": 0.0508632272,
+      "pnp_energy_j": 2.1934674967286795e-05,
+      "final": {
+        "field_v": -99.9999997,
+        "sense_v": 0.000416073964,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.644364162,
+        "emitter_v": 4.99983635,
+        "base_v": 4.99978984,
+        "uv_emitter_v": -0.654189709,
+        "uv_sense_v": 0.661452573,
+        "ref_v": 4.33375935,
+        "amp_out_v": 10.282997,
+        "wetting_ma": 2.29398722e-07,
+        "pnp_power_w": 2.40716617e-08,
+        "r33_power_w": 8.11509811e-10,
+        "driver_current_ma": 4.9855407199999995,
+        "local_reference_v": 4.3337773
+      }
+    },
+    "open_to_minus100_slow_detector_cap5": {
+      "time_to_under_1ma_us": 21.14504000000003,
+      "peak_pnp_power_w": 7.49349516,
+      "peak_wetting_ma": 71.7929307,
+      "peak_r33_power_w": 0.0647880438,
+      "pnp_energy_j": 9.181597919147243e-05,
+      "final": {
+        "field_v": -99.9999997,
+        "sense_v": 0.00041674732,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.756159704,
+        "emitter_v": 4.99981411,
+        "base_v": 4.99984386,
+        "uv_emitter_v": -0.764604107,
+        "uv_sense_v": 0.633848973,
+        "ref_v": 4.33375934,
+        "amp_out_v": 10.2851929,
+        "wetting_ma": 2.1307755599999997e-07,
+        "pnp_power_w": 2.23080564e-08,
+        "r33_power_w": 1.04707632e-09,
+        "driver_current_ma": 4.98871605,
+        "local_reference_v": 4.33377664
+      }
+    },
+    "open_to_minus100_high_pnp_gain": {
+      "time_to_under_1ma_us": 19.65780000000002,
+      "peak_pnp_power_w": 7.49288139,
+      "peak_wetting_ma": 71.6839215,
+      "peak_r33_power_w": 0.0515864492,
+      "pnp_energy_j": 7.697351975971866e-05,
+      "final": {
+        "field_v": -99.9999997,
+        "sense_v": 0.000416073964,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.635459372,
+        "emitter_v": 4.99981536,
+        "base_v": 4.99977002,
+        "uv_emitter_v": -0.646183818,
+        "uv_sense_v": 0.663454046,
+        "ref_v": 4.33375935,
+        "amp_out_v": 10.282997,
+        "wetting_ma": 2.31842989e-07,
+        "pnp_power_w": 2.43280322e-08,
+        "r33_power_w": 1.03309009e-09,
+        "driver_current_ma": 4.98552092,
+        "local_reference_v": 4.33377758
+      }
+    },
+    "contact_open_close_open": {
+      "0.0009": {
+        "field_v": 4.39396571,
+        "sense_v": 0.0972040768,
+        "contact_n_v": 3.28406569,
+        "fault_v": 0.123176823,
+        "uv_gate_v": 4.99999959,
+        "emitter_v": 4.89106514,
+        "base_v": 4.17686623,
+        "uv_emitter_v": 0.471434493,
+        "uv_sense_v": 0.942858623,
+        "ref_v": 4.33377087,
+        "amp_out_v": 10.2829754,
+        "wetting_ma": 0.0127014113,
+        "pnp_power_w": 1.36264355e-07,
+        "r33_power_w": 0.00035960008,
+        "driver_current_ma": 4.1636242,
+        "local_reference_v": 4.33378079
+      },
+      "0.0299": {
+        "field_v": 0.00205186078,
+        "sense_v": 0.000417407314,
+        "contact_n_v": 0.12317621,
+        "fault_v": 0.123176823,
+        "uv_gate_v": 4.99999932,
+        "emitter_v": 4.33374997,
+        "base_v": 3.60020416,
+        "uv_emitter_v": 0.450625181,
+        "uv_sense_v": 0.937656295,
+        "ref_v": 4.33374306,
+        "amp_out_v": 0.690314676,
+        "wetting_ma": 20.3150892,
+        "pnp_power_w": 0.0710909668,
+        "r33_power_w": 0.0134511849,
+        "driver_current_ma": 1.60723056,
+        "local_reference_v": 4.33374293
+      }
+    }
+  },
+  "power_sequences": {
+    "all_off_neg": {
+      "field_v": -100.0,
+      "sense_v": -1.3554141e-06,
+      "contact_n_v": -6.74335374e-09,
+      "fault_v": 0.0,
+      "uv_gate_v": -0.65237917,
+      "emitter_v": -5.40980613e-13,
+      "base_v": -9.99715051e-08,
+      "uv_emitter_v": -0.66006955,
+      "uv_sense_v": -0.165017387,
+      "ref_v": 9.22863318e-143,
+      "amp_out_v": 6.90002337e-18,
+      "wetting_ma": 9.999298670000001e-08,
+      "pnp_power_w": 9.9964312e-09,
+      "r33_power_w": -7.5813734e-20,
+      "driver_current_ma": 7.51539662e-16,
+      "local_reference_v": -1.23854518e-125
+    },
+    "all_off_pos": {
+      "field_v": 100.0,
+      "sense_v": 2.19540036,
+      "contact_n_v": 0.0109223898,
+      "fault_v": 0.0,
+      "uv_gate_v": 3.00395597e-13,
+      "emitter_v": 4.31558681e-09,
+      "base_v": 6.69409116e-08,
+      "uv_emitter_v": 1.14285664e-05,
+      "uv_sense_v": 2.85714161e-06,
+      "ref_v": 6.73204948e-117,
+      "amp_out_v": 1.0109314e-14,
+      "wetting_ma": -1.9975437299999998e-07,
+      "pnp_power_w": 4.90661103e-11,
+      "r33_power_w": 5.64372409e-19,
+      "driver_current_ma": 6.148440210000001e-13,
+      "local_reference_v": -7.27563257e-100
+    },
+    "logic_off_12_on_neg": {
+      "field_v": -100.0,
+      "sense_v": -1.3554141e-06,
+      "contact_n_v": -6.74335374e-09,
+      "fault_v": 0.0,
+      "uv_gate_v": -0.65237917,
+      "emitter_v": -5.40980623e-13,
+      "base_v": -9.99476177e-08,
+      "uv_emitter_v": -0.66006955,
+      "uv_sense_v": -0.165017387,
+      "ref_v": 0.02,
+      "amp_out_v": 0.02,
+      "wetting_ma": 9.999298569999999e-08,
+      "pnp_power_w": 9.99643099e-09,
+      "r33_power_w": -7.57777256e-20,
+      "driver_current_ma": -2.3887449000000002e-11,
+      "local_reference_v": 0.02
+    },
+    "logic_off_12_on_pos": {
+      "field_v": 100.0,
+      "sense_v": 2.19540036,
+      "contact_n_v": 0.0109223898,
+      "fault_v": 0.0,
+      "uv_gate_v": 3.00395597e-13,
+      "emitter_v": 4.31558667e-09,
+      "base_v": 6.68449162e-08,
+      "uv_emitter_v": 1.14285664e-05,
+      "uv_sense_v": 2.85714161e-06,
+      "ref_v": 0.02,
+      "amp_out_v": 0.02,
+      "wetting_ma": -1.9975437299999998e-07,
+      "pnp_power_w": 4.9066108e-11,
+      "r33_power_w": 5.64372373e-19,
+      "driver_current_ma": -2.38891014e-11,
+      "local_reference_v": 0.02
+    },
+    "12_off_logic_on_neg": {
+      "field_v": -100.0,
+      "sense_v": 0.0111251816,
+      "contact_n_v": 3.28363744,
+      "fault_v": 3.3,
+      "uv_gate_v": -0.644364211,
+      "emitter_v": 5.0,
+      "base_v": 5.0,
+      "uv_emitter_v": -0.654189709,
+      "uv_sense_v": 0.661452573,
+      "ref_v": -5.74889517e-60,
+      "amp_out_v": 2.50166665e-10,
+      "wetting_ma": 1.04987196e-07,
+      "pnp_power_w": 1.10200015e-08,
+      "r33_power_w": 2.02332966e-22,
+      "driver_current_ma": 1.0013833000000001e-08,
+      "local_reference_v": 7.19810458e-43
+    },
+    "12_off_logic_on_pos": {
+      "field_v": 100.0,
+      "sense_v": 2.2062812,
+      "contact_n_v": 3.29455861,
+      "fault_v": 3.3,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 5.0,
+      "base_v": 5.00000005,
+      "uv_emitter_v": 0.471439946,
+      "uv_sense_v": 0.942859987,
+      "ref_v": -3.28471297e-55,
+      "amp_out_v": 2.50166668e-10,
+      "wetting_ma": -1.94755126e-07,
+      "pnp_power_w": 4.77131234e-11,
+      "r33_power_w": 5.15951903e-19,
+      "driver_current_ma": 1.00138322e-08,
+      "local_reference_v": 5.86543397e-38
+    },
+    "3v3_off_neg": {
+      "field_v": -100.0,
+      "sense_v": -1.3554141e-06,
+      "contact_n_v": -6.74335374e-09,
+      "fault_v": 0.0,
+      "uv_gate_v": -0.645288785,
+      "emitter_v": 5.0,
+      "base_v": 4.99978988,
+      "uv_emitter_v": -0.655035988,
+      "uv_sense_v": -0.163758997,
+      "ref_v": 4.33378654,
+      "amp_out_v": 10.282997,
+      "wetting_ma": 1.04981823e-07,
+      "pnp_power_w": 1.10211655e-08,
+      "r33_power_w": -4.78782385e-21,
+      "driver_current_ma": 4.985540759999999,
+      "local_reference_v": 4.33378654
+    },
+    "3v3_off_pos": {
+      "field_v": 100.0,
+      "sense_v": 2.19540036,
+      "contact_n_v": 0.0109223898,
+      "fault_v": 0.0,
+      "uv_gate_v": 4.99999932,
+      "emitter_v": 4.89152188,
+      "base_v": 4.17734893,
+      "uv_emitter_v": 1.14291664e-05,
+      "uv_sense_v": 2.85729161e-06,
+      "ref_v": 4.33378654,
+      "amp_out_v": 10.2829755,
+      "wetting_ma": -1.9511928e-07,
+      "pnp_power_w": 0.0,
+      "r33_power_w": 0.000356591011,
+      "driver_current_ma": 4.1641063,
+      "local_reference_v": 4.33378654
+    },
+    "5_off_neg": {
+      "field_v": -100.0,
+      "sense_v": 0.000416024628,
+      "contact_n_v": 0.12317621,
+      "fault_v": 3.3,
+      "uv_gate_v": -0.651678714,
+      "emitter_v": -5.40979226e-13,
+      "base_v": -9.99474446e-08,
+      "uv_emitter_v": -0.659374481,
+      "uv_sense_v": 0.66015638,
+      "ref_v": 0.02,
+      "amp_out_v": 0.02,
+      "wetting_ma": 9.99929854e-08,
+      "pnp_power_w": 9.99643093e-09,
+      "r33_power_w": -7.93978435e-20,
+      "driver_current_ma": -2.38873665e-11,
+      "local_reference_v": 0.02
+    },
+    "5_off_pos": {
+      "field_v": 100.0,
+      "sense_v": 2.2062812,
+      "contact_n_v": 3.29455861,
+      "fault_v": 0.123176823,
+      "uv_gate_v": 6.7984893e-10,
+      "emitter_v": 4.31558667e-09,
+      "base_v": 6.68449162e-08,
+      "uv_emitter_v": 0.471439946,
+      "uv_sense_v": 0.942859986,
+      "ref_v": 0.02,
+      "amp_out_v": 0.02,
+      "wetting_ma": -1.9975437299999998e-07,
+      "pnp_power_w": 4.9066108e-11,
+      "r33_power_w": 5.64372373e-19,
+      "driver_current_ma": -2.38891014e-11,
+      "local_reference_v": 0.02
+    },
+    "all_off_leak10u_-100": {
+      "field_v": -100.0,
+      "sense_v": -0.0677720605,
+      "contact_n_v": -0.00033717443,
+      "fault_v": 0.0,
+      "uv_gate_v": -0.65237917,
+      "emitter_v": -5.40980613e-13,
+      "base_v": -9.99715051e-08,
+      "uv_emitter_v": -0.66006955,
+      "uv_sense_v": -0.165017387,
+      "ref_v": 9.22863318e-143,
+      "amp_out_v": 6.90002337e-18,
+      "wetting_ma": 9.999298670000001e-08,
+      "pnp_power_w": 9.9964312e-09,
+      "r33_power_w": -7.5813734e-20,
+      "driver_current_ma": 7.51539662e-16,
+      "local_reference_v": -1.23854518e-125
+    },
+    "all_off_leak10u_100": {
+      "field_v": 100.0,
+      "sense_v": 2.19540036,
+      "contact_n_v": 0.0109223898,
+      "fault_v": 0.0,
+      "uv_gate_v": 6.7991512e-10,
+      "emitter_v": 0.000216179853,
+      "base_v": 0.00334119458,
+      "uv_emitter_v": 0.571439763,
+      "uv_sense_v": 0.142859941,
+      "ref_v": 4.02949208e-129,
+      "amp_out_v": 1.96180505e-13,
+      "wetting_ma": -0.0100001995,
+      "pnp_power_w": 5.28714794e-06,
+      "r33_power_w": 1.4161736e-09,
+      "driver_current_ma": 8.81607795e-12,
+      "local_reference_v": -3.59519615e-112
+    },
+    "startup_12_last_-100": {
+      "peak_pnp_power_w": 1.70069003e-07,
+      "minimum_sense_v": 0.000416024628,
+      "minimum_uv_sense_v": 0.661452362,
+      "minimum_local_reference_v": -9.95140688e-12,
+      "peak_wetting_ma": 1.6203045e-06,
+      "final": {
+        "field_v": -100.0,
+        "sense_v": 0.000416024628,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.644364162,
+        "emitter_v": 4.9996998,
+        "base_v": 4.99978984,
+        "uv_emitter_v": -0.654189709,
+        "uv_sense_v": 0.661452573,
+        "ref_v": 1.45553461,
+        "amp_out_v": 10.2792313,
+        "wetting_ma": 1.07019593e-07,
+        "pnp_power_w": 1.12337471e-08,
+        "r33_power_w": 2.73093603e-09,
+        "driver_current_ma": 4.98553835,
+        "local_reference_v": 2.22577052
+      }
+    },
+    "startup_12_last_100": {
+      "peak_pnp_power_w": 8.08699053e-07,
+      "minimum_sense_v": 2.2062812,
+      "minimum_uv_sense_v": 0.942859987,
+      "minimum_local_reference_v": -9.97277856e-12,
+      "peak_wetting_ma": 0.00401927566,
+      "final": {
+        "field_v": 100.0,
+        "sense_v": 2.2062812,
+        "contact_n_v": 3.29455861,
+        "fault_v": 0.123176823,
+        "uv_gate_v": 5.00000032,
+        "emitter_v": 4.89126121,
+        "base_v": 4.17709228,
+        "uv_emitter_v": 0.471439946,
+        "uv_sense_v": 0.942859987,
+        "ref_v": 1.4553058,
+        "amp_out_v": 10.2790973,
+        "wetting_ma": -1.9498658699999998e-07,
+        "pnp_power_w": 0.0,
+        "r33_power_w": 0.000358306796,
+        "driver_current_ma": 4.16384787,
+        "local_reference_v": 2.24851765
+      }
+    },
+    "startup_logic_last_-100": {
+      "peak_pnp_power_w": 2.0590806e-06,
+      "minimum_sense_v": -1.3554141e-06,
+      "minimum_uv_sense_v": -0.165017388,
+      "minimum_local_reference_v": 0.0,
+      "peak_wetting_ma": 1.98840773e-05,
+      "final": {
+        "field_v": -100.0,
+        "sense_v": 0.000416024628,
+        "contact_n_v": 0.12317621,
+        "fault_v": 3.3,
+        "uv_gate_v": -0.644364162,
+        "emitter_v": 4.99860498,
+        "base_v": 4.99978984,
+        "uv_emitter_v": -0.654189709,
+        "uv_sense_v": 0.661452573,
+        "ref_v": 1.49920307,
+        "amp_out_v": 10.2684469,
+        "wetting_ma": 1.49397225e-07,
+        "pnp_power_w": 1.56795537e-08,
+        "r33_power_w": 5.89717075e-08,
+        "driver_current_ma": 4.98553159,
+        "local_reference_v": 4.47530332
+      }
+    },
+    "startup_logic_last_100": {
+      "peak_pnp_power_w": 1.14527021e-08,
+      "minimum_sense_v": 2.19540036,
+      "minimum_uv_sense_v": 2.85714161e-06,
+      "minimum_local_reference_v": 0.0,
+      "peak_wetting_ma": 9.88749781e-05,
+      "final": {
+        "field_v": 100.0,
+        "sense_v": 2.2062812,
+        "contact_n_v": 3.29455861,
+        "fault_v": 0.123176823,
+        "uv_gate_v": 5.00000395,
+        "emitter_v": 4.89024736,
+        "base_v": 4.17609472,
+        "uv_emitter_v": 0.471439946,
+        "uv_sense_v": 0.942859987,
+        "ref_v": 1.49770761,
+        "amp_out_v": 10.1146603,
+        "wetting_ma": -1.94500184e-07,
+        "pnp_power_w": 0.0,
+        "r33_power_w": 0.000365019478,
+        "driver_current_ma": 4.16275879,
+        "local_reference_v": 4.47107708
+      }
+    }
+  },
+  "qualification": [
+    "Original direct-emitter loop had inadequate illustrativephase margin. Finalnative10k/100n emitter filter plus localcompensation settles in nonlinearandindependentAC tests. Physicalstability/corners remainqualification.",
+    "UV transistor gain at sub-mA current/cold temperature and AO3401 capacitance have no guaranteed matching corner, so the simulated quench times are not formal worst-case bounds.",
+    "Hot powered-off leakage and logic-rail backpower must be measured with rails discharged and floating; ideal supply sources clamp rails in these tests.",
+    "Only 12V-on comparator cases have valid input common-mode operation; logic-powered/12V-off positive faults exceed comparator supply common mode even if below absolute input voltage.",
+    "Compare actual MJD350 SOA against prototype peak current/time and qualify short R33 overload; no routing thermal validation exists.",
+    "Expansion role clamp and multi-board open NC-loop voltage must be checked with all receivers and independent module supplies."
+  ],
+  "loop_stability": {
+    "actual_topology_nominal": {
+      "steady_window_s": [
+        0.025,
+        0.029
+      ],
+      "wetting_min_ma": 20.315091600000002,
+      "wetting_max_ma": 20.315132199999997,
+      "status": "nominal_model_settled"
+    },
+    "compensation_candidate": {
+      "not_in_audited_netlist": false,
+      "connection": "Implemented native10k/100nOUT\u2192localIN\u2212feedback and10k/100n emitter\u2192IN+filter, withbuffered200\u03a9/10\u00b5Fglobalreference andBAT54guards.",
+      "shared_reference_coupling": "Finalall9simultaneous-contact model is included; common reference is instantiatedonce."
+    },
+    "candidate_runs": {
+      "nominal": {
+        "wetting_min_ma": 20.315091600000002,
+        "wetting_max_ma": 20.315132199999997,
+        "status": "settled_or_still_settling_illustrative_model",
+        "peak_after_1us_ma": 39.081330099999995
+      },
+      "cold_beta30": {
+        "wetting_min_ma": 19.846777799999998,
+        "wetting_max_ma": 19.847026800000002,
+        "status": "settled_or_still_settling_illustrative_model",
+        "peak_after_1us_ma": 32.423935
+      },
+      "beta240": {
+        "wetting_min_ma": 20.435561,
+        "wetting_max_ma": 20.435600299999997,
+        "status": "settled_or_still_settling_illustrative_model",
+        "peak_after_1us_ma": 39.886022
+      }
+    },
+    "candidate_runs_note": "These use the actual finalnativecompensation; earlierfilenameprefix does not imply10nF wasused."
+  },
+  "backup_limiter_candidate": {
+    "connection": "MMBT3906 E=5V, C=main PNP BASE; base midpoint of two1k resistors from5V to main PNP EMITTER; includes1k-divider bypass contribution.",
+    "illustrative_cases": {
+      "limiter_m40_30": {
+        "dc_wetting_ma": 19.810068,
+        "late_min_ma": 19.846777799999998,
+        "late_max_ma": 19.847026800000002,
+        "peak_after_first_1us_ma": 32.423935
+      },
+      "limiter_m40_100": {
+        "dc_wetting_ma": 20.280883199999998,
+        "late_min_ma": 20.3147967,
+        "late_max_ma": 20.314837400000002,
+        "peak_after_first_1us_ma": 42.856432399999996
+      },
+      "limiter_m40_240": {
+        "dc_wetting_ma": 20.402305499999997,
+        "late_min_ma": 20.4354152,
+        "late_max_ma": 20.4354518,
+        "peak_after_first_1us_ma": 45.1922813
+      },
+      "limiter_27_30": {
+        "dc_wetting_ma": 19.8451977,
+        "late_min_ma": 19.847605,
+        "late_max_ma": 19.847663700000002,
+        "peak_after_first_1us_ma": 33.897390800000004
+      },
+      "limiter_27_100": {
+        "dc_wetting_ma": 20.316765800000002,
+        "late_min_ma": 20.315091600000002,
+        "late_max_ma": 20.315132199999997,
+        "peak_after_first_1us_ma": 39.081330099999995
+      },
+      "limiter_27_240": {
+        "dc_wetting_ma": 20.4384251,
+        "late_min_ma": 20.435561,
+        "late_max_ma": 20.435600299999997,
+        "peak_after_first_1us_ma": 39.886022
+      },
+      "limiter_85_30": {
+        "dc_wetting_ma": 19.876657700000003,
+        "late_min_ma": 19.8483764,
+        "late_max_ma": 19.8484229,
+        "peak_after_first_1us_ma": 31.5240387
+      },
+      "limiter_85_100": {
+        "dc_wetting_ma": 20.349034500000002,
+        "late_min_ma": 20.315359,
+        "late_max_ma": 20.315398599999998,
+        "peak_after_first_1us_ma": 34.0230617
+      },
+      "limiter_85_240": {
+        "dc_wetting_ma": 20.4709207,
+        "late_min_ma": 20.4356943,
+        "late_max_ma": 20.4357329,
+        "peak_after_first_1us_ma": 34.5653587
+      },
+      "negative_fault_nominal": {
+        "time_to_under1ma_us": 5.650749999999878,
+        "peak_current_ma": 39.7777691,
+        "peak_pnp_power_w": 4.08936873,
+        "peak_r33_power_w": 0.0508632272
+      },
+      "negative_fault_cold_slow": {
+        "time_to_under1ma_us": 21.14504000000003,
+        "peak_current_ma": 71.7929307,
+        "peak_pnp_power_w": 7.49349516,
+        "peak_r33_power_w": 0.0647880438
+      },
+      "negative_fault_high_gain": {
+        "time_to_under1ma_us": 19.65780000000002,
+        "peak_current_ma": 71.6839215,
+        "peak_pnp_power_w": 7.49288139,
+        "peak_r33_power_w": 0.0515864492
+      }
+    },
+    "implemented_in_netlist": true
+  },
+  "provenance": {
+    "numeric_run_netlist_sha256": "823b9b6ed288bac1c514f60eeb091e8db9304aa2299d878968ed289e02727007",
+    "final_project_netlist_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+    "final_components": 577,
+    "same_analog_fixture_verified": true,
+    "note": "Laterdigitalstartup/debugisolation changes leave the tested native analogdeckidentical. Finalall9connectivityauditrerun."
+  },
+  "nine_simultaneous_contact_test": {
+    "case": "nine_final",
+    "topology": "Verified repeated native cells, shared reference instantiated once, all nine emitter filters and UV capacitors included from current export.",
+    "native_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2",
+    "native_components": 577,
+    "native_emitter_filter": true,
+    "native_uv_caps": true,
+    "native_node_maps": [
+      {
+        "channel": 1,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 2,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 3,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 4,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 5,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 6,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 7,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 8,
+        "native_node_map_entries": 23
+      },
+      {
+        "channel": 9,
+        "native_node_map_entries": 23
+      }
+    ],
+    "window_s": [
+      0.025,
+      0.029
+    ],
+    "channels": {
+      "1": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "2": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "3": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "4": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "5": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "6": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "7": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "8": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      },
+      "9": {
+        "late_min_ma": 20.3156263,
+        "late_max_ma": 20.318101000000002,
+        "max_after_first1us_ma": 39.0813322
+      }
+    },
+    "minimum_global_reference_v": 4.006291,
+    "minimum_local_reference_v": 3.73068624,
+    "numeric_run_netlist_sha256": "823b9b6ed288bac1c514f60eeb091e8db9304aa2299d878968ed289e02727007",
+    "same_analog_fixture_verified": true
+  },
+  "positive_edge_capacitor_evidence": {
+    "uv_cap_positive": {
+      "max_uv_emitter_V": 0.547756851,
+      "min_uv_emitter_V": 0.471434483,
+      "quench_below1mA_us": 0.10000000000005664,
+      "peak_pnp_power_W": 3.90848455e-08,
+      "peak_source_mA": 0.0045235030999999995
+    },
+    "uv_cap_negative": {
+      "max_uv_emitter_V": 0.471434501,
+      "min_uv_emitter_V": -0.654189709,
+      "quench_below1mA_us": 5.634999999999928,
+      "peak_pnp_power_W": 4.08936821,
+      "peak_source_mA": 39.7777641
+    },
+    "uv_cap_negative_coldslow": {
+      "max_uv_emitter_V": 0.471428811,
+      "min_uv_emitter_V": -0.764604107,
+      "quench_below1mA_us": 21.12568999999994,
+      "peak_pnp_power_W": 4.60337183,
+      "peak_source_mA": 44.8914319
+    }
+  },
+  "UV_threshold_ordering": {
+    "bounds": {
+      "min_trip_v": -0.19694044735375202,
+      "max_trip_v": 0.20221591725255852,
+      "minimum_healthy_margin_v": 0.029075380416468146,
+      "worst_late_parameters": [
+        [
+          1.0165,
+          0.9835,
+          1.0165,
+          1.0165,
+          1.0165,
+          0.9835
+        ],
+        3.399,
+        -0.0055,
+        5e-08,
+        0
+      ],
+      "healthy_emitter_min_v_with_1uA_leakage_envelope": 0.3214506124195388,
+      "healthy_emitter_leakage_envelope_note": "1uA is a qualificationenvelope; selectedJSCJdatasheet doesnot guarantee hotemitter-cutoffcurrent. At25C tabulatedmax100nA isstronger. Treat detectorBAS21asidealshort toward0V, making this healthyloadingbound conservative.",
+      "healthy_margin_note": "UsespositivehealthyemitterKCLbound ratherthan obsoletezero-emitterassumption."
+    },
+    "sim": {
+      "-40": {
+        "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+        "first_possible_pmos_on_field_v": -9.7,
+        "first_source_under1ma_field_v": -10.2,
+        "source_cutoff_uv_emitter_v": -0.676679571,
+        "first_flag_high_field_v": -4.5,
+        "flag_emitter_v": -0.206824143,
+        "source_off_flag_low_field_interval_v": [],
+        "healthy_fault_v": 0.123275724
+      },
+      "27": {
+        "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+        "first_possible_pmos_on_field_v": -8.6,
+        "first_source_under1ma_field_v": -8.8,
+        "source_cutoff_uv_emitter_v": -0.529222725,
+        "first_flag_high_field_v": -4.4,
+        "flag_emitter_v": -0.215554508,
+        "source_off_flag_low_field_interval_v": [],
+        "healthy_fault_v": 0.123275724
+      },
+      "85": {
+        "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+        "first_possible_pmos_on_field_v": -7.7,
+        "first_source_under1ma_field_v": -7.5,
+        "source_cutoff_uv_emitter_v": -0.396036858,
+        "first_flag_high_field_v": -4.2,
+        "flag_emitter_v": -0.20486188,
+        "source_off_flag_low_field_interval_v": [],
+        "healthy_fault_v": 0.123275724
+      }
+    }
+  },
+  "rail_monitor_evidence": {
+    "selected": "TI TLV9022DR C2871718",
+    "primary_pdf": "datasheets/TI-TLV9022.pdf",
+    "pin_map": {
+      "1": "OUT1",
+      "2": "IN1-",
+      "3": "IN1+",
+      "4": "GND",
+      "5": "IN2+",
+      "6": "IN2-",
+      "7": "OUT2",
+      "8": "VCC"
+    },
+    "datasheet_evidence": {
+      "pages": [
+        4,
+        7,
+        11,
+        16
+      ],
+      "supply_range_V": [
+        1.65,
+        5.5
+      ],
+      "offset_fulltemp_at_1p8V_and5V_mV": 2,
+      "PSRR_open_drain_dB_min": 80,
+      "common_mode_at_fulltemp_V": "V-\u22120.2 toV++0.2, at1.8V/5V",
+      "VOL_4mA_fulltemp_V": 0.175,
+      "VOL_table_supply_note": "Electricaltabledefault5V;3.3Voutputfull-temperaturecurves aretypical,notaseparateguaranteedmaximum. Actual0.73mA clearload ismuchlower.",
+      "input_bias_typ_pA": 5,
+      "input_bias_max_note": "Notabulatedfull-temperaturemax; calculationsuse1nAengineeringenvelope,requiresprototypeverification."
+    },
+    "calculation": {
+      "resistor_envelope": "+/-1% +65C*100ppm/C => +/-1.65%",
+      "logic_supply_V": [
+        3.02,
+        3.399
+      ],
+      "offset_envelope_V": 0.005,
+      "offset_note": "Conservativeengineeringenvelopeincludes2mVendpointVOS andPSRR/CMRRunbudgetedintermediatepoints;notmanufacturer3.3Vfixedmaxrow.",
+      "input_bias_envelope_A": 1e-09,
+      "5V_trip_nom_V": 4.269230769230769,
+      "12V_trip_nom_V": 8.884615384615385,
+      "5V_trip_corner_V": [
+        3.6356963516253074,
+        4.714437500766266
+      ],
+      "12V_trip_corner_V": [
+        7.553141869540416,
+        9.827587280631466
+      ],
+      "min_healthy5V_overdrive_V": 0.027468650315067348,
+      "min_healthy12V_overdrive_V": 0.10024481711117139,
+      "R150_ohm": 4700,
+      "max_clear_sink_A": 0.0007304964539007092,
+      "HC74_VIL_at3p02V_V": 0.9059999999999999
+    },
+    "qualification": [
+      "VerifyCLR_NLOWat3.02..3.40V across\u221240..85C underactualpushpullcontention.",
+      "Supplyrampandshutdown/supervisorcooperation/bothmonitorfaults.",
+      "Noformalpowerofforcompleteemergencystopcertificationfromthesespecs."
+    ]
+  },
+  "independent_loop_evidence_file": "analysis/source-loop-independent.json",
+  "manufacturer_model_integration": {
+    "source": "https://www.ti.com/lit/zip/SGLM009",
+    "file": "analysis/models/lmx24_lm2902.lib",
+    "version": "LMX24_LM2902 RevA,June24,2024",
+    "status": "unresolved_integration",
+    "attempts": [
+      "Parsed withngspicePSpicecompatibility; ordinaryOPfailednearxamp.75.",
+      "RampedUIC75mstransient exceeded60s runtimebound."
+    ],
+    "claim": "No manufacturer-macro stability pass. IndependentAC and genericnonlinear models support theimplementedfilter; physical qualification remains."
+  },
+  "simulation_warnings": [
+    {
+      "case": "contact_reopening",
+      "status": "partial_transient",
+      "last_time_s": 0.03000031,
+      "note": "Generic ngspice fixture aborted at the ideal contact-opening transition. Closure and25\u201329ms loop window completed; reopening waveform is not claimed validated. SeparateDCopen case passes."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "bounds": {
+    "min_trip_v": -0.19694044735375202,
+    "max_trip_v": 0.20221591725255852,
+    "minimum_healthy_margin_v": 0.029075380416468146,
+    "worst_late_parameters": [
+      [
+        1.0165,
+        0.9835,
+        1.0165,
+        1.0165,
+        1.0165,
+        0.9835
+      ],
+      3.399,
+      -0.0055,
+      5e-08,
+      0
+    ],
+    "healthy_emitter_min_v_with_1uA_leakage_envelope": 0.3214506124195388,
+    "healthy_emitter_leakage_envelope_note": "1uA is a qualificationenvelope; selectedJSCJdatasheet doesnot guarantee hotemitter-cutoffcurrent. At25C tabulatedmax100nA isstronger. Treat detectorBAS21asidealshort toward0V, making this healthyloadingbound conservative.",
+    "healthy_margin_note": "UsespositivehealthyemitterKCLbound ratherthan obsoletezero-emitterassumption."
+  },
+  "sim": {
+    "-40": {
+      "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+      "first_possible_pmos_on_field_v": -9.7,
+      "first_source_under1ma_field_v": -10.2,
+      "source_cutoff_uv_emitter_v": -0.676679571,
+      "first_flag_high_field_v": -4.5,
+      "flag_emitter_v": -0.206824143,
+      "source_off_flag_low_field_interval_v": [],
+      "healthy_fault_v": 0.123275724
+    },
+    "27": {
+      "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+      "first_possible_pmos_on_field_v": -8.6,
+      "first_source_under1ma_field_v": -8.8,
+      "source_cutoff_uv_emitter_v": -0.529222725,
+      "first_flag_high_field_v": -4.4,
+      "flag_emitter_v": -0.215554508,
+      "source_off_flag_low_field_interval_v": [],
+      "healthy_fault_v": 0.123275724
+    },
+    "85": {
+      "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+      "first_possible_pmos_on_field_v": -7.7,
+      "first_source_under1ma_field_v": -7.5,
+      "source_cutoff_uv_emitter_v": -0.396036858,
+      "first_flag_high_field_v": -4.2,
+      "flag_emitter_v": -0.20486188,
+      "source_off_flag_low_field_interval_v": [],
+      "healthy_fault_v": 0.123275724
+    }
+  }
+}

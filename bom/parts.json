@@ -1,0 +1,4408 @@
+{
+  "C2913198": {
+    "lcsc_code": "C2913198",
+    "lcsc_id": 2913198,
+    "mpn": "ESP32-S3-WROOM-1-N8",
+    "manufacturer": "ESPRESSIF",
+    "package": "SMD,25.5x18mm",
+    "description": "-40\u2103~+85\u2103 -98.2dBm 2.4GHz 20.5dBm 355mA 3V~3.6V 95mA Bluetooth5.0 ESP32-S3 Chip On-board PCB Antenna UART\u3001SPI\u3001I2C\u3001I2S\u3001USB SMD,25.5x18mm WiFi Modules ROHS",
+    "is_basic": false,
+    "stock": 6072,
+    "price_usd": 4.8953,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/24a44651a4767a6582addcdaa9cab2ca.pdf?productCode=C2913198",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 4.91
+      },
+      {
+        "min_qty": 10,
+        "price": 4.2345
+      },
+      {
+        "min_qty": 30,
+        "price": 3.833
+      },
+      {
+        "min_qty": 100,
+        "price": 3.4251
+      },
+      {
+        "min_qty": 650,
+        "price": 3.2391
+      },
+      {
+        "min_qty": 1300,
+        "price": 3.1542
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2913198",
+    "checked_date": "2026-10-03"
+  },
+  "C5947": {
+    "lcsc_code": "C5947",
+    "lcsc_id": 5947,
+    "mpn": "74HC595D,118",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-16",
+    "description": "-40\u2103~+125\u2103 1 100MHz 19ns@4.5V,50pF 2V~6V 74HC 8 Serial-to-Serial or Parallel Tri-State SOIC-16 Shift Registers ROHS",
+    "is_basic": true,
+    "stock": 300597,
+    "price_usd": 0.1297,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/a010531f03b3cd52f281e9270a37554f.pdf?productCode=C5947",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1164
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0924
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0801
+      },
+      {
+        "min_qty": 500,
+        "price": 0.07
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0664
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.064
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5947",
+    "checked_date": "2026-10-03"
+  },
+  "C5613": {
+    "lcsc_code": "C5613",
+    "lcsc_id": 5613,
+    "mpn": "74HC165D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-16",
+    "description": "-40\u2103~+125\u2103 1 28ns@6V,50pF 2V~6V 35MHz 500mW 74HC 8 Parallel or Serial to Serial SOIC-16 Shift Registers ROHS",
+    "is_basic": false,
+    "stock": 176023,
+    "price_usd": 0.1579,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/581a3a30f07ab5fec4b563321f834e05.pdf?productCode=C5613",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1148
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0906
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0782
+      },
+      {
+        "min_qty": 500,
+        "price": 0.068
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0645
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.062
+      }
+    ],
+    "is_preferred": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5613",
+    "checked_date": "2026-10-03"
+  },
+  "C7932": {
+    "lcsc_code": "C7932",
+    "lcsc_id": 7932,
+    "mpn": "LM2901DR",
+    "manufacturer": "TI",
+    "package": "SOIC-14",
+    "description": "-18V~-1V\u30011V~18V -40\u2103~+125\u2103 1.3us 1.3us 25nA 2V~36V 2mV 36V 5nA 800uA Four channels Open-drain Rail-to-Rail Input, Rail-to-Rail Output TTL\u3001CMOS SOIC-14 Comparators ROHS",
+    "is_basic": false,
+    "stock": 50401,
+    "price_usd": 0.1538,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/cf2c2cac7c1b4c0b845ac30a001820ed.pdf?productCode=C7932",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.2003
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1577
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1364
+      },
+      {
+        "min_qty": 500,
+        "price": 0.1204
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.1006
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0942
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C7932",
+    "checked_date": "2026-10-03"
+  },
+  "C20917": {
+    "lcsc_code": "C20917",
+    "lcsc_id": 20917,
+    "mpn": "AO3400A",
+    "manufacturer": "AOS",
+    "package": "SOT-23",
+    "description": "-55\u2103~+150\u2103 1 N-channel 1.45V 1.4W 30V 48m\u03a9@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23 MOSFETs ROHS",
+    "is_basic": true,
+    "stock": 1535925,
+    "price_usd": 0.0846,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/130876b936da464599428c58fd8de8f6.pdf?productCode=C20917",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.0898
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0724
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0634
+      },
+      {
+        "min_qty": 500,
+        "price": 0.056
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0534
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0517
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C20917",
+    "checked_date": "2026-10-03"
+  },
+  "C30431": {
+    "lcsc_code": "C30431",
+    "lcsc_id": 30431,
+    "mpn": "SRD-12VDC-SL-C",
+    "manufacturer": "Songle Relay",
+    "package": "\u63d2\u4ef6,19.2x15.6mm",
+    "description": "100m\u03a9 10ms 10ms 12V 15A 250V@AC 360mW 400\u03a9 5 Non-Polarized - Single Coil One set changeover: 1C (SPDT - changeover) \u63d2\u4ef6,19.2x15.6mm Power Relays ROHS",
+    "is_basic": false,
+    "stock": 142727,
+    "price_usd": 0.3905,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9ddfe54b7529126320ff1ddcabf6bab7.pdf?productCode=C30431",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.4417
+      },
+      {
+        "min_qty": 10,
+        "price": 0.3432
+      },
+      {
+        "min_qty": 30,
+        "price": 0.2956
+      },
+      {
+        "min_qty": 100,
+        "price": 0.2529
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2414
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2332
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C30431",
+    "checked_date": "2026-10-03"
+  },
+  "C124375": {
+    "lcsc_code": "C124375",
+    "lcsc_id": 124375,
+    "mpn": "B-2100S02P-A110",
+    "manufacturer": "Ckmtw",
+    "package": "\u63d2\u4ef6,P=2.54mm",
+    "description": "-40\u2103~+105\u2103 1 1x2P 2.54mm 2.54mm 2P 3A 3mm 6mm Black Brass Gold Pin Header Through Hole \u63d2\u4ef6,P=2.54mm Pin Headers ROHS",
+    "is_basic": false,
+    "stock": 71004,
+    "price_usd": 0.0303,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/c97166a9fa81fc94cb289f4b496e4403.pdf?productCode=C124375",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.03
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0237
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0203
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0164
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0146
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0136
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C124375",
+    "checked_date": "2026-10-03"
+  },
+  "C124376": {
+    "lcsc_code": "C124376",
+    "lcsc_id": 124376,
+    "mpn": "B-2100S03P-A110",
+    "manufacturer": "Ckmtw",
+    "package": "\u63d2\u4ef6,P=2.54mm",
+    "description": "-40\u2103~+105\u2103 1 1x3P 2.54mm 2.54mm 3A 3P 3mm 6mm Black Brass Pin Header Through Hole \u63d2\u4ef6,P=2.54mm Pin Headers ROHS",
+    "is_basic": false,
+    "stock": 38557,
+    "price_usd": 0.0337,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/219f7e7eb5f34457895b2c164313179f.pdf?productCode=C124376",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0344
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0276
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0238
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0183
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0164
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0153
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C124376",
+    "checked_date": "2026-10-03"
+  },
+  "C50981": {
+    "lcsc_code": "C50981",
+    "lcsc_id": 50981,
+    "mpn": "2.54-1*20P",
+    "manufacturer": "BOOMELE(Boom Precision Elec)",
+    "package": "\u63d2\u4ef6,P=2.54mm",
+    "description": "-40\u2103~+105\u2103 1 1x20P 2.54mm 20P 3A Black Brass Pin Header Through Hole \u63d2\u4ef6,P=2.54mm Pin Headers ROHS",
+    "is_basic": false,
+    "stock": 8114,
+    "price_usd": 0.157,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/d52c83a07830c4e9e9a614accc55f5cd.pdf?productCode=C50981",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1484
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1263
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1149
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0703
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.067
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0648
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C50981",
+    "checked_date": "2026-10-03"
+  },
+  "C21565": {
+    "lcsc_code": "C21565",
+    "lcsc_id": 21565,
+    "mpn": "BAV21W",
+    "manufacturer": "JSCJ",
+    "package": "SOD-123",
+    "description": "1.25V@200mA 1.7A 100nA@200V 200V 200mA 500mW 50ns Independent SOD-123 Switching Diodes ROHS",
+    "is_basic": false,
+    "stock": 40439,
+    "price_usd": 0.0188,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/8c881b5736b843869b3a7b6f12f0bc05.pdf?productCode=C21565",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0193
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0154
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0124
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0111
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.01
+      },
+      {
+        "min_qty": 51000,
+        "price": 0.0094
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C21565",
+    "checked_date": "2026-10-03"
+  },
+  "C6186": {
+    "lcsc_code": "C6186",
+    "lcsc_id": 6186,
+    "mpn": "AMS1117-3.3",
+    "manufacturer": "Advanced Monolithic Systems",
+    "package": "SOT-223",
+    "description": "-40\u2103~+125\u2103 0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection\u3001Short Circuit Protection\u3001Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "is_basic": true,
+    "stock": 2007447,
+    "price_usd": 0.2003,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/e6935943fc6b1bbf350a1a0f3e90dc4a.pdf?productCode=C6186",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.2093
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1631
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1406
+      },
+      {
+        "min_qty": 500,
+        "price": 0.1205
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.115
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.1117
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C6186",
+    "checked_date": "2026-10-03"
+  },
+  "C25803": {
+    "lcsc_code": "C25803",
+    "lcsc_id": 25803,
+    "mpn": "0603WAF1003T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100k\u03a9 100mW 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 7990119,
+    "price_usd": 0.0016,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25803",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0031
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0016
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C25803",
+    "checked_date": "2026-10-03"
+  },
+  "C25804": {
+    "lcsc_code": "C25804",
+    "lcsc_id": 25804,
+    "mpn": "0603WAF1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "-",
+    "description": "10k\u03a9 \u00b11% 100mW 0603 Thick Film Resistor",
+    "is_basic": false,
+    "stock": 0,
+    "price_usd": 0.0019,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25804",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0019
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0012
+      }
+    ],
+    "assembly_inventory_source": "NOT CONFIRMED",
+    "checked_date": "2026-10-03"
+  },
+  "C23162": {
+    "lcsc_code": "C23162",
+    "lcsc_id": 23162,
+    "mpn": "0603WAF4701T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 4.7k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 7433362,
+    "price_usd": 0.0015,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23162",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0028
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0022
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.002
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0015
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23162",
+    "checked_date": "2026-10-03"
+  },
+  "C23212": {
+    "lcsc_code": "C23212",
+    "lcsc_id": 23212,
+    "mpn": "0603WAF6801T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 6.8k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 368873,
+    "price_usd": 0.0018,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23212",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0012
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23212",
+    "checked_date": "2026-10-03"
+  },
+  "C23137": {
+    "lcsc_code": "C23137",
+    "lcsc_id": 23137,
+    "mpn": "0603WAF3303T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 330k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 309757,
+    "price_usd": 0.0017,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23137",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.001
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0008
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0007
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23137",
+    "checked_date": "2026-10-03"
+  },
+  "C23186": {
+    "lcsc_code": "C23186",
+    "lcsc_id": 23186,
+    "mpn": "0603WAF5101T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 5.1k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 3775920,
+    "price_usd": 0.0019,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23186",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0012
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.001
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0008
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23186",
+    "checked_date": "2026-10-03"
+  },
+  "C22775": {
+    "lcsc_code": "C22775",
+    "lcsc_id": 22775,
+    "mpn": "0603WAF1000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 100\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 7325193,
+    "price_usd": 0.0023,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22775",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0032
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0025
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0022
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0016
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22775",
+    "checked_date": "2026-10-03"
+  },
+  "C22759": {
+    "lcsc_code": "C22759",
+    "lcsc_id": 22759,
+    "mpn": "",
+    "manufacturer": "",
+    "package": "-",
+    "description": "",
+    "is_basic": false,
+    "stock": 0,
+    "price_usd": 0.0,
+    "datasheet_url": "",
+    "attributes": {},
+    "prices": [],
+    "assembly_inventory_source": "NOT CONFIRMED",
+    "checked_date": "2026-10-03"
+  },
+  "C14663": {
+    "lcsc_code": "C14663",
+    "lcsc_id": 14663,
+    "mpn": "CC0603KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0603",
+    "description": "100nF 50V X7R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 12618106,
+    "price_usd": 0.0106,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C14663",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0124
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0089
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0074
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0059
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0054
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0051
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C14663",
+    "checked_date": "2026-10-03"
+  },
+  "C19702": {
+    "lcsc_code": "C19702",
+    "lcsc_id": 19702,
+    "mpn": "CL10A106KP8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0603",
+    "description": "10V 10uF X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 5302559,
+    "price_usd": 0.0824,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C19702",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0322
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0251
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0215
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0185
+      },
+      {
+        "min_qty": 8000,
+        "price": 0.0175
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0168
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C19702",
+    "checked_date": "2026-10-03"
+  },
+  "C15850": {
+    "lcsc_code": "C15850",
+    "lcsc_id": 15850,
+    "mpn": "CL21A106KAYNNNE",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "10uF 25V X5R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 3505306,
+    "price_usd": 0.0773,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C15850",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0656
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0476
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0384
+      },
+      {
+        "min_qty": 2000,
+        "price": 0.0308
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0281
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0263
+      }
+    ],
+    "value": "10uF",
+    "component_kind": "capacitor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C15850",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "datasheet_cache": "datasheets/C15850.pdf",
+    "datasheet_evidence_pages": [
+      21
+    ],
+    "datasheet_note": "Samsung MLCC family catalog; prefix entry and part-number system establish package, dielectric, voltage, value, and tolerance."
+  },
+  "C86781": {
+    "lcsc_code": "C86781",
+    "lcsc_id": 86781,
+    "mpn": "LD1117S33TR",
+    "manufacturer": "ST",
+    "package": "SOT-223",
+    "description": "0\u2103~+125\u2103@(Tj) 1 1.1V@(800mA) 100uV 15V 3.3V 5mA 75dB@(120Hz) 800mA Fixed Over Current Protection\u3001Over Temperature Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "is_basic": false,
+    "stock": 39803,
+    "price_usd": 0.1899,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/76faa2a1b148e4aa080513a637715798.pdf?productCode=C86781",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.2467
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1808
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1486
+      },
+      {
+        "min_qty": 500,
+        "price": 0.1199
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.112
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.1073
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C86781",
+    "checked_date": "2026-10-03"
+  },
+  "C2480": {
+    "lcsc_code": "C2480",
+    "lcsc_id": 2480,
+    "mpn": "SS14",
+    "manufacturer": "MDD(Microdiode Semiconductor)",
+    "package": "SMA(DO-214AC)",
+    "description": "-55\u2103~+150\u2103 1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS",
+    "is_basic": true,
+    "stock": 2818967,
+    "price_usd": 0.017,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9977bb85cd7e349115b7bcb7054cfa0d.pdf?productCode=C2480",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0192
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0153
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0135
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0097
+      },
+      {
+        "min_qty": 25000,
+        "price": 0.0091
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0088
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2480",
+    "checked_date": "2026-10-03"
+  },
+  "C29294": {
+    "lcsc_code": "C29294",
+    "lcsc_id": 29294,
+    "mpn": "",
+    "manufacturer": "",
+    "package": "-",
+    "description": "",
+    "is_basic": false,
+    "stock": 0,
+    "price_usd": 0.0,
+    "datasheet_url": "",
+    "attributes": {},
+    "prices": [],
+    "assembly_inventory_source": "NOT CONFIRMED",
+    "checked_date": "2026-10-03"
+  },
+  "C22978": {
+    "lcsc_code": "C22978",
+    "lcsc_id": 22978,
+    "mpn": "0603WAF3301T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 3.3k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 1199741,
+    "price_usd": 0.0019,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22978",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.002
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0013
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22978",
+    "checked_date": "2026-10-03"
+  },
+  "C1589": {
+    "lcsc_code": "C1589",
+    "lcsc_id": 1589,
+    "mpn": "CL10B103KB8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0603",
+    "description": "10nF 50V X7R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": false,
+    "stock": 4000,
+    "price_usd": 0.0246,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1589",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0097
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0075
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0065
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0044
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0042
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C1589",
+    "checked_date": "2026-10-03"
+  },
+  "C8678": {
+    "lcsc_code": "C8678",
+    "lcsc_id": 8678,
+    "mpn": "SS34",
+    "manufacturer": "MDD(Microdiode Semiconductor)",
+    "package": "SMA(DO-214AC)",
+    "description": "-55\u2103~+125\u2103 3A 40V 500uA@40V 550mV@3A Independent SMA(DO-214AC) Schottky Diodes ROHS",
+    "is_basic": true,
+    "stock": 3557042,
+    "price_usd": 0.0303,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/dfa1ff67dea875d0135103ba9ada713a.pdf?productCode=C8678",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0351
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0282
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0251
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0171
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0162
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0156
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C8678",
+    "checked_date": "2026-10-03"
+  },
+  "C23390": {
+    "lcsc_code": "C23390",
+    "lcsc_id": 23390,
+    "mpn": "",
+    "manufacturer": "",
+    "package": "-",
+    "description": "",
+    "is_basic": false,
+    "stock": 0,
+    "price_usd": 0.0,
+    "datasheet_url": "",
+    "attributes": {},
+    "prices": [],
+    "assembly_inventory_source": "NOT CONFIRMED",
+    "checked_date": "2026-10-03"
+  },
+  "C22427890": {
+    "lcsc_code": "C22427890",
+    "lcsc_id": 22427890,
+    "mpn": "LM2901BIDR",
+    "manufacturer": "TI",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 0.5nA 1.2mA 1us 1us 2V~36V 3.5nA 370uV 38V Four channels Open Drain SOIC-14 Comparators ROHS",
+    "is_basic": false,
+    "stock": 2406,
+    "price_usd": 0.2097,
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm2901.pdf",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.2154
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1702
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1508
+      },
+      {
+        "min_qty": 500,
+        "price": 0.1267
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.1159
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.1094
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22427890",
+    "checked_date": "2026-10-03"
+  },
+  "C15578": {
+    "lcsc_code": "C15578",
+    "lcsc_id": 15578,
+    "mpn": "TLV1117LV33DCYR",
+    "manufacturer": "TI",
+    "package": "SOT-223",
+    "description": "-40\u2103~+125\u2103@(Tj) 1 100uA 1A 3.3V 455mV@(1A) 5.5V 60uVrms 65dB@(1kHz) Fixed Positive Under Voltage Lockout\u3001Over Current Protection\u3001Over Temperature Protection SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+    "is_basic": false,
+    "stock": 1771,
+    "price_usd": 0.2776,
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/tlv1117lv.pdf",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.3926
+      },
+      {
+        "min_qty": 10,
+        "price": 0.3039
+      },
+      {
+        "min_qty": 30,
+        "price": 0.2612
+      },
+      {
+        "min_qty": 100,
+        "price": 0.2234
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2119
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2054
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C15578",
+    "checked_date": "2026-10-03"
+  },
+  "C8661": {
+    "lcsc_code": "C8661",
+    "lcsc_id": 8661,
+    "mpn": "BAS21,215",
+    "manufacturer": "Nexperia",
+    "package": "SOT-23",
+    "description": "1.25V@200mA 100nA@100V 200mA 250V 9A Independent SOT-23 Diodes - General Purpose ROHS",
+    "is_basic": false,
+    "stock": 221621,
+    "price_usd": 0.0284,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/75d45a3e45edceaa3bd611cf778a4f4a.pdf?productCode=C8661",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0204
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0158
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0133
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0111
+      },
+      {
+        "min_qty": 9000,
+        "price": 0.0098
+      },
+      {
+        "min_qty": 21000,
+        "price": 0.0091
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C8661",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "selected_or_reused"
+  },
+  "C23163": {
+    "lcsc_code": "C23163",
+    "lcsc_id": 23163,
+    "mpn": "0603WAF4704T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 4.7M\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": false,
+    "stock": 8,
+    "price_usd": 0.002,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23163",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0022
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.002
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0019
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0018
+      }
+    ],
+    "is_preferred": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23163",
+    "checked_date": "2026-10-03"
+  },
+  "C22935": {
+    "lcsc_code": "C22935",
+    "lcsc_id": 22935,
+    "mpn": "0603WAF1004T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 1M\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 2601258,
+    "price_usd": 0.0019,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22935",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.002
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0011
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.001
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22935",
+    "checked_date": "2026-10-03"
+  },
+  "C57112": {
+    "lcsc_code": "C57112",
+    "lcsc_id": 57112,
+    "mpn": "0603B103K500NT",
+    "manufacturer": "FH",
+    "package": "0603",
+    "description": "10nF 50V X7R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 2155057,
+    "price_usd": 0.0202,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/09fe2daf22580a99fa7fea93ccb20fb7.pdf?productCode=C57112",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0109
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0086
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0076
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0066
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0063
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0061
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C57112",
+    "checked_date": "2026-10-03"
+  },
+  "C15849": {
+    "lcsc_code": "C15849",
+    "lcsc_id": 15849,
+    "mpn": "CL10A105KB8NNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0603",
+    "description": "1uF 50V X5R \u00b110% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 5979916,
+    "price_usd": 0.0297,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C15849",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.017
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0134
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0117
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0105
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.01
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0097
+      }
+    ],
+    "is_preferred": false,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C15849",
+    "checked_date": "2026-10-03"
+  },
+  "C85084": {
+    "lcsc_code": "C85084",
+    "lcsc_id": 85084,
+    "mpn": "BAT54,215",
+    "manufacturer": "Nexperia",
+    "package": "SOT-23",
+    "description": "1 Independent 200mA 2uA@25V 30V 600mA 800mV@100mA SOT-23 Schottky Diodes ROHS",
+    "is_basic": false,
+    "stock": 110551,
+    "price_usd": 0.022,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/720f73fc486de0cffc6ba54ebac7d3e3.pdf?productCode=C85084",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.022
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0171
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0143
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0127
+      },
+      {
+        "min_qty": 9000,
+        "price": 0.0113
+      },
+      {
+        "min_qty": 21000,
+        "price": 0.0105
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C85084",
+    "selection_role": "reference_only"
+  },
+  "C17414": {
+    "lcsc_code": "C17414",
+    "lcsc_id": 17414,
+    "mpn": "0805W8F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 10k\u03a9 125mW 150V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 10726008,
+    "price_usd": 0.0034,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17414",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0034
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0014
+      }
+    ],
+    "value": "10k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17414",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C56765": {
+    "lcsc_code": "C56765",
+    "lcsc_id": 56765,
+    "mpn": "TLV431AIDBZR",
+    "manufacturer": "TI",
+    "package": "SOT-23",
+    "description": "-40\u2103~+85\u2103 1.24V~6V 1.24V~6V 100uA 15mA 80uA Adjustable Parallel \u00b11% SOT-23 Voltage Reference ROHS",
+    "is_basic": false,
+    "stock": 37799,
+    "price_usd": 0.1164,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1f0b6b30afca4cb79b547decc5f49aec.pdf?productCode=C56765",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1261
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0978
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0837
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0731
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0681
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0639
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C56765",
+    "checked_date": "2026-10-03"
+  },
+  "C23892": {
+    "lcsc_code": "C23892",
+    "lcsc_id": 23892,
+    "mpn": "TL431AIDBZR",
+    "manufacturer": "TI",
+    "package": "SOT-23-3",
+    "description": "-40\u2103~+85\u2103 100mA 2.495V~36V 700uA Adjustable Parallel \u00b11% SOT-23-3 Voltage Reference ROHS",
+    "is_basic": false,
+    "stock": 216018,
+    "price_usd": 0.0736,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/01db65b56d054fd7910d6d04f8eaeb9e.pdf?productCode=C23892",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.0811
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0646
+      },
+      {
+        "min_qty": 150,
+        "price": 0.056
+      },
+      {
+        "min_qty": 500,
+        "price": 0.049
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0465
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0449
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23892",
+    "checked_date": "2026-10-03"
+  },
+  "C140579": {
+    "lcsc_code": "C140579",
+    "lcsc_id": 140579,
+    "mpn": "MJD340T4G",
+    "manufacturer": "onsemi",
+    "package": "TO-252-2(DPAK)",
+    "description": "-65\u2103~+150\u2103 1 NPN 100uA 10MHz 15W 1V 240 300V 3V 500mA NPN TO-252-2(DPAK) Bipolar (BJT) ROHS",
+    "is_basic": false,
+    "stock": 4939,
+    "price_usd": 0.4962,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/e1ca48ba9fe8215bfc40bb66a4536fef.pdf?productCode=C140579",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.5494
+      },
+      {
+        "min_qty": 10,
+        "price": 0.4362
+      },
+      {
+        "min_qty": 30,
+        "price": 0.3887
+      },
+      {
+        "min_qty": 100,
+        "price": 0.328
+      },
+      {
+        "min_qty": 500,
+        "price": 0.3018
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2854
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C140579",
+    "checked_date": "2026-10-03"
+  },
+  "C67350": {
+    "lcsc_code": "C67350",
+    "lcsc_id": 67350,
+    "mpn": "MJD340T4",
+    "manufacturer": "ST",
+    "package": "TO-252",
+    "description": "-65\u2103~+150\u2103 1 NPN 100uA 15W 30 300V 3V 500mA NPN TO-252 Bipolar (BJT) ROHS",
+    "is_basic": false,
+    "stock": 356,
+    "price_usd": 0.3532,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/91ecb82f3a3f4bc9a940759eb6114523.pdf?productCode=C67350",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.3733
+      },
+      {
+        "min_qty": 50,
+        "price": 0.2964
+      },
+      {
+        "min_qty": 150,
+        "price": 0.2634
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2223
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.204
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.1929
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C67350",
+    "checked_date": "2026-10-03"
+  },
+  "C2145": {
+    "lcsc_code": "C2145",
+    "lcsc_id": 2145,
+    "mpn": "MMBT5551(RANGE:200-300)",
+    "manufacturer": "JSCJ",
+    "package": "SOT-23",
+    "description": "-55\u2103~+150\u2103 1 NPN 160V 200 200mV 300MHz 300mW 50nA 600mA 6V NPN SOT-23 Bipolar (BJT) ROHS",
+    "is_basic": true,
+    "stock": 1624816,
+    "price_usd": 0.0145,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/fbe794687e874b67878cb4333bd9a287.pdf?productCode=C2145",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0154
+      },
+      {
+        "min_qty": 500,
+        "price": 0.012
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0105
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0093
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0089
+      },
+      {
+        "min_qty": 51000,
+        "price": 0.0086
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2145",
+    "checked_date": "2026-10-03"
+  },
+  "C15127": {
+    "lcsc_code": "C15127",
+    "lcsc_id": 15127,
+    "mpn": "AO3401A",
+    "manufacturer": "AOS",
+    "package": "SOT-23",
+    "description": "1 P-Channel 14nC@10V 30V 47m\u03a9@10V\u300160m\u03a9@4.5V\u300185m\u03a9@2.5V 4A 55pF 645pF 80pF 900mV SOT-23 MOSFETs ROHS",
+    "is_basic": true,
+    "stock": 715902,
+    "price_usd": 0.0716,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/fee353dd1e9e0bc90b295f14f381aa4c.pdf?productCode=C15127",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1026
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0829
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0728
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0645
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0615
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0596
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C15127",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "selected_or_reused"
+  },
+  "C22787": {
+    "lcsc_code": "C22787",
+    "lcsc_id": 22787,
+    "mpn": "0603WAF1200T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 120\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 1475830,
+    "price_usd": 0.0016,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22787",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0031
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0014
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22787",
+    "checked_date": "2026-10-03"
+  },
+  "C23164": {
+    "lcsc_code": "C23164",
+    "lcsc_id": 23164,
+    "mpn": "0603WAF470KT5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 4.7\u03a9 75V Thick Film Resistor \u00b11% \u00b1400ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 315692,
+    "price_usd": 0.0024,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23164",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0027
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0014
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23164",
+    "checked_date": "2026-10-03"
+  },
+  "C23228": {
+    "lcsc_code": "C23228",
+    "lcsc_id": 23228,
+    "mpn": "0603WAF6800T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 680\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 923432,
+    "price_usd": 0.0013,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23228",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0011
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23228",
+    "checked_date": "2026-10-03"
+  },
+  "C23179": {
+    "lcsc_code": "C23179",
+    "lcsc_id": 23179,
+    "mpn": "0603WAF4700T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 470\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 1899614,
+    "price_usd": 0.0016,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23179",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0012
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0011
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23179",
+    "checked_date": "2026-10-03"
+  },
+  "C22977": {
+    "lcsc_code": "C22977",
+    "lcsc_id": 22977,
+    "mpn": "0603WAF200KT5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 2\u03a9 75V Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 182791,
+    "price_usd": 0.002,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C22977",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0022
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0012
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C22977",
+    "checked_date": "2026-10-03"
+  },
+  "C23242": {
+    "lcsc_code": "C23242",
+    "lcsc_id": 23242,
+    "mpn": "0603WAF7502T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 75V 75k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 239001,
+    "price_usd": 0.0012,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23242",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0028
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0014
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23242"
+  },
+  "C21190": {
+    "lcsc_code": "C21190",
+    "lcsc_id": 21190,
+    "mpn": "0603WAF1001T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 1k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 8013731,
+    "price_usd": 0.0039,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C21190",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0013
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C21190"
+  },
+  "C531144": {
+    "lcsc_code": "C531144",
+    "lcsc_id": 531144,
+    "mpn": "AL5809-20P1-7",
+    "manufacturer": "DIODES",
+    "package": "PowerDI-123",
+    "description": "-40\u2103~+125\u2103 1 100Hz~200Hz 2.5V~60V 20mA 5% 60V External Over-Temperature Protection (OTP) PWM PowerDI-123 LED Drivers ROHS",
+    "is_basic": false,
+    "stock": 360,
+    "price_usd": 0.4572,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/da94859e0e731aee1aa17b565891898e.pdf?productCode=C531144",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.4556
+      },
+      {
+        "min_qty": 10,
+        "price": 0.3557
+      },
+      {
+        "min_qty": 30,
+        "price": 0.3114
+      },
+      {
+        "min_qty": 100,
+        "price": 0.2573
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2328
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2197
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C531144",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C332295": {
+    "lcsc_code": "C332295",
+    "lcsc_id": 332295,
+    "mpn": "AL5809-20S1-7",
+    "manufacturer": "DIODES",
+    "package": "SOD-123",
+    "description": "-40\u2103~+125\u2103 1 100Hz~200Hz 2.5V~60V 20mA 5% 60V External Over-Temperature Protection (OTP) PWM SOD-123 LED Drivers ROHS",
+    "is_basic": false,
+    "stock": 34271,
+    "price_usd": 0.1435,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/da94859e0e731aee1aa17b565891898e.pdf?productCode=C332295",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.162
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1287
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1121
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0996
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0896
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0846
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C332295",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C145514": {
+    "lcsc_code": "C145514",
+    "lcsc_id": 145514,
+    "mpn": "MJD350T4G",
+    "manufacturer": "onsemi",
+    "package": "TO-252-2(DPAK)",
+    "description": "-65\u2103~+150\u2103 1 PNP 100uA 10MHz 15W 1V 240 300V 3V 500mA PNP TO-252-2(DPAK) Bipolar (BJT) ROHS",
+    "is_basic": false,
+    "stock": 6132,
+    "price_usd": 0.6118,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/e1ca48ba9fe8215bfc40bb66a4536fef.pdf?productCode=C145514",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.6339
+      },
+      {
+        "min_qty": 10,
+        "price": 0.5206
+      },
+      {
+        "min_qty": 30,
+        "price": 0.4648
+      },
+      {
+        "min_qty": 100,
+        "price": 0.4073
+      },
+      {
+        "min_qty": 500,
+        "price": 0.3531
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.3367
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C145514",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "selected_or_reused"
+  },
+  "C20526": {
+    "lcsc_code": "C20526",
+    "lcsc_id": 20526,
+    "mpn": "MMBT3904(RANGE:100-300)",
+    "manufacturer": "JSCJ",
+    "package": "SOT-23",
+    "description": "-55\u2103~+150\u2103 1 NPN 100 100nA 200mA 200mW 300MHz 300mV 40V 6V NPN SOT-23 Bipolar (BJT) ROHS",
+    "is_basic": true,
+    "stock": 2033567,
+    "price_usd": 0.0108,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9335632bcfa83df8351353eab379720e.pdf?productCode=C20526",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0117
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0093
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0082
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0074
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0071
+      },
+      {
+        "min_qty": 51000,
+        "price": 0.0069
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C20526",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "selected_or_reused"
+  },
+  "C2143": {
+    "lcsc_code": "C2143",
+    "lcsc_id": 2143,
+    "mpn": "MMBT3906 2A(RANGE:100-300)",
+    "manufacturer": "JSCJ",
+    "package": "SOT-23",
+    "description": "-55\u2103~+150\u2103 1 PNP 100 100nA 200mA 200mW 300MHz 300mV 40V 5V PNP SOT-23 Bipolar (BJT) ROHS",
+    "is_basic": false,
+    "stock": 77637,
+    "price_usd": 0.0118,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/550597da53734df4a72fadeaed7e7aa7.pdf?productCode=C2143",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0116
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0092
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0079
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0071
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0064
+      },
+      {
+        "min_qty": 51000,
+        "price": 0.006
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2143",
+    "selection_role": "reference_only"
+  },
+  "C19726": {
+    "lcsc_code": "C19726",
+    "lcsc_id": 19726,
+    "mpn": "BAT54SLT1G",
+    "manufacturer": "onsemi",
+    "package": "SOT-23",
+    "description": "-55\u2103~+150\u2103 1 Pair Series Connection 200mA 2uA@25V 30V 800mV@100mA SOT-23 Schottky Diodes ROHS",
+    "is_basic": false,
+    "stock": 819057,
+    "price_usd": 0.0282,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/46cb550ea5604e38b1c44b1ec0935405.pdf?productCode=C19726",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.0255
+      },
+      {
+        "min_qty": 10,
+        "price": 0.0189
+      },
+      {
+        "min_qty": 30,
+        "price": 0.016
+      },
+      {
+        "min_qty": 100,
+        "price": 0.0138
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0129
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0124
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C19726",
+    "selection_role": "reference_only"
+  },
+  "C8592": {
+    "lcsc_code": "C8592",
+    "lcsc_id": 8592,
+    "mpn": "BAT54S KL4",
+    "manufacturer": "JSCJ",
+    "package": "SOT-23",
+    "description": "1 Pair Series Connection 1V@100mA 200mA 2uA@25V 30V 600mA SOT-23 Schottky Diodes ROHS",
+    "is_basic": false,
+    "stock": 1298,
+    "price_usd": 0.0254,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/5b474f3ae31f4955b5e416442eaeaed8.pdf?productCode=C8592",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0234
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0186
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0159
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0143
+      },
+      {
+        "min_qty": 9000,
+        "price": 0.0129
+      },
+      {
+        "min_qty": 21000,
+        "price": 0.0122
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C8592",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C17902": {
+    "lcsc_code": "C17902",
+    "lcsc_id": 17902,
+    "mpn": "1206W4F1002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "1206",
+    "description": "-55\u2103~+155\u2103 10k\u03a9 200V 250mW Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 1206 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 1007826,
+    "price_usd": 0.0068,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17902",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0084
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0069
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0056
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.005
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0046
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0043
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17902",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C109227": {
+    "lcsc_code": "C109227",
+    "lcsc_id": 109227,
+    "mpn": "LTV-817S-TA1-C",
+    "manufacturer": "LITEON",
+    "package": "SMD-4P",
+    "description": "-30\u2103~+110\u2103 1 1.2V 100mV@1mA,20mA 35V 3us 4us@2mA,100\u03a9 50% 50mA 50mA 5kV 600% 6V DC Phototransistor SMD-4P Transistor, Photovoltaic Output Optoisolators ROHS",
+    "is_basic": true,
+    "stock": 597938,
+    "price_usd": 0.0749,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9ee634772e765f142c2d3c612c5a386f.pdf?productCode=C109227",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 10,
+        "price": 0.0772
+      },
+      {
+        "min_qty": 100,
+        "price": 0.0629
+      },
+      {
+        "min_qty": 300,
+        "price": 0.0555
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0433
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0412
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0398
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C109227",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C42379244": {
+    "lcsc_code": "C42379244",
+    "lcsc_id": 42379244,
+    "mpn": "EL357N(C)(TA)-G",
+    "manufacturer": "EVERLIGHT",
+    "package": "SOP-4-2.54mm",
+    "description": "Phototransistor Output 3.75kVrms 1 Channel SOP-4-2.54mm",
+    "is_basic": false,
+    "stock": 732134,
+    "price_usd": 0.0579,
+    "datasheet_url": "https://www.everlighteurope.com/custom/files/datasheets/DPC-0000014.pdf",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 35,
+        "price": 0.0607
+      },
+      {
+        "min_qty": 350,
+        "price": 0.0485
+      },
+      {
+        "min_qty": 1050,
+        "price": 0.0422
+      },
+      {
+        "min_qty": 3500,
+        "price": 0.037
+      },
+      {
+        "min_qty": 17500,
+        "price": 0.0352
+      },
+      {
+        "min_qty": 35000,
+        "price": 0.0339
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C42379244",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C236103": {
+    "lcsc_code": "C236103",
+    "lcsc_id": 236103,
+    "mpn": "MMSZ5237BT1G",
+    "manufacturer": "onsemi",
+    "package": "SOD-123",
+    "description": "-55\u2103~+150\u2103 1 Independent 3uA@6.5V 500mW 500\u03a9 7.79V~8.61V 8.2V 8\u03a9 SOD-123 Zener Diodes ROHS",
+    "is_basic": false,
+    "stock": 8384,
+    "price_usd": 0.038,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/a417117b178bdb08a63a89816e1c6d80.pdf?productCode=C236103",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 10,
+        "price": 0.0395
+      },
+      {
+        "min_qty": 100,
+        "price": 0.0311
+      },
+      {
+        "min_qty": 300,
+        "price": 0.0269
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0238
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0213
+      },
+      {
+        "min_qty": 9000,
+        "price": 0.02
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C236103",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C7934": {
+    "lcsc_code": "C7934",
+    "lcsc_id": 7934,
+    "mpn": "LM2904DR",
+    "manufacturer": "TI",
+    "package": "SOIC-8",
+    "description": "-16V~-1.5V\u30011.5V~16V -40\u2103~+125\u2103 10pA/\u2103 2 20nA 300V/ms 30mA 32V 3V~32V 3mV 40nV/\u221aHz@1kHz 50nA 700kHz 700uA 7uV/\u2103 80dB SOIC-8 Operational Amplifier ROHS",
+    "is_basic": false,
+    "stock": 93788,
+    "price_usd": 0.0775,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/5958bf7de8d6439fa0003ff0e1feb9b8.pdf?productCode=C7934",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.0897
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0728
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0641
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0569
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0544
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0527
+      }
+    ],
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C7934",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "selection_role": "reference_only"
+  },
+  "C5586": {
+    "lcsc_code": "C5586",
+    "lcsc_id": 5586,
+    "mpn": "74HC00D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 1.5V\u30013.15V\u30014.2V 1.9V\u30013.7V\u30015.9V 100mV\u3001400mV\u3001400mV 2 2V~6V 4 40uA 5.2mA 5.2mA 500mV~1.8V 74HC Series 7ns@6V,50pF NAND Gate SOIC-14 Logic Gates ROHS",
+    "is_basic": false,
+    "stock": 38676,
+    "price_usd": 0.1865,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/f075b54a1e6ef92859876c6b1072c938.pdf?productCode=C5586",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1561
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1199
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1022
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0865
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0821
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0795
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5586",
+    "selection_role": "selected_or_reused"
+  },
+  "C5588": {
+    "lcsc_code": "C5588",
+    "lcsc_id": 5588,
+    "mpn": "74HC02D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 1.5V~4.2V 15ns@6V,50pF 2 2V~6V 2uA 4 400mV 5.2V\u30015.9V 5.2mA 5.2mA 500mV~1.8V 74HC Series NOR Gate SOIC-14 Logic Gates ROHS",
+    "is_basic": false,
+    "stock": 9973,
+    "price_usd": 0.154,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1c47bea93f023f708e04ad0ea1d69eaa.pdf?productCode=C5588",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1576
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1232
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1085
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0901
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.082
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0771
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5588",
+    "selection_role": "selected_or_reused"
+  },
+  "C5605": {
+    "lcsc_code": "C5605",
+    "lcsc_id": 5605,
+    "mpn": "74HC14D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 1 1.5V~4.2V 21ns@6V,50pF 2V~6V 2uA 300mV~1.2V 5.2mA 5.2mA 6 74HC Schmitt trigger SOIC-14 Inverters ROHS",
+    "is_basic": true,
+    "stock": 323410,
+    "price_usd": 0.1242,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/14be360d5023de3678ac97c5270a2114.pdf?productCode=C5605",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1033
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0816
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0705
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0614
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0582
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.056
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5605",
+    "selection_role": "selected_or_reused"
+  },
+  "C5632": {
+    "lcsc_code": "C5632",
+    "lcsc_id": 5632,
+    "mpn": "74HC32D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 1.5V~4.2V 1.9V\u30014.4V\u30015.9V 100mV\u3001400mV\u3001400mV 2 2V~6V 2uA 4 5.2mA 5.2mA 500mV~1.8V 6ns@6V,50pF 74HC Series OR Gate SOIC-14 Logic Gates ROHS",
+    "is_basic": false,
+    "stock": 26396,
+    "price_usd": 0.1322,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/876e60f3e91937e3746fae36483b3c46.pdf?productCode=C5632",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1201
+      },
+      {
+        "min_qty": 50,
+        "price": 0.094
+      },
+      {
+        "min_qty": 150,
+        "price": 0.081
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0712
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0634
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0595
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5632",
+    "selection_role": "selected_or_reused"
+  },
+  "C25811": {
+    "lcsc_code": "C25811",
+    "lcsc_id": 25811,
+    "mpn": "0603WAF2003T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 200k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 840942,
+    "price_usd": 0.0015,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25811",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0011
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C25811",
+    "selection_role": "selected_or_reused"
+  },
+  "C84362": {
+    "lcsc_code": "C84362",
+    "lcsc_id": 84362,
+    "mpn": "SMAZ8V2-13-F",
+    "manufacturer": "DIODES",
+    "package": "SMA",
+    "description": "-65\u2103~+150\u2103 1 Independent 1W 200\u03a9 2\u03a9 5uA@6V 7.79V~8.61V 8.2V SMA Zener Diodes ROHS",
+    "is_basic": false,
+    "stock": 1566,
+    "price_usd": 0.1483,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/cc6412513453b26615ae87468f11d42c.pdf?productCode=C84362",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.4002
+      },
+      {
+        "min_qty": 50,
+        "price": 0.3103
+      },
+      {
+        "min_qty": 150,
+        "price": 0.2717
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2236
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.2022
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.1893
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C84362",
+    "selection_role": "selected_or_reused"
+  },
+  "C5218924": {
+    "lcsc_code": "C5218924",
+    "lcsc_id": 5218924,
+    "mpn": "TLV803EA30DBZR",
+    "manufacturer": "TI",
+    "package": "SOT-23-3",
+    "description": "SOT-23-3 Supervisor and Reset ICs ROHS",
+    "is_basic": false,
+    "stock": 4037,
+    "price_usd": 0.3067,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/075232f81476471fb0145392049399fa.pdf?productCode=C5218924",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.3762
+      },
+      {
+        "min_qty": 10,
+        "price": 0.2957
+      },
+      {
+        "min_qty": 30,
+        "price": 0.2563
+      },
+      {
+        "min_qty": 100,
+        "price": 0.2218
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2119
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2054
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C5218924",
+    "selection_role": "selected_or_reused"
+  },
+  "C224028": {
+    "lcsc_code": "C224028",
+    "lcsc_id": 224028,
+    "mpn": "SMBJ8.0A",
+    "manufacturer": "Littelfuse",
+    "package": "DO-214AA",
+    "description": "-65\u2103~+150\u2103 13.6V 44.2A@10/1000us 50uA 600W@10/1000us 8V 9.83V IEC 61000-4-2\u3001IEC 61000-4-4 TVS Unidirectional DO-214AA ESD and Surge Protection (TVS/ESD) ROHS",
+    "is_basic": false,
+    "stock": 1621,
+    "price_usd": 0.1004,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/4ab84a227fae39f9eac85241b8264ead.pdf?productCode=C224028",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1124
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0899
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0787
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0702
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0635
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0601
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C224028",
+    "selection_role": "selected_or_reused"
+  },
+  "C350545": {
+    "lcsc_code": "C350545",
+    "lcsc_id": 350545,
+    "mpn": "LM2902DR",
+    "manufacturer": "TI",
+    "package": "SOIC-14",
+    "description": "-13V~13V -40\u2103~+125\u2103 1.2MHz 1.2mA 20mA 250nA 26V 2nA 300pA/\u2103 35nV/\u221aHz@1kHz 3V~26V 3mV 4 500V/ms 7uV/\u2103 80dB SOIC-14 Operational Amplifier ROHS",
+    "is_basic": false,
+    "stock": 79908,
+    "price_usd": 0.1935,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/4a62dd90e9e076620b6ad3345f8cbf23.pdf?productCode=C350545",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1736
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1347
+      },
+      {
+        "min_qty": 150,
+        "price": 0.1181
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0973
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.086
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0804
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C350545",
+    "selection_role": "selected_or_reused"
+  },
+  "C7668": {
+    "lcsc_code": "C7668",
+    "lcsc_id": 7668,
+    "mpn": "SN74LVC244APWR",
+    "manufacturer": "TI",
+    "package": "TSSOP-20",
+    "description": "-40\u2103~+125\u2103 1.65V~3.6V 2 24mA 24mA 3.9ns@3.3V,50pF 4 40uA 74LVC Tri-State Unidirectional TSSOP-20 Buffers, Drivers, Receivers, Transceivers ROHS",
+    "is_basic": false,
+    "stock": 35937,
+    "price_usd": 0.2854,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/84ae70e891d44d1b9c83c88280c66b34.pdf?productCode=C7668",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.3026
+      },
+      {
+        "min_qty": 50,
+        "price": 0.2363
+      },
+      {
+        "min_qty": 150,
+        "price": 0.2078
+      },
+      {
+        "min_qty": 500,
+        "price": 0.1723
+      },
+      {
+        "min_qty": 2000,
+        "price": 0.1565
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.147
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C7668",
+    "selection_role": "selected_or_reused"
+  },
+  "C23654": {
+    "lcsc_code": "C23654",
+    "lcsc_id": 23654,
+    "mpn": "SN74LVC1G125DBVR",
+    "manufacturer": "TI",
+    "package": "SOT-23-5",
+    "description": "-40\u2103~+125\u2103 1 1 1.65V~5.5V 10uA 3.7ns@3.3V,15pF 32mA 32mA 74LVC Tri-State Unidirectional SOT-23-5 Buffers, Drivers, Receivers, Transceivers ROHS",
+    "is_basic": false,
+    "stock": 51120,
+    "price_usd": 0.2135,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/397db609d8c243daaad8f1a233af4e5d.pdf?productCode=C23654",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.0979
+      },
+      {
+        "min_qty": 50,
+        "price": 0.0757
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0647
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0563
+      },
+      {
+        "min_qty": 3000,
+        "price": 0.0497
+      },
+      {
+        "min_qty": 6000,
+        "price": 0.0464
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23654",
+    "selection_role": "selected_or_reused"
+  },
+  "C23140": {
+    "lcsc_code": "C23140",
+    "lcsc_id": 23140,
+    "mpn": "0603WAF330JT5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 33\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 1772784,
+    "price_usd": 0.0013,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23140",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0025
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.002
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0017
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0013
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23140",
+    "selection_role": "selected_or_reused"
+  },
+  "C4260": {
+    "lcsc_code": "C4260",
+    "lcsc_id": 4260,
+    "mpn": "0603WAF6201T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 6.2k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 246003,
+    "price_usd": 0.0013,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4260",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0015
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0012
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C4260",
+    "selection_role": "selected_or_reused"
+  },
+  "C23231": {
+    "lcsc_code": "C23231",
+    "lcsc_id": 23231,
+    "mpn": "0603WAF6802T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 68k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 428152,
+    "price_usd": 0.0013,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23231",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0016
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0013
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0011
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.001
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0009
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C23231",
+    "selection_role": "selected_or_reused"
+  },
+  "C4190": {
+    "lcsc_code": "C4190",
+    "lcsc_id": 4190,
+    "mpn": "0603WAF2201T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "-55\u2103~+155\u2103 100mW 2.2k\u03a9 75V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0603 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 2001135,
+    "price_usd": 0.0014,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C4190",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0018
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0014
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0012
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0011
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0009
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C4190",
+    "selection_role": "selected_or_reused"
+  },
+  "C68234": {
+    "lcsc_code": "C68234",
+    "lcsc_id": 68234,
+    "mpn": "2.54-2*8P\u9488",
+    "manufacturer": "BOOMELE(Boom Precision Elec)",
+    "package": "\u63d2\u4ef6,P=2.54mm",
+    "description": "-55\u2103~+105\u2103 16P 2 2.54mm 2.54mm 2.54mm 2x8P 3A 3mm 5.9mm Black Brass Gold Pin Header Through Hole \u63d2\u4ef6,P=2.54mm Pin Headers ROHS",
+    "is_basic": false,
+    "stock": 36548,
+    "price_usd": 0.1326,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/d52c83a07830c4e9e9a614accc55f5cd.pdf?productCode=C68234",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1344
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1093
+      },
+      {
+        "min_qty": 150,
+        "price": 0.0968
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0745
+      },
+      {
+        "min_qty": 2000,
+        "price": 0.067
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0632
+      }
+    ],
+    "jlc_assembly_confirmed": true,
+    "checked_date": "2026-10-03",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C68234",
+    "selection_role": "selected_or_reused"
+  },
+  "C17634": {
+    "lcsc_code": "C17634",
+    "lcsc_id": 17634,
+    "mpn": "0805W8F330JT5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 33\u03a9 Thick Film Resistor \u00b11% \u00b1200ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 334351,
+    "price_usd": 0.003,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17634",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0037
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.003
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0027
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0023
+      }
+    ],
+    "value": "33R",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17634",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17513": {
+    "lcsc_code": "C17513",
+    "lcsc_id": 17513,
+    "mpn": "0805W8F1001T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 1k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 6086189,
+    "price_usd": 0.0032,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17513",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0041
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0032
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0022
+      }
+    ],
+    "value": "1k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17513",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17520": {
+    "lcsc_code": "C17520",
+    "lcsc_id": 17520,
+    "mpn": "0805W8F2201T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 2.2k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 936020,
+    "price_usd": 0.0029,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17520",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0037
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0031
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0027
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0023
+      }
+    ],
+    "value": "2.2k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17520",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17673": {
+    "lcsc_code": "C17673",
+    "lcsc_id": 17673,
+    "mpn": "0805W8F4701T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 4.7k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 3444289,
+    "price_usd": 0.0021,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17673",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0051
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.004
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0035
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0032
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.003
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0029
+      }
+    ],
+    "value": "4.7k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17673",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C149504": {
+    "lcsc_code": "C149504",
+    "lcsc_id": 149504,
+    "mpn": "0805W8F1003T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 100k\u03a9 125mW 150V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 2466214,
+    "price_usd": 0.0033,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C149504",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.006
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0041
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0037
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0035
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0034
+      }
+    ],
+    "value": "100k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C149504",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17539": {
+    "lcsc_code": "C17539",
+    "lcsc_id": 17539,
+    "mpn": "0805W8F2003T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 200k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 421599,
+    "price_usd": 0.0028,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17539",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0056
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0044
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0036
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0032
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0029
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0027
+      }
+    ],
+    "value": "200k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17539",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C26010": {
+    "lcsc_code": "C26010",
+    "lcsc_id": 26010,
+    "mpn": "0805W8F3301T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 3.3k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 457218,
+    "price_usd": 0.0032,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C26010",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0043
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0033
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0024
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0021
+      }
+    ],
+    "value": "3.3k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C26010",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17772": {
+    "lcsc_code": "C17772",
+    "lcsc_id": 17772,
+    "mpn": "0805W8F6801T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 6.8k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 327991,
+    "price_usd": 0.0032,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17772",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.006
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.004
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0035
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0032
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.003
+      }
+    ],
+    "value": "6.8k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17772",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17819": {
+    "lcsc_code": "C17819",
+    "lcsc_id": 17819,
+    "mpn": "0805W8F7502T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 75k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": false,
+    "stock": 49785,
+    "price_usd": 0.0028,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17819",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0076
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.006
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.005
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0045
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.004
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0038
+      }
+    ],
+    "value": "75k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17819",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17801": {
+    "lcsc_code": "C17801",
+    "lcsc_id": 17801,
+    "mpn": "0805W8F6802T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 68k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 221823,
+    "price_usd": 0.0024,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17801",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0035
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0027
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0021
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0018
+      }
+    ],
+    "value": "68k",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17801",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17514": {
+    "lcsc_code": "C17514",
+    "lcsc_id": 17514,
+    "mpn": "0805W8F1004T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 1M\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 752470,
+    "price_usd": 0.003,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17514",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0044
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0035
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0029
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0026
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0022
+      }
+    ],
+    "value": "1M",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17514",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C17408": {
+    "lcsc_code": "C17408",
+    "lcsc_id": 17408,
+    "mpn": "0805W8F1000T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 100\u03a9 125mW 150V Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 2576764,
+    "price_usd": 0.0028,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17408",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0043
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0033
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0028
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0025
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0023
+      }
+    ],
+    "value": "100R",
+    "component_kind": "resistor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17408",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+    "tolerance_percent": 1,
+    "rated_power_w": 0.125,
+    "rated_working_voltage_v": 150,
+    "datasheet_cache": "datasheets/UNI-ROYAL-0603.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      4,
+      5
+    ]
+  },
+  "C49678": {
+    "lcsc_code": "C49678",
+    "lcsc_id": 49678,
+    "mpn": "CC0805KRX7R9BB104",
+    "manufacturer": "YAGEO",
+    "package": "0805",
+    "description": "100nF 50V X7R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 7277425,
+    "price_usd": 0.015,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C49678",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 20,
+        "price": 0.0191
+      },
+      {
+        "min_qty": 200,
+        "price": 0.0141
+      },
+      {
+        "min_qty": 600,
+        "price": 0.0119
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0098
+      },
+      {
+        "min_qty": 8000,
+        "price": 0.0092
+      },
+      {
+        "min_qty": 20000,
+        "price": 0.0087
+      }
+    ],
+    "value": "100nF",
+    "component_kind": "capacitor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C49678",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "datasheet_cache": "datasheets/YAGEO-0805-100nF.pdf",
+    "datasheet_evidence_pages": [
+      2,
+      3,
+      6
+    ],
+    "datasheet_note": "YAGEO family datasheet visually confirmed manufacturer cover; p2 part-number coding, p3 dimensions, p6 0805 capacitance/voltage table. Download validator warning was only a missing exact MPN in a family PDF."
+  },
+  "C1710": {
+    "lcsc_code": "C1710",
+    "lcsc_id": 1710,
+    "mpn": "CL21B103KBANNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "10nF 50V X7R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 1006855,
+    "price_usd": 0.0094,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C1710",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 50,
+        "price": 0.0116
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0089
+      },
+      {
+        "min_qty": 1500,
+        "price": 0.0077
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0065
+      },
+      {
+        "min_qty": 24000,
+        "price": 0.0062
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0059
+      }
+    ],
+    "value": "10nF",
+    "component_kind": "capacitor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C1710",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "datasheet_cache": "datasheets/C15850.pdf",
+    "datasheet_evidence_pages": [
+      27
+    ],
+    "datasheet_note": "Samsung MLCC family catalog; prefix entry and part-number system establish package, dielectric, voltage, value, and tolerance."
+  },
+  "C51210": {
+    "lcsc_code": "C51210",
+    "lcsc_id": 51210,
+    "mpn": "CL21B102KBANNNC",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "1nF 50V X7R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": false,
+    "stock": 9257,
+    "price_usd": 0.012,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C51210",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0104
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0086
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0068
+      },
+      {
+        "min_qty": 8000,
+        "price": 0.0063
+      },
+      {
+        "min_qty": 48000,
+        "price": 0.0057
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0055
+      }
+    ],
+    "value": "1nF",
+    "component_kind": "capacitor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C51210",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "datasheet_cache": "datasheets/C15850.pdf",
+    "datasheet_evidence_pages": [
+      26
+    ],
+    "datasheet_note": "Samsung MLCC family catalog; prefix entry and part-number system establish package, dielectric, voltage, value, and tolerance."
+  },
+  "C28323": {
+    "lcsc_code": "C28323",
+    "lcsc_id": 28323,
+    "mpn": "CL21B105KBFNNNE",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "1uF 50V X7R \u00b110% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+    "is_basic": true,
+    "stock": 2084641,
+    "price_usd": 0.0469,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C28323",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 10,
+        "price": 0.0403
+      },
+      {
+        "min_qty": 100,
+        "price": 0.0309
+      },
+      {
+        "min_qty": 300,
+        "price": 0.0261
+      },
+      {
+        "min_qty": 2000,
+        "price": 0.0221
+      },
+      {
+        "min_qty": 4000,
+        "price": 0.0207
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0198
+      }
+    ],
+    "value": "1uF",
+    "component_kind": "capacitor",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C28323",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "datasheet_cache": "datasheets/C15850.pdf",
+    "datasheet_evidence_pages": [
+      27
+    ],
+    "datasheet_note": "Samsung MLCC family catalog; prefix entry and part-number system establish package, dielectric, voltage, value, and tolerance."
+  },
+  "C507250": {
+    "lcsc_code": "C507250",
+    "lcsc_id": 507250,
+    "mpn": "SN74LVC244ADWR",
+    "manufacturer": "TI",
+    "package": "SOIC-20-300mil",
+    "description": "-40\u2103~+125\u2103 1.65V~3.6V 2 24mA 24mA 3.9ns@3.3V,50pF 4 40uA 74LVC Tri-State Unidirectional SOIC-20-300mil Buffers, Drivers, Receivers, Transceivers ROHS",
+    "is_basic": false,
+    "stock": 5314,
+    "price_usd": 0.9257,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/837c4cf251ed322926ebeb792567c9cb.pdf?productCode=C507250",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.7441
+      },
+      {
+        "min_qty": 10,
+        "price": 0.5999
+      },
+      {
+        "min_qty": 30,
+        "price": 0.5278
+      },
+      {
+        "min_qty": 100,
+        "price": 0.4557
+      },
+      {
+        "min_qty": 500,
+        "price": 0.3786
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.3557
+      }
+    ],
+    "value": "SN74LVC244ADWR",
+    "component_kind": "logic_buffer",
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C507250",
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "recommended_footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+    "pin_pitch_mm": 1.27,
+    "body_dimensions_mm": [
+      7.5,
+      12.8
+    ],
+    "datasheet_cache": "datasheets/TI-SN74LVC244A.pdf",
+    "replaces_lcsc_code": "C7668",
+    "pin_map": {
+      "1": "1OE_N",
+      "2": "1A1",
+      "3": "2Y4",
+      "4": "1A2",
+      "5": "2Y3",
+      "6": "1A3",
+      "7": "2Y2",
+      "8": "1A4",
+      "9": "2Y1",
+      "10": "GND",
+      "11": "2A1",
+      "12": "1Y4",
+      "13": "2A2",
+      "14": "1Y3",
+      "15": "2A3",
+      "16": "1Y2",
+      "17": "2A4",
+      "18": "1Y1",
+      "19": "2OE_N",
+      "20": "VCC"
+    },
+    "datasheet_evidence_pages": [
+      1,
+      3,
+      4,
+      30,
+      31
+    ]
+  },
+  "C2802638": {
+    "lcsc_code": "C2802638",
+    "lcsc_id": 2802638,
+    "mpn": "PCA9517AD,118",
+    "manufacturer": "NXP",
+    "package": "SO-8",
+    "description": "-40\u2103~+85\u2103 0.9V~5.5V\u30012.7V~5.5V 1 2 5mA 6mA Bidirectional Open-drain PCA9517A SO-8 Signal Buffers, Repeaters, Splitters ROHS",
+    "is_basic": false,
+    "stock": 2831,
+    "price_usd": 1.8352,
+    "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 1.9931
+      },
+      {
+        "min_qty": 10,
+        "price": 1.7422
+      },
+      {
+        "min_qty": 30,
+        "price": 1.5863
+      },
+      {
+        "min_qty": 100,
+        "price": 1.4272
+      },
+      {
+        "min_qty": 500,
+        "price": 1.2385
+      },
+      {
+        "min_qty": 1000,
+        "price": 1.2057
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2802638",
+    "recommended_footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pin_pitch_mm": 1.27,
+    "selection_role": "preferred_common_A_private_B_stub"
+  },
+  "C182421": {
+    "lcsc_code": "C182421",
+    "lcsc_id": 182421,
+    "mpn": "TCA9517DR",
+    "manufacturer": "TI",
+    "package": "SOIC-8",
+    "description": "-40\u2103~+85\u2103 1 2 2.7V~5.5V 900mV~5.5V Bidirectional Open-drain Power-Off Protection SOIC-8 Translators, Level Shifters ROHS",
+    "is_basic": false,
+    "stock": 1759,
+    "price_usd": 0.5304,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0d2e3f5ad06a4c6a87c30994dac29805.pdf?productCode=C182421",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 0.5031
+      },
+      {
+        "min_qty": 10,
+        "price": 0.3995
+      },
+      {
+        "min_qty": 30,
+        "price": 0.3551
+      },
+      {
+        "min_qty": 100,
+        "price": 0.2993
+      },
+      {
+        "min_qty": 500,
+        "price": 0.2516
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.2368
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C182421",
+    "recommended_footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pin_pitch_mm": 1.27,
+    "selection_role": "reference_only"
+  },
+  "C2677369": {
+    "lcsc_code": "C2677369",
+    "lcsc_id": 2677369,
+    "mpn": "PCA9306D,118",
+    "manufacturer": "NXP",
+    "package": "SO-8",
+    "description": "-40\u2103~+105\u2103 1 1.8V~5.5V 1V~3.6V 2 2Mbps Automatic direction detection\u3001Output enable high-impedance Bidirectional Level translator Open-drain SMBus\u3001I2C SO-8 Translators, Level Shifters ROHS",
+    "is_basic": false,
+    "stock": 1081,
+    "price_usd": 1.0022,
+    "datasheet_url": "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 1.0132
+      },
+      {
+        "min_qty": 10,
+        "price": 0.8227
+      },
+      {
+        "min_qty": 30,
+        "price": 0.7275
+      },
+      {
+        "min_qty": 100,
+        "price": 0.6323
+      },
+      {
+        "min_qty": 500,
+        "price": 0.5058
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.4763
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2677369",
+    "recommended_footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pin_pitch_mm": 1.27,
+    "selection_role": "reference_only"
+  },
+  "C27597": {
+    "lcsc_code": "C27597",
+    "lcsc_id": 27597,
+    "mpn": "74HC74D,653",
+    "manufacturer": "Nexperia",
+    "package": "SOIC-14",
+    "description": "-40\u2103~+125\u2103 1 15ns 2 2V~6V 3.5pF 37ns@6V,50pF 3ns\u30013ns\u30013ns 40uA 5.2mA 5.2mA 74HC Series 82MHz Asynchronous Complementary D-Type Rising Edge Set and Reset SOIC-14 Flip Flops ROHS",
+    "is_basic": false,
+    "stock": 17491,
+    "price_usd": 0.3282,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/f4f0560be08307d88611fab756814ae9.pdf?productCode=C27597",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 5,
+        "price": 0.1649
+      },
+      {
+        "min_qty": 50,
+        "price": 0.1278
+      },
+      {
+        "min_qty": 150,
+        "price": 0.112
+      },
+      {
+        "min_qty": 500,
+        "price": 0.0921
+      },
+      {
+        "min_qty": 2500,
+        "price": 0.0833
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.078
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C27597",
+    "selection_role": "selected_or_reused"
+  },
+  "C17633": {
+    "lcsc_code": "C17633",
+    "lcsc_id": 17633,
+    "mpn": "0805W8F3302T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 33k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 419336,
+    "price_usd": 0.0029,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17633",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0039
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0031
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0025
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.0023
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.002
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17633",
+    "selection_role": "selected_or_reused"
+  },
+  "C17621": {
+    "lcsc_code": "C17621",
+    "lcsc_id": 17621,
+    "mpn": "0805W8F3002T5E",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "-55\u2103~+155\u2103 125mW 150V 30k\u03a9 Thick Film Resistor \u00b11% \u00b1100ppm/\u2103 0805 Chip Resistor - Surface Mount ROHS",
+    "is_basic": true,
+    "stock": 317144,
+    "price_usd": 0.0022,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C17621",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 100,
+        "price": 0.0047
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.0038
+      },
+      {
+        "min_qty": 5000,
+        "price": 0.0033
+      },
+      {
+        "min_qty": 10000,
+        "price": 0.003
+      },
+      {
+        "min_qty": 50000,
+        "price": 0.0028
+      },
+      {
+        "min_qty": 100000,
+        "price": 0.0026
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C17621",
+    "selection_role": "selected_or_reused"
+  },
+  "C2871718": {
+    "lcsc_code": "C2871718",
+    "lcsc_id": 2871718,
+    "mpn": "TLV9022DR",
+    "manufacturer": "TI",
+    "package": "SOIC-8",
+    "description": "-40\u2103~+125\u2103 0.5uV/\u2103 1.65V~5.5V 100ns 16uA 1pA 2 300uV 3ns 5pA 6V 70dB ESD protection Open-drain Rail-to-rail input SOIC-8 Comparators ROHS",
+    "is_basic": false,
+    "stock": 3324,
+    "price_usd": 1.1486,
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/3d1f78e103f465c65679bc7782083f18.pdf?productCode=C2871718",
+    "attributes": {},
+    "prices": [
+      {
+        "min_qty": 1,
+        "price": 1.1931
+      },
+      {
+        "min_qty": 10,
+        "price": 1.0587
+      },
+      {
+        "min_qty": 30,
+        "price": 0.9325
+      },
+      {
+        "min_qty": 100,
+        "price": 0.8375
+      },
+      {
+        "min_qty": 500,
+        "price": 0.7998
+      },
+      {
+        "min_qty": 1000,
+        "price": 0.7801
+      }
+    ],
+    "checked_date": "2026-10-03",
+    "jlc_assembly_confirmed": true,
+    "assembly_inventory_source": "https://jlcsearch.tscircuit.com/api/search?q=C2871718",
+    "selection_role": "selected_or_reused"
+  }
+}

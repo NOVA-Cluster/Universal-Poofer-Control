@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="300" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="300"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-300)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="20" y="75" width="240" height="200" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="32" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">Module 0: HOST</text>
+			<text x="33" y="220" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,440) scale(1,-1)">Own J1 / J2 power</text>
+			<text x="33" y="195" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,390) scale(1,-1)">JP1 closed</text>
+			<text x="33" y="171" style="font-family: Helvetica; font-size: 12px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,342) scale(1,-1)">JP2 one pullup provider</text>
+			<text x="33" y="82" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,164) scale(1,-1)">J10 open</text>
+			<text x="52" y="114" style="font-family: Helvetica; font-size: 15px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,228) scale(1,-1)">J9 NC path</text>
+			<path d="M 20,132 L 83,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 83,132 L 145,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 145,132 L 260,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<circle cx="83" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<circle cx="145" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<rect x="330" y="75" width="240" height="200" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="342" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">Module 1: EXPANDER</text>
+			<text x="343" y="220" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,440) scale(1,-1)">Own J1 / J2 power</text>
+			<text x="343" y="195" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,390) scale(1,-1)">JP1 open</text>
+			<text x="343" y="171" style="font-family: Helvetica; font-size: 12px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,342) scale(1,-1)">JP2 open</text>
+			<text x="343" y="82" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,164) scale(1,-1)">J10 open</text>
+			<text x="362" y="114" style="font-family: Helvetica; font-size: 15px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,228) scale(1,-1)">J9 NC path</text>
+			<path d="M 330,132 L 393,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 393,132 L 455,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 455,132 L 570,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<circle cx="393" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<circle cx="455" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<rect x="640" y="75" width="240" height="200" rx="6" ry="6" style="stroke: rgb(80%,84%,82%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(92%,95%,93%); fill-rule: evenodd;"/>
+			<text x="652" y="250" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,500) scale(1,-1)">Module 2: EXPANDER</text>
+			<text x="653" y="220" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,440) scale(1,-1)">Own J1 / J2 power</text>
+			<text x="653" y="195" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,390) scale(1,-1)">JP1 open</text>
+			<text x="653" y="171" style="font-family: Helvetica; font-size: 12px;fill: rgb(13%,22%,20%); stroke:none;" transform="translate(0,342) scale(1,-1)">JP2 open</text>
+			<text x="653" y="82" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,164) scale(1,-1)">J10 closed at tail</text>
+			<text x="672" y="114" style="font-family: Helvetica; font-size: 15px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,228) scale(1,-1)">J9 NC path</text>
+			<path d="M 640,132 L 703,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 703,132 L 765,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 765,132 L 880,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<circle cx="703" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<circle cx="765" cy="132" r="3.5" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,50%,24%); fill-rule: evenodd;"/>
+			<path d="M 260,248 L 330,248 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 570,248 L 640,248 Z" style="stroke: rgb(9%,24%,20%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<text x="265" y="268" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,536) scale(1,-1)">DOWN to UP</text>
+			<text x="575" y="268" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,24%,20%); stroke:none;" transform="translate(0,536) scale(1,-1)">DOWN to UP</text>
+			<path d="M 260,132 L 330,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 570,132 L 640,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<text x="263" y="150" style="font-family: Helvetica; font-size: 15px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,300) scale(1,-1)">Pin 11</text>
+			<text x="574" y="150" style="font-family: Helvetica; font-size: 15px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,300) scale(1,-1)">Pin 11</text>
+			<path d="M 5,132 L 20,132 Z" style="stroke: rgb(68%,50%,24%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<text x="7" y="53" style="font-family: Helvetica; font-size: 13px;fill: rgb(68%,50%,24%); stroke:none;" transform="translate(0,106) scale(1,-1)">Host sources stop-loop wetting</text>
+			<path d="M 880,132 L 891,132 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 891,132 L 891,45 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<path d="M 891,45 L 810,45 Z" style="stroke: rgb(19%,41%,47%); stroke-linecap: butt; stroke-width: 2.4;"/>
+			<text x="777" y="23" style="font-family: Helvetica; font-size: 13px;fill: rgb(19%,41%,47%); stroke:none;" transform="translate(0,46) scale(1,-1)">Tail return to GND</text>
+			<text x="20" y="11" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,40%,38%); stroke:none;" transform="translate(0,22) scale(1,-1)">One host, one tail terminator, common reference. Chain cables carry NO supply power.</text>
+		</g>
+	</g>
+</svg>

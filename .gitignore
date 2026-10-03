@@ -1,0 +1,72 @@
+# OS, editor and Python caches
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+
+# KiCad local state and backups (native design files remain versioned)
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# PlatformIO build products and temporary render work
+.pio/
+/tmp/
+
+# Superseded revisions and the older duplicate README: keep locally
+/archive/
+/README 2.md
+
+# One-off historical sourcing script with a machine-specific skill dependency
+/scripts/source_parts.py
+
+# Keep the final BOM and its source data; omit sourcing experiments
+/bom/*candidate*.json
+/bom/rework-parts.json
+
+# Downloaded vendor documents/caches; retain curated current source facts
+/datasheets/*
+!/datasheets/revA3-critical-facts.json
+!/datasheets/i2c-critical-facts.json
+!/datasheets/rail-monitor-critical-facts.json
+
+# Generated analysis is local by default. Retain compact final evidence,
+# the native verification fixture, and the preserved loop comparison input.
+/analysis/*
+!/analysis/Universal_Poofer_Control.net
+!/analysis/final-verification-A3.json
+!/analysis/hardware_contract.json
+!/analysis/hardware-stop-state-review.json
+!/analysis/validation-A3.json
+!/analysis/pcb_placement.json
+!/analysis/pcb_placement_validation.json
+!/analysis/revA3_input_simulation.json
+!/analysis/source-loop-independent.json
+!/analysis/uv_emitter_capacitor_check.json
+!/analysis/uv_final_ordering.json
+!/analysis/candidate_emitter_filter.json
+!/analysis/customer-guide-verification.json
+!/analysis/review-delta-A2-A3.json
+!/analysis/source_loop_independent/
+/analysis/source_loop_independent/*
+!/analysis/source_loop_independent/baseline_native.cir
+!/analysis/revA3_input_spice/
+/analysis/revA3_input_spice/*
+!/analysis/revA3_input_spice/nine_final_summary.json
+
+# Only published, current previews belong in Git; omit intermediate renders
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/Universal_Poofer_Control_A3.pdf
+!/output/pdf/Universal_Poofer_Control_Hardware_User_Guide.pdf
+!/output/pcb/
+/output/pcb/*
+!/output/pcb/placement_top.png
+!/output/pcb/placement_top.pdf

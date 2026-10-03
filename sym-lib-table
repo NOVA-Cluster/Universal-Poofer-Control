@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Poofer") (type "KiCad") (uri "${KIPRJMOD}/Poofer.kicad_sym") (options "") (descr "Verified source transistor and supervisor pin maps")))

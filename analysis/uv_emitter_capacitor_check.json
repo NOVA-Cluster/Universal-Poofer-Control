@@ -1,0 +1,23 @@
+{
+  "uv_cap_positive": {
+    "max_uv_emitter_V": 0.547756851,
+    "min_uv_emitter_V": 0.471434483,
+    "quench_below1mA_us": 0.10000000000005664,
+    "peak_pnp_power_W": 3.90848455e-08,
+    "peak_source_mA": 0.0045235030999999995
+  },
+  "uv_cap_negative": {
+    "max_uv_emitter_V": 0.471434501,
+    "min_uv_emitter_V": -0.654189709,
+    "quench_below1mA_us": 5.634999999999928,
+    "peak_pnp_power_W": 4.08936821,
+    "peak_source_mA": 39.7777641
+  },
+  "uv_cap_negative_coldslow": {
+    "max_uv_emitter_V": 0.471428811,
+    "min_uv_emitter_V": -0.764604107,
+    "quench_below1mA_us": 21.12568999999994,
+    "peak_pnp_power_W": 4.60337183,
+    "peak_source_mA": 44.8914319
+  }
+}

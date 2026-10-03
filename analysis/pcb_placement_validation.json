@@ -1,0 +1,531 @@
+{
+  "stage": "placement only / deliberately unrouted",
+  "native_board_reloaded": true,
+  "schematic_components": 577,
+  "pcb_footprints": 584,
+  "board_only_footprints": [
+    "FID1",
+    "FID2",
+    "FID3",
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "duplicate_refs": [],
+  "missing_schematic_components": [],
+  "undeclared_board_only_footprints": [],
+  "pad_and_component_mismatches": [],
+  "off_grid_components": [],
+  "placement_grid_mm": 0.5,
+  "courtyard_collisions": [],
+  "closed_rectangular_outline": true,
+  "dimensions_mm": [
+    200.0,
+    160.0
+  ],
+  "track_count": 0,
+  "via_count": 0,
+  "copper_pour_zone_count": 0,
+  "rule_area_count": 1,
+  "native_antenna_keepout_enforced": true,
+  "validation_basis": [
+    "Native board reloaded through pcbnew; all imported pad nets compared with KiCad schematic netlist.",
+    "Actual native courtyard polygons checked, including the ESP module L-shaped RF courtyard.",
+    "Native footprint antenna rule area inspected, which the generic PCB analyzer does not include in its top-level keepout list.",
+    "Native DRC and schematic parity run separately; unconnected items are expected at this stage."
+  ],
+  "passed": true,
+  "source_pnp_collector_emitter_shorts": [],
+  "hardware_status_monitor_isolation": [
+    {
+      "mcu_pin": "10",
+      "hardware_net": "SAFE_PERMIT",
+      "monitor_net": "ESTOP_SAFE_MON_GPIO18",
+      "series_resistor": "R4",
+      "isolated": true
+    },
+    {
+      "mcu_pin": "23",
+      "hardware_net": "HW_RUN_LATCH",
+      "monitor_net": "HW_RUN_MON_GPIO21",
+      "series_resistor": "R5",
+      "isolated": true
+    }
+  ],
+  "debug_oe_monitor_isolation": {
+    "header": "J5",
+    "pin": "9",
+    "monitor_net": "OE_MONITOR_N",
+    "series_resistor": "R136",
+    "isolated": true
+  },
+  "undersized_passives": [],
+  "courtyard_spacing_under_1mm": [],
+  "decoupling_pairs": [
+    {
+      "ic": "U1",
+      "vcc_pin": "2",
+      "cap": "C5",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 2.846,
+      "pad_edges_mm": 1.55,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U3",
+      "vcc_pin": "16",
+      "cap": "C7",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.575,
+      "pad_edges_mm": 2.1,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U4",
+      "vcc_pin": "16",
+      "cap": "C8",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.575,
+      "pad_edges_mm": 2.1,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U5",
+      "vcc_pin": "16",
+      "cap": "C9",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.575,
+      "pad_edges_mm": 2.1,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U10",
+      "vcc_pin": "3",
+      "cap": "C80",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.084,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U11",
+      "vcc_pin": "3",
+      "cap": "C81",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.084,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U12",
+      "vcc_pin": "3",
+      "cap": "C82",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.084,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U13",
+      "vcc_pin": "3",
+      "cap": "C83",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.084,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U14",
+      "vcc_pin": "3",
+      "cap": "C84",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.084,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U20",
+      "vcc_pin": "4",
+      "cap": "C90",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.075,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U21",
+      "vcc_pin": "4",
+      "cap": "C91",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.075,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U22",
+      "vcc_pin": "4",
+      "cap": "C92",
+      "vcc_net": "+12V_IN",
+      "cap_supply_net": "+12V_IN",
+      "same_net": true,
+      "pad_centres_mm": 3.075,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U30",
+      "vcc_pin": "14",
+      "cap": "C110",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.081,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U31",
+      "vcc_pin": "14",
+      "cap": "C111",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.081,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U32",
+      "vcc_pin": "14",
+      "cap": "C112",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.081,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U34",
+      "vcc_pin": "14",
+      "cap": "C113",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.081,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U35",
+      "vcc_pin": "8",
+      "cap": "C154",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.076,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U40",
+      "vcc_pin": "3",
+      "cap": "C40",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.112,
+      "pad_edges_mm": 1.875,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U50",
+      "vcc_pin": "20",
+      "cap": "C70",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.407,
+      "pad_edges_mm": 1.875,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U51",
+      "vcc_pin": "20",
+      "cap": "C71",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.407,
+      "pad_edges_mm": 1.875,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U52",
+      "vcc_pin": "20",
+      "cap": "C72",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.407,
+      "pad_edges_mm": 1.875,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U54",
+      "vcc_pin": "1",
+      "cap": "C74",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.076,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    },
+    {
+      "ic": "U54",
+      "vcc_pin": "8",
+      "cap": "C75",
+      "vcc_net": "+3V3",
+      "cap_supply_net": "+3V3",
+      "same_net": true,
+      "pad_centres_mm": 3.076,
+      "pad_edges_mm": 1.6,
+      "basis": "Actual native copper-pad positions/bounds. Edge distance is a shortest-route opportunity; routing/return loop are still pending."
+    }
+  ],
+  "local_opamp_input_filters": [
+    {
+      "channel": 1,
+      "opamp": "U20",
+      "in_plus_pin": "3",
+      "series_resistor": "R1024",
+      "local_capacitor": "C141",
+      "filtered_net": "IN1_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 2,
+      "opamp": "U20",
+      "in_plus_pin": "5",
+      "series_resistor": "R1054",
+      "local_capacitor": "C142",
+      "filtered_net": "IN2_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 3,
+      "opamp": "U20",
+      "in_plus_pin": "10",
+      "series_resistor": "R1084",
+      "local_capacitor": "C143",
+      "filtered_net": "IN3_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 4,
+      "opamp": "U20",
+      "in_plus_pin": "12",
+      "series_resistor": "R1114",
+      "local_capacitor": "C144",
+      "filtered_net": "IN4_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 5,
+      "opamp": "U21",
+      "in_plus_pin": "3",
+      "series_resistor": "R1144",
+      "local_capacitor": "C145",
+      "filtered_net": "IN5_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 6,
+      "opamp": "U21",
+      "in_plus_pin": "5",
+      "series_resistor": "R1174",
+      "local_capacitor": "C146",
+      "filtered_net": "IN6_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 7,
+      "opamp": "U21",
+      "in_plus_pin": "10",
+      "series_resistor": "R1204",
+      "local_capacitor": "C147",
+      "filtered_net": "IN7_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 8,
+      "opamp": "U21",
+      "in_plus_pin": "12",
+      "series_resistor": "R1234",
+      "local_capacitor": "C148",
+      "filtered_net": "IN8_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    },
+    {
+      "channel": 9,
+      "opamp": "U22",
+      "in_plus_pin": "3",
+      "series_resistor": "R1264",
+      "local_capacitor": "C149",
+      "filtered_net": "IN9_EMIT_F",
+      "same_filtered_node": true,
+      "pad_centres_mm": 3.798,
+      "pad_edges_mm": 2.003,
+      "basis": "Actual native IN+ and local RC-filter capacitor pads. No trace routing exists yet."
+    }
+  ],
+  "local_uv_emitter_absorbers": [
+    {
+      "channel": 1,
+      "transistor": "Q121",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C161",
+      "emitter_net": "IN1_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 2,
+      "transistor": "Q122",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C162",
+      "emitter_net": "IN2_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 3,
+      "transistor": "Q123",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C163",
+      "emitter_net": "IN3_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 4,
+      "transistor": "Q124",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C164",
+      "emitter_net": "IN4_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 5,
+      "transistor": "Q125",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C165",
+      "emitter_net": "IN5_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 6,
+      "transistor": "Q126",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C166",
+      "emitter_net": "IN6_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 7,
+      "transistor": "Q127",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C167",
+      "emitter_net": "IN7_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 8,
+      "transistor": "Q128",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C168",
+      "emitter_net": "IN8_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    },
+    {
+      "channel": 9,
+      "transistor": "Q129",
+      "emitter_pin": "2",
+      "absorber_capacitor": "C169",
+      "emitter_net": "IN9_UV_EMITTER",
+      "same_emitter_node": true,
+      "ground_return": true,
+      "pad_edges_mm": 2.025,
+      "basis": "Actual native emitter/absorber pad geometry; capacitors sit beside the detector, before routing."
+    }
+  ]
+}

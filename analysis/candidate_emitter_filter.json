@@ -1,0 +1,25 @@
+{
+  "proposal": "NativeE->10k->opampIN+,100n toGND; local10k/100nOUT-toIN\u2212 compensation retained.",
+  "not_in_native_netlist": true,
+  "output_current_limit_A": 0.005,
+  "late_min_ma": 20.315091600000002,
+  "late_max_ma": 20.315132600000002,
+  "final": {
+    "field_v": 0.0429218855,
+    "sense_v": 0.000417407315,
+    "contact_n_v": 0.12317621,
+    "fault_v": 0.123176823,
+    "uv_gate_v": 5.00000205,
+    "emitter_v": 4.3337821,
+    "base_v": 3.60023625,
+    "uv_emitter_v": 0.450625184,
+    "uv_sense_v": 0.937656296,
+    "ref_v": 4.33374307,
+    "amp_out_v": 0.690314636,
+    "wetting_ma": -0.000102905875,
+    "pnp_power_w": 0.0,
+    "r33_power_w": 0.0134498877,
+    "driver_current_ma": 1.60726264,
+    "local_reference_v": 4.3337429
+  }
+}

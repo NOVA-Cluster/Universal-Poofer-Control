@@ -1,0 +1,951 @@
+{
+  "schema": "revA3-final-2",
+  "date": "2026-10-03",
+  "native_export": {
+    "components": 573,
+    "sha256": "823b9b6ed288bac1c514f60eeb091e8db9304aa2299d878968ed289e02727007",
+    "file": "analysis/Universal_Poofer_Control.net",
+    "structural_audit": "All9 source cells, currentreference, IN+ filters, IN\u2212 compensation, UV1nF guards and critical polarities are checked by scripts/simulate_a3_inputs.py.",
+    "previous_stable_sha256": "38849c540340f69c52c6cfeb5e1acabe04bcb17c52d48709c8d432fcb72b2b43"
+  },
+  "parts": {
+    "MJD350T4G": {
+      "lcsc": "C145514",
+      "package": "DPAK",
+      "pins": {
+        "1": "B",
+        "2": "C",
+        "3": "E",
+        "4_TAB": "C"
+      },
+      "evidence": {
+        "pdf": "onsemi-MJD340.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "url": "https://www.onsemi.com/download/data-sheet/pdf/mjd340-d.pdf",
+        "sha256": "38a560fdbd9864f5c58a648cc9e542b831cbf391610c532e39a6bd1ed484b065"
+      },
+      "facts": {
+        "polarity": "PNP",
+        "VCEO_abs_magnitude_V": 300,
+        "VEBO_abs_V": 3,
+        "collector_continuous_A": 0.5,
+        "gain_min_test": {
+          "hFE": 30,
+          "IC_mA": 50,
+          "VCE_V": 10,
+          "temperature_C": 25
+        },
+        "cutoff_max_test": {
+          "current_mA": 0.1,
+          "VCB_V": 300,
+          "temperature_C": 25
+        },
+        "SOA": "Manufacturer p4 includes both polarities; approximately100V/45mA for100\u00b5s is below the single-pulse limit. The physical pulse duration must still be qualified.",
+        "Rtheta_JC_CperW": 8.33,
+        "single_pulse_1ms_Ztheta_normalized_upper_read": 0.35,
+        "qualification": "Cold low-VCE gain and hot powered-off leakage lack matching guaranteed test conditions.",
+        "single_pulse_100us_Ztheta_normalized_conservative_read": 0.12
+      }
+    },
+    "AO3401A": {
+      "lcsc": "C15127",
+      "package": "SOT23",
+      "pins": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
+      "evidence": {
+        "pdf": "AOS-AO3401A.pdf",
+        "pages_1_based": [
+          1,
+          2
+        ],
+        "url": "https://www.aosmd.com/res/data_sheets/AO3401A.pdf",
+        "sha256": "0d8e3261ae280e007b5837fff60c55142f2d92af71edc4d02aee6f7a760a785c"
+      },
+      "facts": {
+        "VDS_abs_V": -30,
+        "VGS_abs_magnitude_V": 12,
+        "RDSon_max_mohm_atminus4p5V": 60,
+        "VGS_threshold_V": [
+          -1.3,
+          -0.5
+        ],
+        "input_capacitance_typ_pF": 645,
+        "role": "Input fault clamp: source5V, drain main PNP base, gate normally5V (OFF) and pulled negative by detector (ON). Separate coil high-side instance switches12V. Neither input-clamp MOSFET terminal directly sees100V."
+      }
+    },
+    "MMBT3904": {
+      "lcsc": "C20526",
+      "package": "SOT23",
+      "pins": {
+        "1": "B",
+        "2": "E",
+        "3": "C"
+      },
+      "evidence": {
+        "pdf": "JSCJ-MMBT3904.pdf",
+        "pages_1_based": [
+          1,
+          2
+        ],
+        "url": "https://datasheet.lcsc.com/datasheet/pdf/9335632bcfa83df8351353eab379720e.pdf?productCode=C20526",
+        "sha256": "6c2034cb0bd0d85be51c9c4f82aad838a688aa70c20de1a71681be8ec02b659b"
+      },
+      "facts": {
+        "VCEO_V": 40,
+        "VEBO_V": 6,
+        "IC_max_mA": 200,
+        "hFE_min_at10mA_1V": 100,
+        "role": "Source driver plus independent negative detector. Detector baseGND, emitter300k+BAS21 towardFIELD,100k return and1nF guard. Hot leakage and sub-mA gain require qualification."
+      }
+    },
+    "MMBT3906": {
+      "lcsc": "C2143",
+      "package": "SOT23",
+      "pins": {
+        "1": "B",
+        "2": "E",
+        "3": "C"
+      },
+      "evidence": {
+        "pdf": "JSCJ-MMBT3906.pdf",
+        "pages_1_based": [
+          1,
+          2
+        ],
+        "url": "https://datasheet.lcsc.com/datasheet/pdf/550597da53734df4a72fadeaed7e7aa7.pdf?productCode=C2143",
+        "sha256": "427549748caaec253b15742518115127cc27166c59db0e77170dc4ec08182ff4"
+      },
+      "facts": {
+        "polarity": "PNP",
+        "VCEO_magnitude_V": 40,
+        "VEBO_V": 5,
+        "IC_max_mA": 200,
+        "role": "Backup source-current limiter: emitter5V, collector main PNP base, base at equal1k divider midpoint between5V and main PNP emitter."
+      },
+      "selection": "reference_only_notused"
+    },
+    "BAS21,215": {
+      "lcsc": "C8661",
+      "package": "SOT23",
+      "pins": {
+        "1": "A",
+        "2": "NC",
+        "3": "K"
+      },
+      "evidence": {
+        "pdf": "Nexperia-BAS21.pdf",
+        "pages_1_based": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "url": "https://assets.nexperia.com/documents/data-sheet/BAS21.pdf",
+        "sha256": "4632cdc90d8753d14b479d3218f321ec1e028ee2c76b2f0972694e71a852a463"
+      },
+      "facts": {
+        "VR_cont_V": 200,
+        "IR_max_nA_at200V25C": 100,
+        "IR_max_uA_at200V150C": 100,
+        "maximum_IR_graph_upper_read_at85C_uA": 10,
+        "role": "Separate source output blocker, negative-detector blocker, and sensor blocker. Internal nodes stay separate.",
+        "sensor_negative_bound_V": -0.0687,
+        "fault_NPN_emitter_reverse_bound_V": 1.01,
+        "positive_step_guard": "Native C161..169, 1nF from UV_EMITTER to ground, suppress diode-capacitance feedthrough into the detector transistor."
+      }
+    },
+    "TLV803EA30DBZR": {
+      "lcsc": "C5218924",
+      "package": "SOT23-3",
+      "pins": {
+        "1": "GND",
+        "2": "RESET_N",
+        "3": "VDD"
+      },
+      "evidence": {
+        "pdf": "TI-TLV803E.pdf",
+        "pages_1_based": [
+          3,
+          4,
+          5,
+          8,
+          9,
+          26
+        ],
+        "url": "https://www.ti.com/lit/ds/symlink/tlv803e.pdf",
+        "sha256": "8c0e1447e9f5edfc933912d7f30d3a11867d052b43b3ff75e45309aa461a651b"
+      },
+      "facts": {
+        "type": "Open-drain active-low",
+        "threshold_typ_V": 3.08,
+        "threshold_tolerance_pct": 2,
+        "hysteresis_pct": [
+          0.9,
+          1.5
+        ],
+        "reset_release_ms": [
+          130,
+          200,
+          270
+        ],
+        "assertion_delay_max_us": 50,
+        "output_valid_min_supply_V": 0.7,
+        "temperature_C": [
+          -40,
+          125
+        ],
+        "VOL_max_V_at2mA_3p3V": 0.3,
+        "recommended_pullup_ohm": 2200,
+        "recommended_PG_driver_base_ohm": 10000,
+        "note": "Native2.2k pullup and10k PG base drive preserve specified reset sink/loading margin."
+      }
+    },
+    "SMAZ8V2-13-F": {
+      "lcsc": "C84362",
+      "package": "SMA",
+      "polarity": "Cathode notch/band",
+      "evidence": {
+        "pdf": "Diodes-SMAZ8V2.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3
+        ],
+        "url": "https://www.diodes.com/datasheet/download/SMAZ5V1-SMAZ39.pdf",
+        "sha256": "6db70e9578fefb4dbe68b3291bd57ba757b218457f9a638eae706dc858a755f4"
+      },
+      "facts": {
+        "nominal_zener_V": 8.2,
+        "zener_V_at100mA25C": [
+          7.79,
+          8.61
+        ],
+        "power_W_at50C": 1,
+        "derating_WperC_above50": 0.01,
+        "power_W_at85C": 0.65,
+        "Rtheta_JA_typ_CperW": 100,
+        "coil_initial_peak_power_W_33p3mA": 0.287,
+        "coil_connection": "ZenerA=12V_COIL;zenerK joinsflybackdiodeK;diodeA=relayMOSFETdrain. This opposition blocks current during normal12V energization."
+      }
+    },
+    "SMBJ8.0A-Littelfuse": {
+      "lcsc": "C224028",
+      "package": "SMB",
+      "polarity": "Cathodeband",
+      "evidence": {
+        "pdf": "Littelfuse-SMBJ8.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "url": "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-smbj-datasheet?assetguid=bba5cb2a-bbe0-4b55-ae91-a462ddb81a92",
+        "sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b"
+      },
+      "facts": {
+        "reverse_standoff_V": 8,
+        "breakdown_V_at1mA25C": [
+          8.89,
+          9.83
+        ],
+        "maximum_clamp_V_at44p2A25C": 13.6,
+        "pulse_power_W_10_1000us": 600,
+        "breakdown_temperature_coefficient_max_pctperC": 0.064,
+        "valve_connection": "SS34 A=GND;SS34K joinsTVSK;TVSA=VALVE_NO. Do not place8VTVS directlyacrossnormallyenergized12Vvalve.",
+        "qualification": "Actual valve inductance and repetition rate needed for energy and release-time qualification."
+      }
+    },
+    "74HC00D,653": {
+      "lcsc": "C5586",
+      "package": "SOIC14",
+      "pins": {
+        "1": "1A",
+        "2": "1B",
+        "3": "1Y",
+        "4": "2A",
+        "5": "2B",
+        "6": "2Y",
+        "7": "GND",
+        "8": "3Y",
+        "9": "3A",
+        "10": "3B",
+        "11": "4Y",
+        "12": "4A",
+        "13": "4B",
+        "14": "VCC"
+      },
+      "evidence": {
+        "pdf": "Nexperia-74HC00.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT00.pdf",
+        "sha256": "dd401970bc0520c2496dd2a8fb8d9c94f29585c61d5f49dab606257d6c92b22f"
+      },
+      "facts": {
+        "function": "QuadNAND",
+        "supply_V": [
+          2,
+          6
+        ],
+        "temperature_C": [
+          -40,
+          125
+        ]
+      }
+    },
+    "74HC02D,653": {
+      "lcsc": "C5588",
+      "package": "SOIC14",
+      "pins": {
+        "1": "1Y",
+        "2": "1A",
+        "3": "1B",
+        "4": "2Y",
+        "5": "2A",
+        "6": "2B",
+        "7": "GND",
+        "8": "3A",
+        "9": "3B",
+        "10": "3Y",
+        "11": "4A",
+        "12": "4B",
+        "13": "4Y",
+        "14": "VCC"
+      },
+      "evidence": {
+        "pdf": "Nexperia-74HC02.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT02.pdf",
+        "sha256": "2773ea732403ff2a427153b8a0980ab6c6d8091df1ad8825a8b9711c1cf6b559"
+      },
+      "facts": {
+        "function": "QuadNOR",
+        "supply_V": [
+          2,
+          6
+        ],
+        "temperature_C": [
+          -40,
+          125
+        ]
+      }
+    },
+    "74HC14D,653": {
+      "lcsc": "C5605",
+      "package": "SOIC14",
+      "pins": {
+        "1": "1A",
+        "2": "1Y",
+        "3": "2A",
+        "4": "2Y",
+        "5": "3A",
+        "6": "3Y",
+        "7": "GND",
+        "8": "4Y",
+        "9": "4A",
+        "10": "5Y",
+        "11": "5A",
+        "12": "6Y",
+        "13": "6A",
+        "14": "VCC"
+      },
+      "evidence": {
+        "pdf": "Nexperia-74HC14.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf",
+        "sha256": "ab7028cdd8c5ce854e8f061a2eea568d4ff19d79c551646a8483f4f6835f5711"
+      },
+      "facts": {
+        "function": "HexSchmittinverter",
+        "supply_V": [
+          2,
+          6
+        ],
+        "temperature_C": [
+          -40,
+          125
+        ],
+        "input_clamp_current_abs_mA": 20,
+        "role": "ARM and power-good inversion, role logic and coil-enable inversion; no RC arm-pulse generator remains."
+      }
+    },
+    "LM2902DR": {
+      "lcsc": "C350545",
+      "package": "SOIC14",
+      "pins": {
+        "1": "OUT1",
+        "2": "IN1-",
+        "3": "IN1+",
+        "4": "V+",
+        "5": "IN2+",
+        "6": "IN2-",
+        "7": "OUT2",
+        "8": "OUT3",
+        "9": "IN3-",
+        "10": "IN3+",
+        "11": "GND",
+        "12": "IN4+",
+        "13": "IN4-",
+        "14": "OUT4"
+      },
+      "evidence": {
+        "pdf": "TI-LM2902.pdf",
+        "pages_1_based": [
+          3,
+          5,
+          6,
+          12,
+          13
+        ],
+        "url": "https://www.ti.com/lit/ds/symlink/lm2902.pdf",
+        "sha256": "951c040c50b5a8568ad0d645b525758b24e005ff05ab4a6d2e9beb7307e29e18"
+      },
+      "facts": {
+        "operating_supply_V": [
+          3,
+          26
+        ],
+        "temperature_C": [
+          -40,
+          125
+        ],
+        "full_temp_offset_abs_mV": 10,
+        "full_temp_bias_max_nA": 500,
+        "commonmode_upper_fulltemp": "VCC\u22122V",
+        "offset_only_emitter_current_error_mA": 0.30303030303030304,
+        "note": "Legacy LM2902 limits apply. Each channel has10k/100n on emitter IN+ and isolated10k/100n Miller feedback on IN\u2212. Output-current, overload and temperature behavior remain prototype qualifications.",
+        "reference": "Shared raw divider is buffered by spare U22B. 200\u03a9 isolates its output from the10\u00b5F global reference hold capacitor."
+      }
+    },
+    "BOOMELE-2x8-male": {
+      "lcsc": "C68234",
+      "package": "ThroughholeP2.54mm",
+      "evidence": {
+        "pdf": "BOOMELE-2x8-header.pdf",
+        "pages_1_based": [
+          1
+        ],
+        "url": "https://datasheet.lcsc.com/datasheet/pdf/d52c83a07830c4e9e9a614accc55f5cd.pdf?productCode=C68234",
+        "sha256": "2ca0710c19e7b1a11c0062278895f29943cd72797456b1710cee49589bd29c0a"
+      },
+      "facts": {
+        "rows": 2,
+        "columns": 8,
+        "pitch_mm": 2.54,
+        "catalog_contact_current_A": 3,
+        "male_not_female": "C68234male;C30734female.",
+        "pin_numbering": "Numberingassignedconsistentlybyschematic/PCBfootprint;verifyroworientationwithsilkscreenpin1mark."
+      }
+    },
+    "BAT54,215": {
+      "lcsc": "C85084",
+      "package": "SOT23",
+      "pins": {
+        "1": "A",
+        "2": "NC",
+        "3": "K"
+      },
+      "evidence": {
+        "pdf": "Nexperia-BAT54.pdf",
+        "pages_1_based": [
+          2,
+          4
+        ],
+        "url": "https://assets.nexperia.com/documents/data-sheet/BAT54.pdf"
+      },
+      "facts": {
+        "role": "Reference guard: anode CURRENT_REF, cathode local INn_AMP_REF.",
+        "VR_V": 30,
+        "IR_25V_25C_max_uA": 2,
+        "VF_100uA_25C_max_V": 0.24,
+        "VF_1mA_25C_max_V": 0.32,
+        "qualification": "Cold/hot forward and reverse behavior must be measured in the final power-cut waveform."
+      }
+    },
+    "SN74LVC244ADWR": {
+      "lcsc": "C507250",
+      "package": "SOIC20 wide, 7.5x12.8mm,1.27mm pitch",
+      "pins": {
+        "1": "OE1_n",
+        "2": "1A1",
+        "3": "2Y4",
+        "4": "1A2",
+        "5": "2Y3",
+        "6": "1A3",
+        "7": "2Y2",
+        "8": "1A4",
+        "9": "2Y1",
+        "10": "GND",
+        "11": "2A1",
+        "12": "1Y4",
+        "13": "2A2",
+        "14": "1Y3",
+        "15": "2A3",
+        "16": "1Y2",
+        "17": "2A4",
+        "18": "1Y1",
+        "19": "OE2_n",
+        "20": "VCC"
+      },
+      "evidence": {
+        "pdf": "TI-SN74LVC244A.pdf",
+        "pages_1_based": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          30,
+          31
+        ],
+        "url": "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf",
+        "sha256": "cfc6af57afa803bda8d900f5ba71bbaded5f50be369639be2002eb2370684179"
+      },
+      "facts": {
+        "supply_V": [
+          1.65,
+          3.6
+        ],
+        "input_allowed_V_max": 5.5,
+        "Ioff_max_uA_to85C": 10,
+        "Ioff_max_uA_to125C": 20,
+        "note": "Three wide-SOIC buffers regenerate/isolate normal3.3V chain signals. Powered-off Ioff protection is for ordinary logic, not\u00b1100V fields."
+      }
+    },
+    "74HC74D,653": {
+      "lcsc": "C27597",
+      "package": "SOIC14",
+      "pins": {
+        "1": "1CLR_N",
+        "2": "1D",
+        "3": "1CLK",
+        "4": "1PRE_N",
+        "5": "1Q",
+        "6": "1Q_N",
+        "7": "GND",
+        "8": "2Q_N",
+        "9": "2Q",
+        "10": "2PRE_N",
+        "11": "2CLK",
+        "12": "2D",
+        "13": "2CLR_N",
+        "14": "VCC"
+      },
+      "evidence": {
+        "url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
+      },
+      "facts": {
+        "role": "U34 rising-edge hardware RUN latch. D=1; clock ARM_LEVEL; preset inactive; asynchronous clear from STOP,3.3V supervisor,and U35 raw-rail monitoring."
+      }
+    },
+    "TLV9022DR": {
+      "selected": "TI TLV9022DR C2871718",
+      "primary_pdf": "datasheets/TI-TLV9022.pdf",
+      "pin_map": {
+        "1": "OUT1",
+        "2": "IN1-",
+        "3": "IN1+",
+        "4": "GND",
+        "5": "IN2+",
+        "6": "IN2-",
+        "7": "OUT2",
+        "8": "VCC"
+      },
+      "datasheet_evidence": {
+        "pages": [
+          4,
+          7,
+          11,
+          16
+        ],
+        "supply_range_V": [
+          1.65,
+          5.5
+        ],
+        "offset_fulltemp_at_1p8V_and5V_mV": 2,
+        "PSRR_open_drain_dB_min": 80,
+        "common_mode_at_fulltemp_V": "V-\u22120.2 toV++0.2, at1.8V/5V",
+        "VOL_4mA_fulltemp_V": 0.175,
+        "VOL_table_supply_note": "Electricaltabledefault5V;3.3Voutputfull-temperaturecurves aretypical,notaseparateguaranteedmaximum. Actual0.73mA clearload ismuchlower.",
+        "input_bias_typ_pA": 5,
+        "input_bias_max_note": "Notabulatedfull-temperaturemax; calculationsuse1nAengineeringenvelope,requiresprototypeverification."
+      },
+      "calculation": {
+        "resistor_envelope": "+/-1% +65C*100ppm/C => +/-1.65%",
+        "logic_supply_V": [
+          3.02,
+          3.399
+        ],
+        "offset_envelope_V": 0.005,
+        "offset_note": "Conservativeengineeringenvelopeincludes2mVendpointVOS andPSRR/CMRRunbudgetedintermediatepoints;notmanufacturer3.3Vfixedmaxrow.",
+        "input_bias_envelope_A": 1e-09,
+        "5V_trip_nom_V": 4.269230769230769,
+        "12V_trip_nom_V": 8.884615384615385,
+        "5V_trip_corner_V": [
+          3.6356963516253074,
+          4.714437500766266
+        ],
+        "12V_trip_corner_V": [
+          7.553141869540416,
+          9.827587280631466
+        ],
+        "min_healthy5V_overdrive_V": 0.027468650315067348,
+        "min_healthy12V_overdrive_V": 0.10024481711117139,
+        "R150_ohm": 4700,
+        "max_clear_sink_A": 0.0007304964539007092,
+        "HC74_VIL_at3p02V_V": 0.9059999999999999
+      },
+      "qualification": [
+        "VerifyCLR_NLOWat3.02..3.40V across\u221240..85C underactualpushpullcontention.",
+        "Supplyrampandshutdown/supervisorcooperation/bothmonitorfaults.",
+        "Noformalpowerofforcompleteemergencystopcertificationfromthesespecs."
+      ]
+    },
+    "PCA9517AD,118": {
+      "revision": "A.3",
+      "selected_part": "PCA9517AD,118",
+      "lcsc_code": "C2802638",
+      "manufacturer": "NXP",
+      "package": "SO8 SOT96-1",
+      "body_mm": [
+        3.9,
+        4.9
+      ],
+      "pitch_mm": 1.27,
+      "source": {
+        "url": "https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf",
+        "revision": "4.1",
+        "date": "2016-05-24",
+        "access": "Read as primary22-pagePDF via web; direct downloadfailed.",
+        "evidence_pages": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10,
+          17
+        ]
+      },
+      "pin_map": {
+        "1": "VCCA",
+        "2": "SCLA",
+        "3": "SDAA",
+        "4": "GND",
+        "5": "EN",
+        "6": "SDAB",
+        "7": "SCLB",
+        "8": "VCCB"
+      },
+      "design": {
+        "external_chain": "UP and DOWN SDA/SCL tied directly to COMMON_A bus. Private SIDE_B to ESP32 GPIO8SDA/GPIO9SCL.",
+        "supply": "VCCA=VCCB=local3.3V,100nFdecoupling at bothpins.",
+        "enable": "PG_RESET_N; rail transitions may truncate transactions; firmware must recover bus.",
+        "pullups": "PrivateB eachboard4.7k tolocal3.3V. CommonA oneenabled2.2k pair usingJP2(master); avoidparallel32pairs.",
+        "powered_off": "A/B pins high impedance when unpowered; sharedA copper maintains chain continuity.",
+        "forbidden": "Do not join B pins of multiple buffers.",
+        "operating": "-40..85C;0..400kHzpartlimit; globalA capacitance<=400pF, speed qualified withactualchain.",
+        "logic_margin": "BufferedB LOW max0.6V <ESP32VIL0.825V at3.3V; external sender onB must pullLOW<=0.4V duringcontention. ValidateGPIO8/9 sinkunder~0.7mA overtemperature.",
+        "default_clock_hz": 100000,
+        "global_bus_budget": {
+          "maximum_pF": 400,
+          "port_A_max_pF_each": 7,
+          "32_port_A_pF": 224,
+          "connector_cable_pcb_remaining_pF": 176,
+          "high_leakage_uA_each_max": 10,
+          "32_board_drop_at_2200R_V": 0.704,
+          "rise_30_to_70_at400pF_ns": 745.6240000000001,
+          "max_capacitance_for300ns_pF": 160.9390255678465,
+          "standard_timing_source": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+          "source_page": 44
+        }
+      }
+    },
+    "0805-current-passives": {
+      "evidence": {
+        "pdf": "UNI-ROYAL-0603.pdf",
+        "pages_1_based": [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "note": "Legacy filename; this is the complete01005..2512 family datasheet, including0805."
+      },
+      "facts": {
+        "minimum_passive_size": "0805",
+        "standard_resistor_rating_W": 0.125,
+        "standard_resistor_working_voltage_V": 150,
+        "standard_tolerance_pct": 1,
+        "standard_TCR_ppm_per_C": 100,
+        "three_100k_field_resistors_power_each_at100V_W": 0.011,
+        "UV_reference_top": "30k C17621 Basic,0805W8F3002T5E",
+        "UV_network": "Four100k C149504 conductances;100k emitter return;3x100k field branch."
+      }
+    },
+    "LM2901BIDR": {
+      "lcsc": "C22427890",
+      "package": "SOIC14",
+      "pins": {
+        "1": "OUT2",
+        "2": "OUT1",
+        "3": "V+",
+        "4": "IN1-",
+        "5": "IN1+",
+        "6": "IN2-",
+        "7": "IN2+",
+        "8": "IN4-",
+        "9": "IN4+",
+        "10": "IN3-",
+        "11": "IN3+",
+        "12": "GND",
+        "13": "OUT3",
+        "14": "OUT4"
+      },
+      "evidence": {
+        "pdf": "TI-LM2901-family.pdf",
+        "pages_1_based": [
+          4,
+          5,
+          6,
+          8
+        ],
+        "url": "https://www.ti.com/lit/ds/symlink/lm2901b.pdf"
+      },
+      "facts": {
+        "operating_supply_V": [
+          2,
+          36
+        ],
+        "temperature_C": [
+          -40,
+          125
+        ],
+        "offset_max_mV_fulltemp_VS5to36": 5.5,
+        "bias_max_nA_fulltemp": 50,
+        "common_mode_fulltemp": "GND to VCC\u22122V",
+        "VOL_4mA_fulltemp_max_V": 0.55,
+        "role": "Field contact and UV comparators powered from raw12V. U35 uses TLV9022 instead."
+      }
+    },
+    "SRD-12VDC-SL-C": {
+      "lcsc": "C30431",
+      "package": "THT relay, project-corrected Songle footprint",
+      "pins": {
+        "1": "COM",
+        "2": "COIL",
+        "3": "NC",
+        "4": "NO",
+        "5": "COIL"
+      },
+      "evidence": {
+        "pdf": "Songle-SRD.pdf",
+        "pin_image": "Songle-SRD-pinout.png",
+        "note": "Manufacturer bottom view was independently compared to physical pad numbering."
+      },
+      "facts": {
+        "coil_nominal_V": 12,
+        "design_valve_voltage_V": 12,
+        "design_valve_current_A": 1,
+        "contact_resistive_rating_A": 10,
+        "note": "Resistive contact rating and2.54mm header current rating are distinct. Inductive endurance/release time require actual loads."
+      }
+    },
+    "TLV1117LV33DCYR": {
+      "lcsc": "C15578",
+      "package": "SOT223",
+      "pins": {
+        "1": "GND",
+        "2": "OUT",
+        "3": "IN",
+        "TAB": "OUT"
+      },
+      "evidence": {
+        "pdf": "TI-TLV1117LV.pdf",
+        "url": "https://www.ti.com/lit/ds/symlink/tlv1117lv.pdf"
+      },
+      "facts": {
+        "role": "5V\u21923.3V ceramic-stable regulator. Native2x10uF output ceramics exceed required minimum; DC-bias capacitance and copper thermal path remain layout checks.",
+        "power_at5V_3p3V_500mA_W": 0.85
+      }
+    }
+  },
+  "selected_source": {
+    "path": [
+      "+5V_LOGIC",
+      "33\u03a9 shunt",
+      "MJD350 emitter",
+      "MJD350 collector",
+      "BAS21",
+      "FIELD"
+    ],
+    "raw_reference": "5V\u00d7(6.8k||150k)/(1k+(6.8k||150k))",
+    "rbot_ohm": 6505.102040816327,
+    "raw_reference_at5V_V": 4.333786539768865,
+    "emitter_current_nom_mA": 20.188286673670763,
+    "collector_current_nom_BF100_with_helper_mA": 20.31,
+    "base_pullup": "1k from5V before shunt to PNP base.",
+    "driver": "LM2902 OUT through2.2k to MMBT3904 base; emitter GND; collector through mandatory1k to main PNP base.",
+    "IN_plus_filter": "R1024 etc10k from physical emitter to INn_EMIT_F; C141..149100n toGND; INn_EMIT_F feeds opampIN+.",
+    "IN_minus_compensation": "R1021 etc10k CURRENT_REF to local INn_AMP_REF; C131..139100n OUT to local IN\u2212; BAT54 guard CURRENT_REF\u2192local IN\u2212.",
+    "shared_buffer": "U22B raw reference follower; CURRENT_REF_DRIVE\u21922x100\u03a9series\u2192CURRENT_REF;10\u00b5F CURRENT_REF\u2192GND.",
+    "backup_limiter": "MMBT3906 E=5V, C=main PNP base, B=equal1k divider between5V and main emitter; nominal20mA not clipped.",
+    "UV_override": "MMBT3904 base GND, emitter through3x100k+BAS21 to FIELD with100k return. Collector pulls AO3401 gate down;68k gate return to5V. PMOS5V\u2192main PNP base overrides the servo.",
+    "UV_step_guard": "C161..1691nF UV_EMITTER\u2192GND.",
+    "role": "Only MASTER E-stop source enabled. Physical EXProle turns Q149 on and clamps driver base; GPIO2 reads role through100k."
+  },
+  "digital_input": {
+    "contract": "Dry contacts to ground, active LOW, nominal20mA board-sourced wetting. Continuous\u00b1100V shared-return fault survival is a prototype qualification requirement.",
+    "receiver": "BAS21 FIELD\u21923x100k\u2192SENSE;6.8k/10n toGND; LM2901B IN+=SENSE, IN\u2212=3.3V\u00d73.3k/(400k+3.3k);2M positive feedback OUT\u2192SENSE;10k output pullup3.3V.",
+    "UV": "UVSENSE=(UV_EMITTER+3.3V)/4 with four100k conductances; IN+=UV_REF=3.3V/4, IN\u2212=UVSENSE. HIGH masks detected negative faults.",
+    "UV_corner_evidence": {
+      "bounds": {
+        "min_trip_v": -0.19694044735375202,
+        "max_trip_v": 0.20221591725255852,
+        "minimum_healthy_margin_v": 0.029075380416468146,
+        "worst_late_parameters": [
+          [
+            1.0165,
+            0.9835,
+            1.0165,
+            1.0165,
+            1.0165,
+            0.9835
+          ],
+          3.399,
+          -0.0055,
+          5e-08,
+          0
+        ],
+        "healthy_emitter_min_v_with_1uA_leakage_envelope": 0.3214506124195388,
+        "healthy_emitter_leakage_envelope_note": "1uA is a qualificationenvelope; selectedJSCJdatasheet doesnot guarantee hotemitter-cutoffcurrent. At25C tabulatedmax100nA isstronger. Treat detectorBAS21asidealshort toward0V, making this healthyloadingbound conservative.",
+        "healthy_margin_note": "UsespositivehealthyemitterKCLbound ratherthan obsoletezero-emitterassumption."
+      },
+      "sim": {
+        "-40": {
+          "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+          "first_possible_pmos_on_field_v": -9.7,
+          "first_source_under1ma_field_v": -10.2,
+          "source_cutoff_uv_emitter_v": -0.676679571,
+          "first_flag_high_field_v": -4.5,
+          "flag_emitter_v": -0.206824143,
+          "source_off_flag_low_field_interval_v": [],
+          "healthy_fault_v": 0.123275724
+        },
+        "27": {
+          "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+          "first_possible_pmos_on_field_v": -8.6,
+          "first_source_under1ma_field_v": -8.8,
+          "source_cutoff_uv_emitter_v": -0.529222725,
+          "first_flag_high_field_v": -4.4,
+          "flag_emitter_v": -0.215554508,
+          "source_off_flag_low_field_interval_v": [],
+          "healthy_fault_v": 0.123275724
+        },
+        "85": {
+          "amp_model_for_ordering": "Held saturatedHIGH; source regulator is not being characterized bythisfixture. Compare earliestpossibleVGS=-0.5 clamp onset aswell as fullcutoff.",
+          "first_possible_pmos_on_field_v": -7.7,
+          "first_source_under1ma_field_v": -7.5,
+          "source_cutoff_uv_emitter_v": -0.396036858,
+          "first_flag_high_field_v": -4.2,
+          "flag_emitter_v": -0.20486188,
+          "source_off_flag_low_field_interval_v": [],
+          "healthy_fault_v": 0.123275724
+        }
+      },
+      "final_network": "Four100k conductances; R60=30k/R61=10k; UV_EMITTER signal. Native1nF guards do not change DC threshold."
+    },
+    "contact_total_loop": "Final documented E-stop chain resistance\u226410\u03a9 total, including allcontacts,wiring,andconnectors."
+  },
+  "ESTOP_logic": {
+    "latch": "U34HC74 rising-edge D flip-flop, replacing the former RC pulse/SR latch.",
+    "permit": "NOR(ESTOP_CLOSED_N,ESTOP_UV_FAULT).",
+    "clear": "STOP,PG_FAULT or either U35 raw-supply undervoltage overrides RUN_CLEAR_N. R1504.7k bounds contention.",
+    "inhibit": "OE_N=NAND(HW_RUN_LATCH,ARM_LEVEL); inverse requests coil switch. Supervisor-driven transistor is separately inseries with coil-switch gate sink.",
+    "restart": "Loop restoration while ARM isheld does not generate a new clock edge.",
+    "chain": "Forward actual local OE_N, not the raw MCU arm request.",
+    "defaults": "R124..129 provide six fail-safe upstream input pulls. R130..135 independently provide six MCU-facing startup pulls. Clock/data/latch/clear LOW; arm/load HIGH.",
+    "limits": "No certification claim. Coil removal does not open a welded contact; external valve-power disconnect required for thatfailure."
+  },
+  "simulation": {
+    "generic": "Native-derived passives and approximate BJTs/FETs/diodes. DC control gain is deliberately reduced/centered for convergence; dynamic opamp includes1.2MHz GBW,.5V/\u00b5s slew and5mA output limit. These are not manufacturer corner models.",
+    "manufacturer_macro": {
+      "url": "https://www.ti.com/lit/zip/SGLM009",
+      "cache": "analysis/models/lmx24_lm2902.lib",
+      "version": "LMX24_LM2902 RevA,June24,2024",
+      "outcome": "PSpice-compatible macro parsed, but ordinary operating point failed and ramped UIC run exceeded60s. No manufacturer-model stability pass is claimed."
+    },
+    "independent_loop": "analysis/source-loop-independent.json; native emitter filtering materially increases illustrative phase margin and suppresses high-gain small-step oscillation.",
+    "nonlinear_final_summary": "The native filtered, current-limited model settles near20.315mA, including simultaneous all9 closure. Contact reopening has a generic-switch numerical transition limit; no completed reopening waveform is claimed.",
+    "contact_reopening_note": "Separate DC open-contact case is valid; an ideal-switch reopening transition caused ngspice timestep failure after the completed25\u201329ms settling window.",
+    "final_source_project_hash": "823b9b6ed288bac1c514f60eeb091e8db9304aa2299d878968ed289e02727007"
+  },
+  "evidence_files": [
+    "analysis/revA3_input_simulation.json",
+    "analysis/revA3_input_spice/nine_final_summary.json",
+    "analysis/source-loop-independent.json",
+    "analysis/uv_emitter_capacitor_check.json",
+    "datasheets/rail-monitor-critical-facts.json"
+  ],
+  "qualification_required": [
+    "Physical loopsettling/ripple and simultaneous/mixed contact tests overtemperature andpartspread.",
+    "Positive/negative100V edges,continuoushotfaults,and floating/disconnected supply leakage.",
+    "Quench pulse/SOA, all9 marginalnegativefault heating,short shunt/resistor pulses and finalrouted-boardthermalbehavior.",
+    "Raw5V/12V and3.3V supervisor clear/recovery,fresh-edge restart,externalrole/source isolation.",
+    "Relay/valve releaseenergy,weldedcontact disconnect,EMC andfinalfield-voltage spacing."
+  ],
+  "trust_summary": {
+    "native_pin_connectivity": "High; deterministic native export checks.",
+    "manufacturer_pinmaps_tabulated_limits": "High for statedtestconditions.",
+    "corner_arithmetic": "High within explicitly stated resistor/offset/bias envelopes.",
+    "active_transients_AC": "Illustrative engineering evidence; not qualified device corners or a shutdown-time guarantee.",
+    "routed_PCB_thermal_EMC": "Deferred; board remains unrouted."
+  },
+  "final_rail_bleeds": {
+    "5V_parallel_refs": [
+      "R65",
+      "R137",
+      "R138",
+      "R139"
+    ],
+    "each_ohm": 1000,
+    "effective_5V_ohm": 250,
+    "3V3_ref": "R140",
+    "3V3_ohm": 1000,
+    "illustrative_9x100uA_rail_V": -0.225,
+    "evidence": "onsemi MJD340/MJD350,p2,0.1mA at300V/25C; raw native resistor connections",
+    "qualification": "Hot100V/floating-rail leakage is not tabulated; measure before release",
+    "native_components": 577,
+    "native_sha256": "82626bce67bed894514820d4328f78b24980fc4462ac153dd3bfe20e93e1a7c2"
+  }
+}

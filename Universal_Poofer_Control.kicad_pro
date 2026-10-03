@@ -1,0 +1,1902 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.2,
+        "min_track_width": 0.2,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.2,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.5
+      }
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Universal_Poofer_Control.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "meta": {
+      "version": 4
+    },
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.25,
+        "track_width": 0.25,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "description": "3.3V logic and protected signals"
+      },
+      {
+        "name": "HV_Field",
+        "clearance": 0.6,
+        "track_width": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "description": "Continuous +/-100V input fault domains; 0.6mm minimum clearance"
+      },
+      {
+        "name": "Valve_1A",
+        "clearance": 0.5,
+        "track_width": 1.0,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "description": "12VDC valve contact domains, 1A continuous design target"
+      },
+      {
+        "name": "Coil_12V",
+        "clearance": 0.25,
+        "track_width": 0.6,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "description": "Relay coils and hardware switched coil supply"
+      },
+      {
+        "name": "Power",
+        "clearance": 0.25,
+        "track_width": 0.6,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "description": "5V and 3.3V logic power; master wetting current total up to180mA"
+      }
+    ],
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V_LOGIC"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "+12V_COIL_SAFE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "+12V_IN"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/06 | Hardware stop latch and coil gate/COIL_ARM_BASE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/06 | Hardware stop latch and coil gate/COIL_MID"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/06 | Hardware stop latch and coil gate/COIL_PG_BASE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/06 | Hardware stop latch and coil gate/COIL_SINK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/07 | Contact receivers 1-2/IN1_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/07 | Contact receivers 1-2/IN1_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/07 | Contact receivers 1-2/IN2_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/07 | Contact receivers 1-2/IN2_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/08 | Contact receivers 3-4/IN3_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/08 | Contact receivers 3-4/IN3_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/08 | Contact receivers 3-4/IN4_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/08 | Contact receivers 3-4/IN4_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/09 | Contact receivers 5-6/IN5_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/09 | Contact receivers 5-6/IN5_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/09 | Contact receivers 5-6/IN6_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/09 | Contact receivers 5-6/IN6_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/10 | Contact receivers 7-8/IN7_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/10 | Contact receivers 7-8/IN7_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/10 | Contact receivers 7-8/IN8_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/10 | Contact receivers 7-8/IN8_UV_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN1_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN1_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN1_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN1_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/11 | Wetting sources 1-2/IN1_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN2_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN2_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN2_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/11 | Wetting sources 1-2/IN2_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/11 | Wetting sources 1-2/IN2_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN3_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN3_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN3_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN3_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/12 | Wetting sources 3-4/IN3_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN4_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN4_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN4_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/12 | Wetting sources 3-4/IN4_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/12 | Wetting sources 3-4/IN4_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN5_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN5_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN5_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN5_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/13 | Wetting sources 5-6/IN5_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN6_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN6_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN6_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/13 | Wetting sources 5-6/IN6_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/13 | Wetting sources 5-6/IN6_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN7_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN7_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN7_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN7_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/14 | Wetting sources 7-8/IN7_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN8_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN8_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN8_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/14 | Wetting sources 7-8/IN8_UV_GATE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/14 | Wetting sources 7-8/IN8_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_AMP_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_DRV_COL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_HYST_MID"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_UV_GATE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_UV_SENSE"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "/15 | NC emergency-stop field loop/IN9_WET_COLLECTOR"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY1_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY1_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/16 | Valve outputs 1-4/RLY1_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY2_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY2_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/16 | Valve outputs 1-4/RLY2_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY3_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY3_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/16 | Valve outputs 1-4/RLY3_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY4_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/16 | Valve outputs 1-4/RLY4_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/16 | Valve outputs 1-4/RLY4_GATE"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/16 | Valve outputs 1-4/VALVE1_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/16 | Valve outputs 1-4/VALVE2_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/16 | Valve outputs 1-4/VALVE3_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/16 | Valve outputs 1-4/VALVE4_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY5_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY5_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/17 | Valve outputs 5-8/RLY5_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY6_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY6_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/17 | Valve outputs 5-8/RLY6_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY7_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY7_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/17 | Valve outputs 5-8/RLY7_GATE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY8_COIL_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/17 | Valve outputs 5-8/RLY8_DRAIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/17 | Valve outputs 5-8/RLY8_GATE"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/17 | Valve outputs 5-8/VALVE5_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/17 | Valve outputs 5-8/VALVE6_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/17 | Valve outputs 5-8/VALVE7_CLAMP"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "/17 | Valve outputs 5-8/VALVE8_CLAMP"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/23 | Hardware monitoring of 5V and raw 12V/RAIL5_SENSE"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "/23 | Hardware monitoring of 5V and raw 12V/RAIL12_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ARM_LEVEL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BOOT_GPIO0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_ARM_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_CLR_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_LATCH"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_LOAD_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BUS_SER_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CHAIN_TX_7"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "COIL_EN"
+      },
+      {
+        "netclass": "Coil_12V",
+        "pattern": "COIL_GATE"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "CONTACT_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CURRENT_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CURRENT_REF_DRIVE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CURRENT_REF_PAR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "CURRENT_REF_RAW"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_ARM_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_CLR_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_LATCH"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_LOAD_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_RETURN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DOWN_SER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESP_EN"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "ESTOP_CHAIN_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESTOP_CLOSED_N"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "ESTOP_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESTOP_SAFE_MON_GPIO18"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ESTOP_UV_FAULT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO35"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO36"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO37"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO38"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO39"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO40"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO41"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO42"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO45"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO46"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO47"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GPIO48"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "HW_RUN_LATCH"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "HW_RUN_MON_GPIO21"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_PULLUP_RAIL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_SCL_BUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_SCL_GPIO9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_SDA_BUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "I2C_SDA_GPIO8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN1_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN1_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN2_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN2_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN3_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN3_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN4_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN4_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN5_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN5_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN6_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN6_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN7_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN7_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_FAULT"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "IN8_FIELD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN8_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_AMP_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_DRV_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_EMIT_F"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_LIMIT_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_SENSE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_UV_EMITTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_WET_BASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "IN9_WET_EMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LOCAL_MASTER_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LOCAL_SER_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_CLK_GPIO6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_CLR_N_GPIO16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_INHIBIT_N_GPIO15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_LATCH_GPIO7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_LOAD_N_GPIO17"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "MCU_MOSI_GPIO4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "NEXT_SERIAL_IN"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D111-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D112-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D113-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D114-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D115-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D116-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D117-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D118-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D119-K)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D121-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D122-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D123-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D124-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D125-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D126-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D127-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D128-A)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(D129-A)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R50-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R66-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R151-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1004-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1005-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1014-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1015-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1034-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1035-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1044-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1045-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1064-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1065-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1074-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1075-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1094-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1095-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1104-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1105-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1124-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1125-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1134-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1135-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1154-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1155-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1164-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1165-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1184-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1185-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1194-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1195-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1214-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1215-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1224-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1225-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1244-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1245-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1254-Pad2)"
+      },
+      {
+        "netclass": "HV_Field",
+        "pattern": "Net-(R1255-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U4-Q7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U22C--)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U22D--)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OE_MONITOR_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PG_FAULT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PG_RESET_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RAIL_UV_REF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY1_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY2_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY3_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY4_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY5_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY6_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY7_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY8_CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RLY_OE_ACTUAL_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ROLE_GPIO2_MON"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ROLE_RX_OE_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RUN_CLEAR_DRIVE_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RUN_CLEAR_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SAFE_PERMIT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI_MISO_GPIO5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "STOP_REQUEST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UART_RX_GPIO44"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UART_TX_GPIO43"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_ARM_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_CLR_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_LATCH"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_LOAD_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_RETURN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UP_SER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_DM_GPIO19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_DP_GPIO20"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "UV_REF"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE1_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE1_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE1_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE1_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE2_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE2_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE2_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE2_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE3_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE3_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE3_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE3_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE4_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE4_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE4_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE4_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE5_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE5_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE5_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE5_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE6_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE6_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE6_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE6_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE7_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE7_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE7_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE7_RETURN"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE8_COM"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE8_NC_AUX"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE8_NO"
+      },
+      {
+        "netclass": "Valve_1A",
+        "pattern": "VALVE8_RETURN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D101-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D102-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D103-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D104-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D105-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D106-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D107-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D108-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D109-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D111-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D112-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D113-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D114-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D115-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D116-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D117-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D118-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D119-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D121-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D122-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D123-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D124-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D125-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D126-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D127-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D128-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(D129-NC-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U4-~{Q7}-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U5-~{Q7}-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U12-Pad13)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U12-Pad14)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U30-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U30-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U30-Pad8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U31-Pad13)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U32-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U32-Pad12)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U34A-~{Q}-Pad6)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U34B-Q-Pad9)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U34B-~{Q}-Pad8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U50-2Y2-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U50-2Y3-Pad9)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U51-2Y2-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "unconnected-(U51-2Y3-Pad9)"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "bus_aliases": {},
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "top_level_sheets": []
+  },
+  "sheets": [],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
