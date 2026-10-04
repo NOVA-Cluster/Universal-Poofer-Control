@@ -70,3 +70,6 @@ __pycache__/
 /output/pcb/*
 !/output/pcb/placement_top.png
 !/output/pcb/placement_top.pdf
+
+# Sites owns this checkout and publishes its source in a separate Git repository.
+/website/

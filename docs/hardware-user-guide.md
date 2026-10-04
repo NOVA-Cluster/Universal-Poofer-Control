@@ -2,7 +2,7 @@
 
 Hardware User Guide
 
-UG-A3-1.0 | Hardware A.3 | Reviewed 2026-10-03
+UG-A3-1.1 | Hardware A.3 | Reviewed 2026-10-03
 
 Eight valve channels. Eight grounded-switch inputs. Buffered expansion and I2C.
 
@@ -12,7 +12,7 @@ This is the maintained customer-facing source of truth for documented operation.
 
 ## 1. Features and project ideas
 
-Universal Poofer Control uses an ESP32-S3 to control eight 12 VDC solenoid valves through mechanical relays. It reads eight grounded switches, and forwards commands and input states through a buffered expansion chain. Hardware stop circuitry inhibits outputs independently of the application program.
+Universal Poofer Control is a controller platform intended for creating theatrical flame effects devices, also called poofers. Intended projects include stage effects, flame-art installations and custom theatrical poofers. It uses an ESP32-S3 to control eight 12 VDC solenoid valves through mechanical relays. It reads eight grounded switches, and forwards commands and input states through a buffered expansion chain. Hardware stop circuitry inhibits outputs independently of the application program.
 
 | Feature | Meaning for your project |
 |---|---|
@@ -30,15 +30,14 @@ The relay's 10 A resistive-contact rating does **not** make this a 10 A board. T
 
 Choose a valve whose **deenergized fluid/pressure state is safe for your project**. Relay NO describes an electrical contact, not whether the valve is normally open or closed. Where power removal must stop flow, use an appropriate normally-closed, nonlatching valve and verify its actual behavior. Normally-open or latching valves can continue flow after their coil is unpowered; they need a separately reviewed shutdown strategy.
 
-| Project idea | What the scaffold provides | What your application adds |
+| Intended project | What the scaffold provides | What your application adds |
 |---|---|---|
-| Valve/wiring test fixture | Read contacts, pulse selected channels, exercise stop/restart. | Measurements, test logging and qualified loads. |
-| Short water-dispensing or rinsing sequence | Individual timed serial pulse commands. | Sequence logic, calibrated volumes and level checks. |
-| Pneumatic demonstration/test jig | Short pulses and switch-state readings. | Pressure limits, interlocks and appropriate pneumatic controls. |
-| Multi-station bench fixture | Module-addressed valve commands. | Station logic, cable qualification and communication handling. |
-| Sensor-equipped project | I2C bus and explicit address scan. | Peripheral drivers, unique addresses and accessory power. |
+| Theatrical stage effects | Individual channel commands and stop/restart state. | Show integration, cue logic and system qualification. |
+| Flame-art installation | Module-addressed output commands and switch readings. | Installation logic and qualified system integration. |
+| Custom theatrical poofer | Controller interfaces and commissioning commands. | Complete device engineering and application software. |
+| Controller test fixture | Read contacts and exercise stop/restart with test loads. | Measurements and test logging before effects integration. |
 
-The stock firmware does not map switches to valves, run schedules, provide networking/web control, debounce contacts or configure I2C devices. Its longest command is a 1000 ms pulse, with a separately renewed 500 ms lease. Continuous-operation projects need custom application code and a reviewed control strategy. No hazardous-fluid, combustion, medical or certified machine-safety application is established by this preview.
+The stock firmware does not map switches to valves, run schedules, provide networking/web control, debounce contacts or configure I2C devices. Its longest command is a 1000 ms pulse, with a separately renewed 500 ms lease. Continuous-operation projects need custom application code and a reviewed control strategy. Theatrical flame effects are the intended application, but this preview is not a complete or qualified flame-effects system. Live-effects operation and certified machine-safety performance have not been established. This guide documents controller electrical interfaces and commissioning; it is not a flame-effects construction or operating manual.
 
 ## 2. Identify the board and connectors
 
@@ -325,4 +324,4 @@ When contacting your supplier, record hardware/guide/firmware versions, module c
 | firmware/README.md and include/board_pins.h | Build/configuration and pin contract. |
 | docs/hardware-design-review-A3.md | Engineering evidence and release limits. |
 
-UG-A3-1.0 is the first purchaser-oriented guide for A.3 and the commissioning scaffold. Review it whenever interfaces, firmware, limits, qualification, jumpers or supported uses change. A mismatch is a release issue to resolve, not an invitation to try alternative wiring while powered.
+UG-A3-1.1 is the first purchaser-oriented guide for A.3 and the commissioning scaffold. Review it whenever interfaces, firmware, limits, qualification, jumpers or supported uses change. A mismatch is a release issue to resolve, not an invitation to try alternative wiring while powered.

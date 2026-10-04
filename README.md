@@ -1,5 +1,7 @@
 # Universal Poofer Control — revision A.3
 
+Controller platform intended for creating theatrical flame effects devices (poofers), including stage effects, flame-art installations and custom theatrical projects. The current design remains an engineering preview, not a qualified live-effects system.
+
 Editable KiCad 10 design for ESP32-S3-WROOM-1-N8, eight relay-controlled 12 VDC valves and eight **grounded switches, active LOW**, with nominal **20 mA board-sourced wetting current**. The field circuits are designed for continuous ±100 V relative to shared return, including power-off conditions. Physical fault and temperature qualification remains required.
 
 Open `Universal_Poofer_Control.kicad_pro`. The schematic has **24 numbered A3 sheets**, grouped by function with repeated channel layouts and local wiring. The **200 × 160 mm PCB is placement only**: 0.5 mm footprint-origin grid, no tracks, vias or copper pours. `AGENTS.md` makes these engineering and appearance standards persistent.

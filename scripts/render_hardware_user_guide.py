@@ -163,7 +163,7 @@ class GuideDoc(BaseDocTemplate):
         canvas.saveState();canvas.setStrokeColor(LINE);canvas.setLineWidth(.6)
         canvas.line(54,39,558,39)
         canvas.setFont('Guide',8);canvas.setFillColor(MUTED)
-        canvas.drawString(54,26,'UG-A3-1.0  |  A.3 engineering preview')
+        canvas.drawString(54,26,'UG-A3-1.1  |  A.3 engineering preview')
         canvas.drawRightString(558,26,str(doc.page))
         if doc.page>1:
             canvas.setFont('Guide-Bold',8);canvas.setFillColor(GREEN);canvas.drawString(54,762,'UNIVERSAL POOFER CONTROL')

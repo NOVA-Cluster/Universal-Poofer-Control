@@ -287,3 +287,8 @@ board's electrical design.
 ## Final purchaser-guide disposition
 
 The complete guide was checked against actual command/status behavior and native headers. The three vector examples were checked for valve RETURN/negative-supply continuity, NC J9/J10 continuity and expansion pin11 series connections; reported line gaps were corrected. Added valve deenergized-state selection, explicit50ms healthy-arm timing, and a pasted100ms test batch that does not immediately cancel with disarm. Source remains preview-labeled, with qualification rather than simulated-guarantee claims. Final PDF layout/links are recorded in analysis/customer-guide-verification.json.
+
+
+## Intended-use correction — UG-A3-1.1, 2026-10-03
+
+The project owner clarified that UPC is intended to create theatrical flame effects devices (poofers). The introduction and project examples now name stage effects, flame-art installations and custom theatrical poofers. This is an intended-use correction, not evidence of hardware qualification. Electrical specifications, commissioning commands and firmware behavior are unchanged; the guide still distinguishes the controller preview from a qualified complete effects system. The website and its downloadable guide use this corrected positioning.
